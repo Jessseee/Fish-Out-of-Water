@@ -253,7 +253,6 @@ Transform:
   m_Children:
   - {fileID: 4767238606410362481}
   - {fileID: 4186673130543792382}
-  - {fileID: 1281227491843001506}
   - {fileID: 459718}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -549,7 +548,7 @@ Transform:
   - {fileID: 482130}
   - {fileID: 487254}
   m_Father: {fileID: 400004}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &168682
 GameObject:
@@ -702,12 +701,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3384005201736254399}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400004}
-  m_RootOrder: 2
+  m_Father: {fileID: 4186673130543792382}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2557456103990156806
 SpriteRenderer:
@@ -771,10 +770,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 466c3b15d17c6674f9369dc43a2bd57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Pointer: {fileID: 563800772321132291}
-  CircleRenderer: {fileID: 2557456103990156806}
-  OpenSprite: {fileID: 21300000, guid: 4023e27aeb68a2f418403ac97db04c9d, type: 3}
-  CloseSprite: {fileID: 21300000, guid: 868ea15b85d024c49b9070cb1ecceede, type: 3}
+  m_Pointer: {fileID: 0}
+  m_circleRenderer: {fileID: 0}
+  m_OpenSprite: {fileID: 0}
+  m_CloseSprite: {fileID: 0}
 --- !u!1 &7402193800245123818
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,6 +817,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6d7cf63c3050540928f4246992629e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_LeftAnchor: {fileID: 0}
+  m_RightAnchor: {fileID: 0}
 --- !u!1 &7654562627334925298
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +847,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1281227491843001506}
   m_Father: {fileID: 400004}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -959,15 +961,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b35402a0fcd60c42b311d08d2041922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RayLength: 3
-  EverythingMask:
+  m_Distance: 10
+  m_LineRenderer: {fileID: 0}
+  m_EverythingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
-  InteractableMask:
+    m_Bits: 0
+  m_InteractableMask:
     serializedVersion: 2
-    m_Bits: 512
-  PointerStandardColor: {r: 1, g: 0.795632, b: 0.4764151, a: 0}
-  PointerPressedColor: {r: 1, g: 1, b: 1, a: 0}
+    m_Bits: 0
+  m_PointerStandardColor: {r: 0, g: 0, b: 0, a: 0}
+  m_PointerPressedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &6061287616217074551
 PrefabInstance:
   m_ObjectHideFlags: 0

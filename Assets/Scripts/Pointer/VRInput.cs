@@ -1,34 +1,39 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlayerEvents : MonoBehaviour
+public class VRInput : MonoBehaviour
 {
     #region Events
-    public static UnityAction onTouchpadUp = null;
-    public static UnityAction onTouchpadDown = null;
-    public static UnityAction<OVRInput.Controller, GameObject> onControllerSource = null;
+    public static UnityAction onTouchpadUp;
+    public static UnityAction onTouchpadDown;
+    public static UnityAction onTriggerUp;
+    public static UnityAction onTriggerDown;
+    public static UnityAction<OVRInput.Controller, GameObject> onControllerSource;
     #endregion
 
     #region Anchors
-    public GameObject m_LeftAnchor;
-    public GameObject m_RightAnchor;
+    private GameObject leftAnchor;
+    private GameObject rightAnchor;
     #endregion
 
     #region Input
-    private Dictionary<OVRInput.Controller, GameObject> m_ControllerSets = null;
-    private OVRInput.Controller m_InputSource = OVRInput.Controller.None;
-    private OVRInput.Controller m_Controller = OVRInput.Controller.None;
-    private bool m_InputActive = true;
+    private Dictionary<OVRInput.Controller, GameObject> controllerSets;
+    private OVRInput.Controller inputSource = OVRInput.Controller.None;
+    private OVRInput.Controller controller = OVRInput.Controller.None;
+    private bool inputActive = true;
     #endregion
 
     private void Awake()
     {
+        leftAnchor = GameObject.FindGameObjectWithTag("LeftAnchor");
+        rightAnchor = GameObject.FindGameObjectWithTag("RightAnchor");
+
         OVRManager.HMDMounted += PlayerFound;
         OVRManager.HMDUnmounted += PlayerLost;
 
-        m_ControllerSets = CreateControllerSets();
+        controllerSets = CreateControllerSets();
+        CheckForController();
     }
 
     private void OnDestroy()
@@ -39,7 +44,7 @@ public class PlayerEvents : MonoBehaviour
 
     private void Update()
     {
-        if (!m_InputActive)
+        if (!inputActive)
             return;
 
         CheckForController();
@@ -49,7 +54,7 @@ public class PlayerEvents : MonoBehaviour
 
     private void CheckForController()
     {
-        OVRInput.Controller controllerCheck = m_Controller;
+        OVRInput.Controller controllerCheck = controller;
 
         if (OVRInput.IsControllerConnected(OVRInput.Controller.RTrackedRemote))
             controllerCheck = OVRInput.Controller.RTrackedRemote;
@@ -57,12 +62,12 @@ public class PlayerEvents : MonoBehaviour
         if (OVRInput.IsControllerConnected(OVRInput.Controller.LTrackedRemote))
             controllerCheck = OVRInput.Controller.LTrackedRemote;
 
-        m_Controller = UpdateSource(controllerCheck, m_Controller);
+        controller = UpdateSource(controllerCheck, controller);
     }
 
     private void CheckInputSource()
     {
-        m_InputSource = UpdateSource(OVRInput.GetActiveController(), m_InputSource);
+        inputSource = UpdateSource(OVRInput.GetActiveController(), inputSource);
     }
 
     private void Input()
@@ -76,6 +81,21 @@ public class PlayerEvents : MonoBehaviour
         {
             onTouchpadUp?.Invoke();
         }
+
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+        {
+            onTriggerDown?.Invoke();
+        }
+
+        if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger))
+        {
+            onTriggerUp?.Invoke();
+        }
+
+        if (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad) != Vector2.zero)
+        {
+
+        }
     }
 
     private OVRInput.Controller UpdateSource(OVRInput.Controller check, OVRInput.Controller previous)
@@ -83,29 +103,30 @@ public class PlayerEvents : MonoBehaviour
         if (check == previous)
             return previous;
 
-        GameObject controllerObject = null;
-        m_ControllerSets.TryGetValue(check, out controllerObject);
+        GameObject controllerObject;
+        controllerSets.TryGetValue(check, out controllerObject);
 
         onControllerSource?.Invoke(check, controllerObject);
+
         return check;
     }
 
     private void PlayerFound()
     {
-        m_InputActive = true;
+        inputActive = true;
     }
 
     private void PlayerLost()
     {
-        m_InputActive = false;
+        inputActive = false;
     }
 
     private Dictionary<OVRInput.Controller, GameObject> CreateControllerSets()
     {
         return new Dictionary<OVRInput.Controller, GameObject>()
         {
-            { OVRInput.Controller.LTrackedRemote, m_LeftAnchor },
-            { OVRInput.Controller.RTrackedRemote, m_RightAnchor }
+            { OVRInput.Controller.LTrackedRemote, leftAnchor },
+            { OVRInput.Controller.RTrackedRemote, rightAnchor }
         };
     }
 }
