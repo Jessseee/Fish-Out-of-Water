@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: df11f4a9aa47384488a6cb978421610d,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NormalFromTexture_88BAE151_Texture_0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_CAFE3025_Texture_1:
+        m_Texture: {fileID: 2800000, guid: d69d8dd763985ed408d8a15a7b1535e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_CF5C30D9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 66ec8694e0be2074c974a0285646d9ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_7B956490_Out_0:
+        m_Texture: {fileID: 2800000, guid: 2d1094828bb0bfa4b8124890c4584be5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_8904D9A8_Out_0:
+        m_Texture: {fileID: 2800000, guid: a004555cc76a85548a84579ff7cc7301, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_8EDF3FEC_Out_0:
+        m_Texture: {fileID: 2800000, guid: 2d1094828bb0bfa4b8124890c4584be5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_48D8FF1: 1
+    - Vector1_6514B699: 1
+    - Vector1_6755433A: 5
+    - Vector1_6C6AAA78: 0.39
+    - Vector1_AE5DF931: 2.16
+    - Vector1_FCD79E04: 0.76
+    m_Colors:
+    - Color_16D3732C: {r: 0.7264151, g: 0.47940996, b: 0.25698647, a: 0}
+    - Color_76DD12E5: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0}
+    - Color_C92418F9: {r: 0.2227216, g: 0.5800267, b: 0.6132076, a: 0}
+    - Color_F1A9FC76: {r: 1, g: 0.8505792, b: 0.5707547, a: 0}
