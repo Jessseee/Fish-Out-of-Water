@@ -225,6 +225,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: waterBottle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6723902449029161881, guid: 67f54803bc0fd444798f52aa59e99a70,
+        type: 3}
+      propertyPath: rotateStrength
+      value: 0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -233,7 +238,7 @@ PrefabInstance:
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.92
+      value: -1.76
       objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
@@ -309,6 +314,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: waterBottle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6723902449029161881, guid: 67f54803bc0fd444798f52aa59e99a70,
+        type: 3}
+      propertyPath: rotateStrength
+      value: 0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -317,7 +327,7 @@ PrefabInstance:
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.74
+      value: -1.658
       objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
@@ -618,6 +628,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: waterBottle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6723902449029161881, guid: 67f54803bc0fd444798f52aa59e99a70,
+        type: 3}
+      propertyPath: rotateStrength
+      value: 0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -626,7 +641,7 @@ PrefabInstance:
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.96
+      value: -1.74
       objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
@@ -778,6 +793,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: waterBottle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6723902449029161881, guid: 67f54803bc0fd444798f52aa59e99a70,
+        type: 3}
+      propertyPath: rotateStrength
+      value: 0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -786,7 +806,7 @@ PrefabInstance:
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.96
+      value: -1.76
       objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
@@ -847,6 +867,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: waterBottle
       objectReference: {fileID: 0}
+    - target: {fileID: 6723902449029161881, guid: 67f54803bc0fd444798f52aa59e99a70,
+        type: 3}
+      propertyPath: rotateStrength
+      value: 0.025
+      objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -855,7 +880,7 @@ PrefabInstance:
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.96
+      value: -1.85
       objectReference: {fileID: 0}
     - target: {fileID: 7174735459983547046, guid: 67f54803bc0fd444798f52aa59e99a70,
         type: 3}
