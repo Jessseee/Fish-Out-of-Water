@@ -12,11 +12,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: VRayMtl16
-    second: {fileID: 2100000, guid: 5b8c1a515343d4a4e89ae05967154344, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: WaterBottle_MAT
     second: {fileID: 2100000, guid: ada493aed62c92f408f8d04f55e6f301, type: 2}
   materials:

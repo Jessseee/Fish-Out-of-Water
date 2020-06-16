@@ -79,8 +79,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3829F1B2: {r: 1, g: 0, b: 0, a: 0}
-    - Color_8ACB8489: {r: 0.7169812, g: 0.6053756, b: 0.6053756, a: 0}
+    - Color_3829F1B2: {r: 0.8113208, g: 0.39417946, b: 0.39417946, a: 0}
+    - Color_8ACB8489: {r: 0.6603774, g: 0.507743, b: 0.507743, a: 0}
     - _BaseColor: {r: 1, g: 0.41272655, b: 0.3915094, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
