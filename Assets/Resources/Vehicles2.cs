@@ -1,6 +1,6 @@
 ﻿[System.Serializable]
-public class Vehicles
+public class Vehicles2
 {
-    public Vehicle[] vehicles;
     public Vehicle[] vehicles2;
 }
+    

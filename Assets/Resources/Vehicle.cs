@@ -3,7 +3,7 @@
 public class Vehicle 
 {
  
-    public string firstName = "first Name";
+    public string firstName;
     public string lastName;
 
 }

@@ -14,5 +14,23 @@
       "firstName": "Peter",
       "lastName": "Jones"
     }
+  ],
+
+  "vehicles2":
+  [
+    {
+      "firstName": "John2",
+      "lastName": "Doe"
+
+    },  
+    {
+      "firstName": "Anna2",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Peter2",
+      "lastName": "Jones"
+    }
   ]
 }
+  
