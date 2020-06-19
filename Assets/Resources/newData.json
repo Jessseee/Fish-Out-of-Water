@@ -1,0 +1,2120 @@
+{
+  "2007": {
+    "Austria": {
+      "Chloride": 80426.2,
+      "Metals": 98330.47,
+      "Inorganic": 7198684.3,
+      "Other": 17236886.17,
+      "Pesticides": 15.76
+    },
+    "Belgium": {
+      "Chl": 156227.55104,
+      "Metals": 254275.26,
+      "Inorganic": 1179245505,
+      "Other": 17447130.64,
+      "Pesticides": 143.75
+    },
+    "Bulgaria": {
+      "Metals": 585703,
+      "Inorganic": 7945022,
+      "Other": 59515168
+    },
+    "Cyprus": {
+      "Metals": 59.1,
+      "Other": 46.5
+    },
+    "CzechRepublic": {
+      "Chl": 130396.96,
+      "Metals": 120289.7,
+      "Inorganic": 164724384.2,
+      "Other": 17058698.62,
+      "Pesticides": 1.5
+    },
+    "Denmark": {
+      "Metals": 11108.94,
+      "Inorganic": 1596430,
+      "Other": 3709407.61
+    },
+    "Estonia": {
+      "Metals": 5472.6,
+      "Inorganic": 856200
+    },
+    "Finland": {
+      "Chl": 1382962.0002,
+      "Metals": 116810.9,
+      "Inorganic": 80860662,
+      "Other": 46682567.05
+    },
+    "France": {
+      "Chl": 469631.42047,
+      "Metals": 720563.6,
+      "Inorganic": 1432386505,
+      "Other": 93247298.19,
+      "Pesticides": 204.47
+    },
+    "Germany": {
+      "Chl": 1132169.301833,
+      "Metals": 1042892.87,
+      "Inorganic": 32678269041,
+      "Other": 192838545.129999,
+      "Pesticides": 89.67
+    },
+    "Greece": {
+      "Chl": 20400,
+      "Metals": 65024.8,
+      "Inorganic": 12709600,
+      "Other": 18390715.4
+    },
+    "Hungary": {
+      "Chl": 70284.4,
+      "Metals": 504644.41,
+      "Inorganic": 48183338.9,
+      "Other": 11741239
+    },
+    "Iceland": {
+      "Inorganic": 277100,
+      "Other": 59500
+    },
+    "Ireland": {
+      "Chl": 705.4408,
+      "Metals": 30323.27,
+      "Inorganic": 99848394.2,
+      "Other": 5930399.39,
+      "Pesticides": 124.19
+    },
+    "Italy": {
+      "Chl": 19528.15,
+      "Metals": 1494751.76,
+      "Inorganic": 3782968847.5,
+      "Other": 64911864.11,
+      "Pesticides": 706.28
+    },
+    "Latvia": {
+      "Metals": 15644.3,
+      "Inorganic": 3732400,
+      "Other": 1857295
+    },
+    "Lithuania": {
+      "Metals": 13768.8,
+      "Inorganic": 7516300,
+      "Other": 118000
+    },
+    "Luxembourg": {
+      "Metals": 1552,
+      "Inorganic": 530200,
+      "Other": 406000
+    },
+    "Malta": {
+      "Metals": 1947.6,
+      "Inorganic": 1992660,
+      "Other": 17555000
+    },
+    "Netherlands": {
+      "Chl": 33316.305562,
+      "Metals": 126303.91,
+      "Inorganic": 1083868946.4,
+      "Other": 7458504.75,
+      "Pesticides": 6.94
+    },
+    "Norway": {
+      "Chl": 350.5276100003,
+      "Metals": 210802.25,
+      "Inorganic": 42711749.40866,
+      "Other gases": 100,
+      "Other": 142121639.86,
+      "Pesticides": 246217.5
+    },
+    "Poland": {
+      "Chl": 745734.920543,
+      "Metals": 623571.960000001,
+      "Inorganic": 4393104994.8,
+      "Other": 31712887.4,
+      "Pesticides": 271.25
+    },
+    "Portugal": {
+      "Chl": 721079.84,
+      "Metals": 89050.8,
+      "Inorganic": 1382686027,
+      "Other": 46139618.12,
+      "Pesticides": 27.84
+    },
+    "Romania": {
+      "Chl": 2495.5,
+      "Metals": 180066.09,
+      "Inorganic": 1836860837,
+      "Other": 47865964.9,
+      "Pesticides": 52
+    },
+    "Slovakia": {
+      "Chl": 311134.8,
+      "Metals": 23290.21,
+      "Inorganic": 200103810,
+      "Other": 14481690.21,
+      "Pesticides": 12.6
+    },
+    "Slovenia": {
+      "Chl": 1084.6,
+      "Metals": 10507.24,
+      "Inorganic": 17809420,
+      "Other": 1646462.35,
+      "Pesticides": 17.2
+    },
+    "Spain": {
+      "Chl": 502559.170132,
+      "Metals": 133058.64,
+      "Inorganic": 6261779277.9,
+      "Other": 44869039.74,
+      "Pesticides": 236.49
+    },
+    "Sweden": {
+      "Chl": 718106.9,
+      "Metals": 162733.26,
+      "Inorganic": 65126284,
+      "Other": 80526865.5
+    },
+    "Switzerland": {
+      "Chl": 12513,
+      "Metals": 13068.72,
+      "Inorganic": 98589538,
+      "Other": 4037797.1
+    },
+    "United Kingdom": {
+      "Chl": 563358.9051,
+      "Metals": 793058.7,
+      "Inorganic": 2101160604.96,
+      "Other": 164522724.69,
+      "Pesticides": 167.56
+    }
+  },
+  "2008": {
+    "Austria": {
+      "Chl": 66770,
+      "Metals": 161648.83,
+      "Inorganic": 8527915,
+      "Other": 18617425.47,
+      "Pesticides": 33.43
+    },
+    "Belgium": {
+      "Chl": 106547.492,
+      "Metals": 248728.19,
+      "Inorganic": 1148917838.4,
+      "Other": 22045835.64
+    },
+    "Bulgaria": {
+      "Metals": 238213.86,
+      "Inorganic": 12801238.8,
+      "Other": 142014294.1
+    },
+    "Cyprus": {
+      "Metals": 59.5,
+      "Inorganic": 69200
+    },
+    "CzechRepublic": {
+      "Chl": 119794.14,
+      "Metals": 93984.73,
+      "Inorganic": 129948053.3,
+      "Other": 18018528.59,
+      "Pesticides": 8.8
+    },
+    "Denmark": {
+      "Chl": 3700,
+      "Metals": 26202.35,
+      "Inorganic": 1401200,
+      "Other": 3370835.43
+    },
+    "Estonia": {
+      "Metals": 6143.2,
+      "Inorganic": 849200,
+      "Other": 2017300
+    },
+    "Finland": {
+      "Chl": 1039954.4002,
+      "Metals": 111799.08,
+      "Inorganic": 89341110,
+      "Other": 52353238.54
+    },
+    "France": {
+      "Chl": 384031.32114,
+      "Metals": 686055.36,
+      "Inorganic": 1413280755.7,
+      "Other": 89468424.13,
+      "Pesticides": 954.99
+    },
+    "Germany": {
+      "Chl": 980882.008885,
+      "Metals": 1072522.58,
+      "Inorganic": 28074160377.6,
+      "Other": 181500107.22,
+      "Pesticides": 156.08
+    },
+    "Greece": {
+      "Chl": 20100,
+      "Metals": 75224.4,
+      "Inorganic": 11825530,
+      "Other": 18929196
+    },
+    "Hungary": {
+      "Chl": 28490,
+      "Metals": 4665.88,
+      "Inorganic": 54499514,
+      "Other": 7803392.2
+    },
+    "Iceland": {
+      "Metals": 8559,
+      "Inorganic": 11639580,
+      "Other": 57600
+    },
+    "Ireland": {
+      "Chl": 156.515,
+      "Metals": 29100.08,
+      "Inorganic": 91662963.7,
+      "Other": 6404910.62,
+      "Pesticides": 102.95
+    },
+    "Italy": {
+      "Chl": 17991.559,
+      "Metals": 1250135.72,
+      "Inorganic": 3154565098.1,
+      "Other": 45164536.06,
+      "Pesticides": 1924.21
+    },
+    "Latvia": {
+      "Metals": 3380,
+      "Inorganic": 2548000,
+      "Other": 1690190
+    },
+    "Lithuania": {
+      "Metals": 13796,
+      "Inorganic": 11234670,
+      "Other": 104000
+    },
+    "Luxembourg": {
+      "Metals": 563.2,
+      "Inorganic": 629770,
+      "Other": 696800
+    },
+    "Malta": {
+      "Metals": 9633.44,
+      "Inorganic": 335560,
+      "Other": 5172900
+    },
+    "Netherlands": {
+      "Chl": 36041.207899,
+      "Metals": 138716.89,
+      "Inorganic": 1170255640.4,
+      "Other": 41375725.87,
+      "Pesticides": 4.72
+    },
+    "Norway": {
+      "Chl": 86.0000000002,
+      "Metals": 233102.13,
+      "Inorganic": 45013678.3,
+      "Other gases": 74350.411,
+      "Other": 159435759.69,
+      "Pesticides": 234504.75
+    },
+    "Poland": {
+      "Chl": 689455.02015,
+      "Metals": 320169.25,
+      "Inorganic": 3245801427.7,
+      "Other": 23247026.39,
+      "Pesticides": 329.74
+    },
+    "Portugal": {
+      "Chl": 744734.151,
+      "Metals": 121513.89,
+      "Inorganic": 1065754405,
+      "Other": 42849076.71,
+      "Pesticides": 12.08
+    },
+    "Romania": {
+      "Chl": 6557.44,
+      "Metals": 384712.03,
+      "Inorganic": 1849094985,
+      "Other": 59638179.1,
+      "Pesticides": 36
+    },
+    "Slovakia": {
+      "Chl": 431166.8,
+      "Metals": 26923.03,
+      "Inorganic": 181568810,
+      "Other": 14122040.64
+    },
+    "Slovenia": {
+      "Chl": 2636.61,
+      "Metals": 7737.6,
+      "Inorganic": 4711815,
+      "Other": 1523669.28
+    },
+    "Spain": {
+      "Chl": 505660.540232,
+      "Metals": 122709.24,
+      "Inorganic": 6524935607.7,
+      "Other": 38204184.02,
+      "Pesticides": 168.5
+    },
+    "Sweden": {
+      "Chl": 711691.3,
+      "Metals": 143947.4,
+      "Inorganic": 62715808,
+      "Other": 85683405.71
+    },
+    "Switzerland": {
+      "Chl": 25873.001,
+      "Metals": 12142.66,
+      "Inorganic": 98908128,
+      "Other": 9334750.1
+    },
+    "United Kingdom": {
+      "Chl": 742062.660629999,
+      "Metals": 787300.470000001,
+      "Inorganic": 2500546693.71,
+      "Other": 177809454.51,
+      "Pesticides": 265.64
+    }
+  },
+  "2009": {
+    "Austria": {
+      "Chl": 56820.00904,
+      "Metals": 198790.56,
+      "Inorganic": 29014209,
+      "Other": 16218752.34,
+      "Pesticides": 32.54
+    },
+    "Belgium": {
+      "Chl": 89184.354,
+      "Metals": 178275.44,
+      "Inorganic": 940783587.9,
+      "Other": 20511189.08,
+      "Pesticides": 74.05
+    },
+    "Bulgaria": {
+      "Metals": 110144.55,
+      "Inorganic": 8336088,
+      "Other": 6283340.8
+    },
+    "Cyprus": {
+      "Metals": 93.69,
+      "Inorganic": 5170
+    },
+    "CzechRepublic": {
+      "Chl": 109832.889,
+      "Metals": 131751.35,
+      "Inorganic": 123351225.3,
+      "Other": 13744913.73,
+      "Pesticides": 8.29
+    },
+    "Denmark": {
+      "Chl": 1540,
+      "Metals": 18669.8,
+      "Inorganic": 1874530,
+      "Other": 3833204.75
+    },
+    "Estonia": {
+      "Metals": 1160,
+      "Inorganic": 885240,
+      "Other": 1380448
+    },
+    "Finland": {
+      "Chl": 827564.7002,
+      "Metals": 98213.25,
+      "Inorganic": 61881943,
+      "Other": 38054935.87
+    },
+    "France": {
+      "Chl": 424163.087563,
+      "Metals": 959765.91,
+      "Inorganic": 1284282933.7,
+      "Other": 83381349.21,
+      "Pesticides": 418.31
+    },
+    "Germany": {
+      "Chl": 871971.797816,
+      "Metals": 1062891.64,
+      "Inorganic": 18085810718.2,
+      "Other": 155990587.13,
+      "Pesticides": 115.1
+    },
+    "Greece": {
+      "Metals": 19526.9,
+      "Inorganic": 3682147,
+      "Other": 9972037.9
+    },
+    "Hungary": {
+      "Chl": 16440,
+      "Metals": 389250.42,
+      "Inorganic": 42467010,
+      "Other": 10353210
+    },
+    "Iceland": {
+      "Inorganic": 611440,
+      "Other": 56000
+    },
+    "Ireland": {
+      "Chl": 161.034,
+      "Metals": 31642.07,
+      "Inorganic": 95832172.6,
+      "Other": 7372776.33,
+      "Pesticides": 102.39
+    },
+    "Italy": {
+      "Chl": 31591.12,
+      "Metals": 1015855.7,
+      "Inorganic": 3758298605.9,
+      "Other": 44816850.65,
+      "Pesticides": 792.24
+    },
+    "Latvia": {
+      "Metals": 3498,
+      "Inorganic": 1313200,
+      "Other": 2710124
+    },
+    "Lithuania": {
+      "Metals": 9501.5,
+      "Inorganic": 10805850,
+      "Other": 104000
+    },
+    "Luxembourg": {
+      "Metals": 663.4,
+      "Inorganic": 543580,
+      "Other": 916000
+    },
+    "Malta": {
+      "Metals": 10106.8,
+      "Inorganic": 399850,
+      "Other": 32951000
+    },
+    "Netherlands": {
+      "Chl": 80000.372726,
+      "Metals": 124807.14,
+      "Inorganic": 839781612.7,
+      "Other": 27117356.17,
+      "Pesticides": 8.25
+    },
+    "Norway": {
+      "Chl": 45.00000000025,
+      "Metals": 223352.63,
+      "Inorganic": 49012346.583337,
+      "Other gases": 15131.43204703,
+      "Other": 180696069.1,
+      "Pesticides": 265739.2
+    },
+    "Poland": {
+      "Chl": 678596.150216001,
+      "Metals": 369147.580000001,
+      "Inorganic": 3275563903.7,
+      "Other": 30780582.78,
+      "Pesticides": 158.58
+    },
+    "Portugal": {
+      "Chl": 934330.5108,
+      "Metals": 174846.64,
+      "Inorganic": 1317343247.2,
+      "Other": 45282531.75,
+      "Pesticides": 5.15
+    },
+    "Romania": {
+      "Chl": 1825.12,
+      "Metals": 228339.95,
+      "Inorganic": 1439831241,
+      "Other": 52735105.9
+    },
+    "Slovakia": {
+      "Chl": 182841.31,
+      "Metals": 31365.3,
+      "Inorganic": 149518720,
+      "Other": 14729668.13,
+      "Pesticides": 163.7
+    },
+    "Slovenia": {
+      "Chl": 1617.91,
+      "Metals": 4907,
+      "Inorganic": 3907404,
+      "Other": 1526605.36
+    },
+    "Spain": {
+      "Chl": 463137.081392,
+      "Metals": 143636.11,
+      "Inorganic": 4901709132.7,
+      "Other": 37912385.75,
+      "Pesticides": 185.85
+    },
+    "Sweden": {
+      "Chl": 595815.1,
+      "Metals": 115163.3,
+      "Inorganic": 55601531,
+      "Other": 72110688.59
+    },
+    "Switzerland": {
+      "Chl": 4111.001,
+      "Metals": 8162.76,
+      "Inorganic": 119998819.28,
+      "Other": 5806835.72
+    },
+    "United Kingdom": {
+      "Chl": 387517.33,
+      "Metals": 565601.65,
+      "Inorganic": 2229525136.44,
+      "Other": 150136939.1,
+      "Pesticides": 40134.66
+    }
+  },
+  "2010": {
+    "Austria": {
+      "Chl": 45690.8718,
+      "Metals": 127238.24,
+      "Inorganic": 6268784,
+      "Other": 16838426.89,
+      "Pesticides": 444.38
+    },
+    "Belgium": {
+      "Chl": 153744.638,
+      "Metals": 258350.22,
+      "Inorganic": 1359284797.7,
+      "Other": 25679256.95,
+      "Pesticides": 68.27
+    },
+    "Bulgaria": {
+      "Metals": 321389.63,
+      "Inorganic": 15049656,
+      "Other": 8360802
+    },
+    "Cyprus": {
+      "Metals": 1.9,
+      "Inorganic": 198000
+    },
+    "CzechRepublic": {
+      "Chl": 134614.484,
+      "Metals": 136964.71,
+      "Inorganic": 144844009.4,
+      "Other": 12997906,
+      "Pesticides": 28.76
+    },
+    "Denmark": {
+      "Chl": 2290,
+      "Metals": 7159.1,
+      "Inorganic": 1580800,
+      "Other": 3600101.2
+    },
+    "Estonia": {
+      "Metals": 2371,
+      "Inorganic": 831900,
+      "Other": 1178600
+    },
+    "Finland": {
+      "Chl": 1045989.9004,
+      "Metals": 95167.6700000001,
+      "Inorganic": 87708042,
+      "Other": 44581967.01
+    },
+    "France": {
+      "Chl": 413648.977154,
+      "Metals": 749141.74,
+      "Inorganic": 1609608439,
+      "Other": 77379535.18,
+      "Pesticides": 53.87
+    },
+    "Germany": {
+      "Chl": 1019497.99682,
+      "Metals": 1165019.67,
+      "Inorganic": 20365328272.4,
+      "Other": 188135424.43,
+      "Pesticides": 65.68
+    },
+    "Greece": {
+      "Metals": 7265.5,
+      "Inorganic": 5205100,
+      "Other": 7528189.9
+    },
+    "Hungary": {
+      "Chl": 467994,
+      "Metals": 118369.12,
+      "Inorganic": 49391587.6,
+      "Other": 9515859.7
+    },
+    "Iceland": {
+      "Metals": 1555,
+      "Inorganic": 1930330,
+      "Other": 104000
+    },
+    "Ireland": {
+      "Chl": 156.691,
+      "Metals": 25337.01,
+      "Inorganic": 113369030.1,
+      "Other": 7180569.32,
+      "Pesticides": 101.13
+    },
+    "Italy": {
+      "Chl": 48025.4203,
+      "Metals": 993021.8,
+      "Inorganic": 3272317878.5,
+      "Other": 49661193.61,
+      "Pesticides": 1207.63
+    },
+    "Latvia": {
+      "Metals": 4942,
+      "Inorganic": 1133600,
+      "Other": 141
+    },
+    "Lithuania": {
+      "Metals": 9279.9,
+      "Inorganic": 8420720,
+      "Other": 394000
+    },
+    "Luxembourg": {
+      "Metals": 696.38,
+      "Inorganic": 429770,
+      "Other": 723000
+    },
+    "Malta": {
+      "Metals": 3511.39,
+      "Inorganic": 382500,
+      "Other": 658800
+    },
+    "Netherlands": {
+      "Chl": 84678.707836,
+      "Metals": 128989.89,
+      "Inorganic": 887736273.9,
+      "Other": 32133644.78,
+      "Pesticides": 8.08
+    },
+    "Norway": {
+      "Chl": 541.000000000867,
+      "Metals": 233060.95,
+      "Inorganic": 48985563.48,
+      "Other gases": 15227,
+      "Other": 181728659.63,
+      "Pesticides": 243955.75
+    },
+    "Poland": {
+      "Chl": 937766.02045,
+      "Metals": 431810.93,
+      "Inorganic": 4605864719,
+      "Other": 39040220.75,
+      "Pesticides": 14.05
+    },
+    "Portugal": {
+      "Chl": 727833.060139,
+      "Metals": 113521.62,
+      "Inorganic": 1315888602.6,
+      "Other": 40340850.59,
+      "Pesticides": 11.77
+    },
+    "Romania": {
+      "Chl": 705,
+      "Metals": 383031.04,
+      "Inorganic": 1250616601.7,
+      "Other": 52901181.15
+    },
+    "Serbia": {
+      "Metals": 275641.9,
+      "Inorganic": 40755348,
+      "Other": 675.7
+    },
+    "Slovakia": {
+      "Chl": 200217.65,
+      "Metals": 33162.86,
+      "Inorganic": 165832370,
+      "Other": 15911388.35,
+      "Pesticides": 310
+    },
+    "Slovenia": {
+      "Chl": 2860.7,
+      "Metals": 6145.6,
+      "Inorganic": 4758771,
+      "Other": 1415311.77
+    },
+    "Spain": {
+      "Chl": 710783.79814,
+      "Metals": 256792.52,
+      "Inorganic": 5675417580.3,
+      "Other": 36817912.37,
+      "Pesticides": 118.27
+    },
+    "Sweden": {
+      "Chl": 481350.9,
+      "Metals": 109233.28,
+      "Inorganic": 53649594,
+      "Other": 62082258.8
+    },
+    "Switzerland": {
+      "Chl": 85986.001,
+      "Metals": 13575.67,
+      "Inorganic": 140754430.01,
+      "Other": 6027245.16
+    },
+    "United Kingdom": {
+      "Chl": 574272.63057,
+      "Metals": 709161.869999999,
+      "Inorganic": 2144200018.69,
+      "Other": 133688485.38,
+      "Pesticides": 141.7
+    }
+  },
+  "2011": {
+    "Austria": {
+      "Chl": 54337.0532,
+      "Metals": 154967.6,
+      "Inorganic": 5715860,
+      "Other": 16751375.99,
+      "Pesticides": 56.17
+    },
+    "Belgium": {
+      "Chl": 132467.444388,
+      "Metals": 195807.31,
+      "Inorganic": 1344299108.6,
+      "Other": 24743514.56,
+      "Pesticides": 32.86
+    },
+    "Bulgaria": {
+      "Metals": 67887,
+      "Inorganic": 13996647,
+      "Other": 8035656.3
+    },
+    "Cyprus": {
+      "Metals": 123.87,
+      "Inorganic": 172200
+    },
+    "CzechRepublic": {
+      "Chl": 123860,
+      "Metals": 94391.69,
+      "Inorganic": 114342369,
+      "Other": 10274053.57
+    },
+    "Denmark": {
+      "Chl": 3180,
+      "Metals": 6398.6,
+      "Inorganic": 1821310,
+      "Other": 2499801.03
+    },
+    "Estonia": {
+      "Metals": 4860.5,
+      "Inorganic": 741250,
+      "Other": 1912100
+    },
+    "Finland": {
+      "Chl": 944676.1026,
+      "Metals": 94071.83,
+      "Inorganic": 78831497,
+      "Other": 38488565.99
+    },
+    "France": {
+      "Chl": 593348.698468,
+      "Metals": 593138.49,
+      "Inorganic": 1310048147.4,
+      "Other": 68133427.89,
+      "Pesticides": 373.08
+    },
+    "Germany": {
+      "Chl": 899338.714456001,
+      "Metals": 1147207.5,
+      "Inorganic": 23432034827,
+      "Other": 201239762.89,
+      "Pesticides": 40.22
+    },
+    "Greece": {
+      "Chl": 72,
+      "Metals": 8631.3,
+      "Inorganic": 7801100,
+      "Other": 9470007
+    },
+    "Hungary": {
+      "Chl": 33682,
+      "Metals": 177340.72,
+      "Inorganic": 67930522,
+      "Other": 8341780
+    },
+    "Iceland": {
+      "Metals": 5217,
+      "Inorganic": 1683300,
+      "Other": 199000
+    },
+    "Ireland": {
+      "Chl": 56.88,
+      "Metals": 29679.18,
+      "Inorganic": 197624661.7,
+      "Other": 5339360,
+      "Pesticides": 9.57
+    },
+    "Italy": {
+      "Chl": 22336.35115,
+      "Metals": 912576.18,
+      "Inorganic": 8854267725.1,
+      "Other": 73671576.07,
+      "Pesticides": 5602.17
+    },
+    "Latvia": {
+      "Metals": 5671.2,
+      "Inorganic": 1497800,
+      "Other": 2060000
+    },
+    "Lithuania": {
+      "Metals": 6933.4,
+      "Inorganic": 11487350,
+      "Other": 384000
+    },
+    "Luxembourg": {
+      "Metals": 569.65,
+      "Inorganic": 411000,
+      "Other": 475808
+    },
+    "Malta": {
+      "Metals": 13290.1,
+      "Inorganic": 28652300,
+      "Other": 204516,
+      "Pesticides": 66.4
+    },
+    "Netherlands": {
+      "Chl": 76661.0071659999,
+      "Metals": 120782.12,
+      "Inorganic": 957240143.7,
+      "Other": 31241175.43,
+      "Pesticides": 6.9
+    },
+    "Norway": {
+      "Chl": 109.0000000002,
+      "Metals": 231350.39,
+      "Inorganic": 47372142.17,
+      "Other gases": 426730,
+      "Other": 183382797.06,
+      "Pesticides": 210616
+    },
+    "Poland": {
+      "Chl": 704141.86,
+      "Metals": 397705.55,
+      "Inorganic": 4415659640.7,
+      "Other": 33561178.3,
+      "Pesticides": 13.9
+    },
+    "Portugal": {
+      "Chl": 722587.643647,
+      "Metals": 105840.14,
+      "Inorganic": 1334149587.6,
+      "Other": 40291728.834,
+      "Pesticides": 959.87
+    },
+    "Romania": {
+      "Chl": 332.5,
+      "Metals": 327525.23,
+      "Inorganic": 1225829135,
+      "Other": 53242710.8
+    },
+    "Serbia": {
+      "Chl": 18,
+      "Metals": 257127,
+      "Inorganic": 75042834,
+      "Other": 2806500
+    },
+    "Slovakia": {
+      "Chl": 130981.592,
+      "Metals": 26243.36,
+      "Inorganic": 157550670,
+      "Other": 12194746.89
+    },
+    "Slovenia": {
+      "Chl": 1512.7,
+      "Metals": 5137.8,
+      "Inorganic": 3635985,
+      "Other": 1376325.55
+    },
+    "Spain": {
+      "Chl": 552411.230108,
+      "Metals": 162270.04,
+      "Inorganic": 5861204499.2,
+      "Other": 39454076.73,
+      "Pesticides": 49.61
+    },
+    "Sweden": {
+      "Chl": 478328.07,
+      "Metals": 108089.43,
+      "Inorganic": 61446006,
+      "Other": 61001860.7
+    },
+    "Switzerland": {
+      "Chl": 93450,
+      "Metals": 9833.7,
+      "Inorganic": 148882413.82,
+      "Other": 6587317.5
+    },
+    "United Kingdom": {
+      "Chl": 567948.22,
+      "Metals": 683094.96,
+      "Inorganic": 2371496573.58,
+      "Other": 131777793.84,
+      "Pesticides": 344.28
+    }
+  },
+  "2012": {
+    "Austria": {
+      "Chl": 49241.4916,
+      "Metals": 85897.38,
+      "Inorganic": 6494219,
+      "Other": 16555878.66,
+      "Pesticides": 53.69
+    },
+    "Belgium": {
+      "Chl": 91635.80051,
+      "Metals": 306778.78,
+      "Inorganic": 1155595985.7,
+      "Other": 22986092.64,
+      "Pesticides": 12.22
+    },
+    "Bulgaria": {
+      "Metals": 144595.56,
+      "Inorganic": 15097540,
+      "Other": 8536127.7
+    },
+    "Cyprus": {
+      "Metals": 306.61,
+      "Inorganic": 149550
+    },
+    "CzechRepublic": {
+      "Chl": 141206.9,
+      "Metals": 89288.63,
+      "Inorganic": 84442901,
+      "Other": 10936646.7,
+      "Pesticides": 1.4
+    },
+    "Denmark": {
+      "Chl": 2770,
+      "Metals": 6208.1,
+      "Inorganic": 1676880,
+      "Other": 4333482.31
+    },
+    "Estonia": {
+      "Metals": 4545.1,
+      "Inorganic": 607780,
+      "Other": 2034700
+    },
+    "Finland": {
+      "Chl": 975184.0005,
+      "Metals": 97111.06,
+      "Inorganic": 90048307,
+      "Other": 42679375.9
+    },
+    "France": {
+      "Chl": 630600.2673,
+      "Metals": 606699.21,
+      "Inorganic": 1726565004.4,
+      "Other": 62209996.754,
+      "Pesticides": 103.93
+    },
+    "Germany": {
+      "Chl": 865732.7,
+      "Metals": 1089745.11,
+      "Inorganic": 23882085289,
+      "Other": 175356033.15,
+      "Pesticides": 35.59
+    },
+    "Greece": {
+      "Chl": 16600,
+      "Metals": 48129.2,
+      "Inorganic": 9847310,
+      "Other": 13661212.6
+    },
+    "Hungary": {
+      "Chl": 25400,
+      "Metals": 189480.32,
+      "Inorganic": 66397362,
+      "Other": 5826080
+    },
+    "Iceland": {
+      "Metals": 5635,
+      "Inorganic": 1862003,
+      "Other": 371000
+    },
+    "Ireland": {
+      "Chl": 54.4,
+      "Metals": 32727.72,
+      "Inorganic": 216309675.2,
+      "Other": 4690030.67,
+      "Pesticides": 13.52
+    },
+    "Italy": {
+      "Chl": 21085.1773,
+      "Metals": 802527.069999999,
+      "Inorganic": 6958305801.6,
+      "Other": 49803750.13,
+      "Pesticides": 1047.21
+    },
+    "Latvia": {
+      "Metals": 4896.5,
+      "Inorganic": 1337300,
+      "Other": 1490117
+    },
+    "Lithuania": {
+      "Metals": 3589.2,
+      "Inorganic": 4955480,
+      "Other": 374000
+    },
+    "Luxembourg": {
+      "Chl": 2800,
+      "Metals": 520.6,
+      "Inorganic": 263030,
+      "Other": 303000
+    },
+    "Malta": {
+      "Metals": 5168,
+      "Inorganic": 56923100,
+      "Other": 662300
+    },
+    "Netherlands": {
+      "Chl": 112141.037656,
+      "Metals": 123606.69,
+      "Inorganic": 796451426.5,
+      "Other": 29542470.57,
+      "Pesticides": 1.99
+    },
+    "Norway": {
+      "Chl": 128.00000000141,
+      "Metals": 275903.07,
+      "Inorganic": 62147256.1,
+      "Other gases": 14981,
+      "Other": 237411887.72,
+      "Pesticides": 251885.56
+    },
+    "Poland": {
+      "Chl": 553884.57,
+      "Metals": 449969.17,
+      "Inorganic": 4663628810.4,
+      "Other": 32145087.4,
+      "Pesticides": 3.68
+    },
+    "Portugal": {
+      "Chl": 981847.666,
+      "Metals": 95730.69,
+      "Inorganic": 1042890478.8,
+      "Other": 36768730.52,
+      "Pesticides": 3.56
+    },
+    "Romania": {
+      "Chl": 1100,
+      "Metals": 240372.9,
+      "Inorganic": 591255340,
+      "Other": 27867163.4
+    },
+    "Serbia": {
+      "Chl": 67900,
+      "Metals": 212805,
+      "Inorganic": 83463240,
+      "Other": 345773
+    },
+    "Slovakia": {
+      "Chl": 128953.564,
+      "Metals": 12847.54,
+      "Inorganic": 129351570,
+      "Other": 11135987.38
+    },
+    "Slovenia": {
+      "Chl": 1590,
+      "Metals": 3292,
+      "Inorganic": 3898940,
+      "Other": 1155420.61
+    },
+    "Spain": {
+      "Chl": 570455.03224,
+      "Metals": 143254.97,
+      "Inorganic": 6007853547.4,
+      "Other": 49392163.02,
+      "Pesticides": 56.17
+    },
+    "Sweden": {
+      "Chl": 531891.16073,
+      "Metals": 107615.59,
+      "Inorganic": 70357061,
+      "Other": 60217000.5
+    },
+    "Switzerland": {
+      "Chl": 50970,
+      "Metals": 7496.67,
+      "Inorganic": 146143324.54,
+      "Other": 6569434.7
+    },
+    "United Kingdom": {
+      "Chl": 765962.491119999,
+      "Metals": 837700.75,
+      "Inorganic": 2771885984.26,
+      "Other": 156891387.75,
+      "Pesticides": 331.66
+    }
+  },
+  "2013": {
+    "Austria": {
+      "Chl": 58519.2748,
+      "Metals": 125777.67,
+      "Inorganic": 30411193,
+      "Other": 17975717.41,
+      "Pesticides": 61.32
+    },
+    "Belgium": {
+      "Chl": 80455.89172,
+      "Metals": 157642.11,
+      "Inorganic": 1196208398.4,
+      "Other": 22329379.14,
+      "Pesticides": 39.23
+    },
+    "Bulgaria": {
+      "Metals": 137491.2,
+      "Inorganic": 20283230,
+      "Other": 7797724.4
+    },
+    "Cyprus": {
+      "Metals": 3.5,
+      "Inorganic": 152140
+    },
+    "CzechRepublic": {
+      "Chl": 122570.2,
+      "Metals": 113901.82,
+      "Inorganic": 98881019,
+      "Other": 10263606.14,
+      "Pesticides": 9.51
+    },
+    "Denmark": {
+      "Chl": 3090.000118,
+      "Metals": 9532.8,
+      "Inorganic": 1789420,
+      "Other": 4164817
+    },
+    "Estonia": {
+      "Metals": 2090,
+      "Inorganic": 555750,
+      "Other": 1897000
+    },
+    "Finland": {
+      "Chl": 873361.6005,
+      "Metals": 99907.8,
+      "Inorganic": 94976149,
+      "Other": 36336848.74
+    },
+    "France": {
+      "Chl": 581862.521188,
+      "Metals": 590142.92,
+      "Inorganic": 1754486378.9,
+      "Other": 63216689.7,
+      "Pesticides": 97.82
+    },
+    "Germany": {
+      "Chl": 1028447.772115,
+      "Metals": 1105751.64,
+      "Inorganic": 32890510873.4,
+      "Other": 193883356.85,
+      "Pesticides": 37.77
+    },
+    "Greece": {
+      "Chl": 23000,
+      "Metals": 59331.21,
+      "Inorganic": 9903600,
+      "Other": 7784209
+    },
+    "Hungary": {
+      "Chl": 42164,
+      "Metals": 433606.84,
+      "Inorganic": 72010514.2,
+      "Other": 11362007
+    },
+    "Iceland": {
+      "Metals": 15979,
+      "Inorganic": 1871213,
+      "Other": 280000
+    },
+    "Ireland": {
+      "Chl": 52.77,
+      "Metals": 29686.53,
+      "Inorganic": 226335571.1,
+      "Other": 5126242.29,
+      "Pesticides": 9.8
+    },
+    "Italy": {
+      "Chl": 15153.2661,
+      "Metals": 883479.8,
+      "Inorganic": 5618245709.6,
+      "Other": 50944471.42,
+      "Pesticides": 521.3
+    },
+    "Latvia": {
+      "Metals": 3590.1,
+      "Inorganic": 765800,
+      "Other": 1070471
+    },
+    "Lithuania": {
+      "Metals": 2973.1,
+      "Inorganic": 6108630,
+      "Other": 332600
+    },
+    "Luxembourg": {
+      "Metals": 462.88,
+      "Inorganic": 247200,
+      "Other": 271000
+    },
+    "Malta": {
+      "Metals": 15875,
+      "Inorganic": 71062700,
+      "Other": 897000
+    },
+    "Netherlands": {
+      "Chl": 119039.682622,
+      "Metals": 120119.81,
+      "Inorganic": 812844384.5,
+      "Other": 27067251.5,
+      "Pesticides": 5.82
+    },
+    "Norway": {
+      "Chl": 99.000127,
+      "Metals": 262914.45,
+      "Inorganic": 53536561.5,
+      "Other gases": 19024.1,
+      "Other": 227760836.46
+    },
+    "Poland": {
+      "Chl": 510576.44,
+      "Metals": 457338.49,
+      "Inorganic": 4711472334.8,
+      "Other": 37710799.55,
+      "Pesticides": 10
+    },
+    "Portugal": {
+      "Chl": 722220.52,
+      "Metals": 70096.93,
+      "Inorganic": 1107608422.2,
+      "Other": 36876349.3,
+      "Pesticides": 10.87
+    },
+    "Romania": {
+      "Chl": 839.5,
+      "Metals": 237425.15,
+      "Inorganic": 663346950.3,
+      "Other": 30859603.4,
+      "Pesticides": 9.1
+    },
+    "Serbia": {
+      "Metals": 221542,
+      "Inorganic": 77234495,
+      "Other": 24838437
+    },
+    "Slovakia": {
+      "Chl": 123898.3,
+      "Metals": 20056.2,
+      "Inorganic": 121636290,
+      "Other": 11532841.82
+    },
+    "Slovenia": {
+      "Chl": 1567,
+      "Metals": 4140.6,
+      "Inorganic": 5426353,
+      "Other": 1459070.01
+    },
+    "Spain": {
+      "Chl": 739355.01,
+      "Metals": 197445.57,
+      "Inorganic": 5541843431.3,
+      "Other": 46257507.2,
+      "Pesticides": 192.72
+    },
+    "Sweden": {
+      "Chl": 444445.7202,
+      "Metals": 100796.25,
+      "Inorganic": 66265964,
+      "Other": 54435253.93
+    },
+    "Switzerland": {
+      "Chl": 31360,
+      "Metals": 6422.73,
+      "Inorganic": 109464153.17,
+      "Other": 6720653.9
+    },
+    "United Kingdom": {
+      "Chl": 542583.004475,
+      "Metals": 861918.87,
+      "Inorganic": 2466092848.35,
+      "Other": 133929198.94,
+      "Pesticides": 130.16
+    }
+  },
+  "2014": {
+    "Austria": {
+      "Chl": 37827.45,
+      "Metals": 115378.86,
+      "Inorganic": 38729248,
+      "Other": 16740315.43,
+      "Pesticides": 58.13
+    },
+    "Belgium": {
+      "Chl": 83486.4160000001,
+      "Metals": 153578.05,
+      "Inorganic": 999600904.4,
+      "Other": 19851662.54
+    },
+    "Bulgaria": {
+      "Metals": 115875.96,
+      "Inorganic": 19837469,
+      "Other": 7552252
+    },
+    "Croatia": {
+      "Metals": 2741.25,
+      "Inorganic": 5610300,
+      "Other": 548.2
+    },
+    "Cyprus": {
+      "Metals": 107.75,
+      "Inorganic": 153860
+    },
+    "CzechRepublic": {
+      "Chl": 72566.9,
+      "Metals": 95240.55,
+      "Inorganic": 111790171,
+      "Other": 9242751.18,
+      "Pesticides": 3.96
+    },
+    "Denmark": {
+      "Chl": 3040.000143,
+      "Metals": 8617.8,
+      "Inorganic": 1301630,
+      "Other": 3322287.3
+    },
+    "Estonia": {
+      "Metals": 1474,
+      "Inorganic": 472300,
+      "Other": 2057600
+    },
+    "Finland": {
+      "Chl": 784802.7005,
+      "Metals": 144378.39,
+      "Inorganic": 93780877.6,
+      "Other": 37256231.35
+    },
+    "France": {
+      "Chl": 554659.43612,
+      "Metals": 508685.1,
+      "Inorganic": 1432385240.9,
+      "Other": 59595842.3,
+      "Pesticides": 78.18
+    },
+    "Germany": {
+      "Chl": 1169201.211032,
+      "Metals": 988979.42,
+      "Inorganic": 31594643999.6,
+      "Other": 180004231.84,
+      "Pesticides": 44.81
+    },
+    "Greece": {
+      "Chl": 15400,
+      "Metals": 41037.01,
+      "Inorganic": 8274590,
+      "Other": 8090496.8
+    },
+    "Hungary": {
+      "Chl": 43844,
+      "Metals": 168520.81,
+      "Inorganic": 64686608.8,
+      "Other": 14035394
+    },
+    "Iceland": {
+      "Metals": 5658,
+      "Inorganic": 1675246,
+      "Other": 167000
+    },
+    "Ireland": {
+      "Chl": 289.99,
+      "Metals": 36127.58,
+      "Inorganic": 246017348.6,
+      "Other": 5603235.01,
+      "Pesticides": 10.92
+    },
+    "Italy": {
+      "Chl": 27025.4034,
+      "Metals": 654790.500000001,
+      "Inorganic": 5907258799.9,
+      "Other": 45793220.13,
+      "Pesticides": 249.56
+    },
+    "Latvia": {
+      "Metals": 4746,
+      "Inorganic": 574100,
+      "Other": 3090071
+    },
+    "Lithuania": {
+      "Metals": 1752.1,
+      "Inorganic": 553580
+    },
+    "Luxembourg": {
+      "Metals": 632.88,
+      "Inorganic": 233440,
+      "Other": 260024.4
+    },
+    "Malta": {
+      "Metals": 5908,
+      "Inorganic": 69319900,
+      "Other": 677000
+    },
+    "Netherlands": {
+      "Chl": 132127.73067,
+      "Metals": 101751.3,
+      "Inorganic": 874783488,
+      "Other": 26331680.88,
+      "Pesticides": 103.99
+    },
+    "Norway": {
+      "Chl": 121.0537,
+      "Metals": 261102.18,
+      "Inorganic": 51178413.6,
+      "Other gases": 1949845.2,
+      "Other": 219838519.13
+    },
+    "Poland": {
+      "Chl": 494680.56,
+      "Metals": 459737.87,
+      "Inorganic": 4771326497,
+      "Other": 35641413.42,
+      "Pesticides": 6.4
+    },
+    "Portugal": {
+      "Chl": 915874.577,
+      "Metals": 73576.9699999999,
+      "Inorganic": 369552962.9,
+      "Other": 36604195.71,
+      "Pesticides": 23.28
+    },
+    "Romania": {
+      "Metals": 222931.02,
+      "Inorganic": 837527417.8,
+      "Other": 41490965.1,
+      "Pesticides": 9.03
+    },
+    "Serbia": {
+      "Chl": 33452,
+      "Metals": 254976,
+      "Inorganic": 174105069,
+      "Other": 17041818
+    },
+    "Slovakia": {
+      "Chl": 100773,
+      "Metals": 7572.98,
+      "Inorganic": 83320350,
+      "Other": 9443851.96
+    },
+    "Slovenia": {
+      "Chl": 1167,
+      "Metals": 6963.3,
+      "Inorganic": 3643995,
+      "Other": 1385359.36
+    },
+    "Spain": {
+      "Chl": 857881.57433,
+      "Metals": 125567.85,
+      "Inorganic": 6040851058.7,
+      "Other": 42155764.72,
+      "Pesticides": 18793.11
+    },
+    "Sweden": {
+      "Chl": 472728.80062,
+      "Metals": 96482.3,
+      "Inorganic": 51823357,
+      "Other": 54847249.8
+    },
+    "Switzerland": {
+      "Chl": 56500,
+      "Metals": 6449.65,
+      "Inorganic": 147613390.2,
+      "Other": 7051494.2
+    },
+    "United Kingdom": {
+      "Chl": 625737.095484001,
+      "Metals": 806667.42,
+      "Inorganic": 1727923793.11,
+      "Other": 141856475.49,
+      "Pesticides": 284.94
+    }
+  },
+  "2015": {
+    "Austria": {
+      "Chl": 30279.52,
+      "Metals": 51621.84,
+      "Inorganic": 7304819,
+      "Other": 15099702.81,
+      "Pesticides": 32.51
+    },
+    "Belgium": {
+      "Chl": 98381.84953,
+      "Metals": 126917.78,
+      "Inorganic": 1062376573.9,
+      "Other": 19937011.5,
+      "Pesticides": 23.99
+    },
+    "Bulgaria": {
+      "Metals": 72844.61,
+      "Inorganic": 19645359.1,
+      "Other": 5351640.7
+    },
+    "Croatia": {
+      "Metals": 5410.47,
+      "Inorganic": 4776400,
+      "Other": 3896
+    },
+    "Cyprus": {
+      "Metals": 194.69,
+      "Inorganic": 161300
+    },
+    "CzechRepublic": {
+      "Chl": 68360,
+      "Metals": 91334.62,
+      "Inorganic": 109505857,
+      "Other": 9669578.74,
+      "Pesticides": 5.85
+    },
+    "Denmark": {
+      "Chl": 3580,
+      "Metals": 7117.52,
+      "Inorganic": 10527100,
+      "Other": 3675614.21
+    },
+    "Estonia": {
+      "Metals": 1370,
+      "Inorganic": 431680,
+      "Other": 2089420
+    },
+    "Finland": {
+      "Chl": 789819.5005,
+      "Metals": 72745.65,
+      "Inorganic": 89736783,
+      "Other": 43080085.84
+    },
+    "France": {
+      "Chl": 507329.36111,
+      "Metals": 326929.27,
+      "Inorganic": 1734273995,
+      "Other": 57133080.64,
+      "Pesticides": 98.34
+    },
+    "Germany": {
+      "Chl": 1136175.190786,
+      "Metals": 1046983.55,
+      "Inorganic": 29170728625.5,
+      "Other": 181336217.23,
+      "Pesticides": 119.43
+    },
+    "Greece": {
+      "Chl": 31416.4,
+      "Metals": 20998.5,
+      "Inorganic": 7909650,
+      "Other": 6900554
+    },
+    "Hungary": {
+      "Chl": 23564,
+      "Metals": 107291.16,
+      "Inorganic": 3933670,
+      "Other": 11021577
+    },
+    "Iceland": {
+      "Metals": 38,
+      "Inorganic": 1141240,
+      "Other": 189000
+    },
+    "Ireland": {
+      "Chl": 62.47,
+      "Metals": 35727.52,
+      "Inorganic": 224711587.5,
+      "Other": 5945902.27,
+      "Pesticides": 10.05
+    },
+    "Italy": {
+      "Chl": 19992.891,
+      "Metals": 572343.28,
+      "Inorganic": 6194980370.7,
+      "Other": 258928763.59,
+      "Pesticides": 195.04
+    },
+    "Latvia": {
+      "Metals": 3539.1,
+      "Inorganic": 618900,
+      "Other": 1040163
+    },
+    "Lithuania": {
+      "Metals": 3679.4,
+      "Inorganic": 7688350,
+      "Other": 91176.1
+    },
+    "Luxembourg": {
+      "Metals": 729,
+      "Inorganic": 269580,
+      "Other": 281021.8
+    },
+    "Malta": {
+      "Metals": 7904.09,
+      "Inorganic": 49395450,
+      "Other": 1067000
+    },
+    "Netherlands": {
+      "Chl": 98887.003864,
+      "Metals": 106378.98,
+      "Inorganic": 852013636.6,
+      "Other": 24113901.8,
+      "Pesticides": 3.98
+    },
+    "Norway": {
+      "Chl": 101.21897,
+      "Metals": 278922.05,
+      "Inorganic": 59421844.6,
+      "Other gases": 1457014,
+      "Other": 255747590.46
+    },
+    "Poland": {
+      "Chl": 560894.5,
+      "Metals": 389748.860000001,
+      "Inorganic": 4531306398.5,
+      "Other": 34504101.49
+    },
+    "Portugal": {
+      "Chl": 809409.231,
+      "Metals": 55395.65,
+      "Inorganic": 244503576.7,
+      "Other": 35061640.91,
+      "Pesticides": 16.92
+    },
+    "Romania": {
+      "Metals": 102098.5,
+      "Inorganic": 917111772,
+      "Other": 45503708.8,
+      "Pesticides": 9.87
+    },
+    "Serbia": {
+      "Chl": 8622,
+      "Metals": 292336,
+      "Inorganic": 90783845,
+      "Other": 20899487
+    },
+    "Slovakia": {
+      "Chl": 93482.78,
+      "Metals": 15004.1,
+      "Inorganic": 73822235.5,
+      "Other": 8939064.67
+    },
+    "Slovenia": {
+      "Chl": 1150,
+      "Metals": 4339.21,
+      "Inorganic": 3821117,
+      "Other": 1535215.88
+    },
+    "Spain": {
+      "Chl": 1316858.29039,
+      "Metals": 138303.62,
+      "Inorganic": 1125992954,
+      "Other": 39587971.44,
+      "Pesticides": 2362.09
+    },
+    "Sweden": {
+      "Chl": 457765.72486,
+      "Metals": 99337.87,
+      "Inorganic": 55428610,
+      "Other": 55537985.43
+    },
+    "Switzerland": {
+      "Chl": 28820,
+      "Metals": 6738.11,
+      "Inorganic": 103581752.94,
+      "Other": 5804127.8
+    },
+    "United Kingdom": {
+      "Chl": 556019.62566,
+      "Metals": 621798.71,
+      "Inorganic": 1590811124.57,
+      "Other": 138294606.08,
+      "Pesticides": 285.1
+    }
+  },
+  "2016": {
+    "Austria": {
+      "Chl": 40550.87,
+      "Metals": 83503.87,
+      "Inorganic": 7308996,
+      "Other": 17549936.75,
+      "Pesticides": 7.3
+    },
+    "Belgium": {
+      "Chl": 34747.601755,
+      "Metals": 133332.41,
+      "Inorganic": 1013869813,
+      "Other": 21292448.9,
+      "Pesticides": 51.38
+    },
+    "Bulgaria": {
+      "Metals": 74525.84,
+      "Inorganic": 16978290,
+      "Other": 6915645.4
+    },
+    "Croatia": {
+      "Metals": 4241.84,
+      "Inorganic": 4633900,
+      "Other": 300.5
+    },
+    "Cyprus": {
+      "Metals": 676.25,
+      "Inorganic": 154980
+    },
+    "CzechRepublic": {
+      "Chl": 63933,
+      "Metals": 82460.94,
+      "Inorganic": 66437328,
+      "Other": 9635713.09,
+      "Pesticides": 17.18
+    },
+    "Denmark": {
+      "Metals": 4529.8,
+      "Inorganic": 8465350,
+      "Other": 3515280.5
+    },
+    "Estonia": {
+      "Metals": 1384,
+      "Inorganic": 540070,
+      "Other": 2250200
+    },
+    "Finland": {
+      "Chl": 879629.8,
+      "Metals": 87312.18,
+      "Inorganic": 98547072.1,
+      "Other": 41115779.9
+    },
+    "France": {
+      "Chl": 343871.517,
+      "Metals": 127695.52,
+      "Inorganic": 1489431934.9,
+      "Other": 63202175.72,
+      "Pesticides": 48.27
+    },
+    "Germany": {
+      "Chl": 1117126.610798,
+      "Metals": 998133.139999999,
+      "Inorganic": 28998214440.6,
+      "Other": 176927297.41,
+      "Pesticides": 123.14
+    },
+    "Greece": {
+      "Chl": 54500,
+      "Metals": 147731.18,
+      "Inorganic": 8240070,
+      "Other": 8363143
+    },
+    "Hungary": {
+      "Chl": 30935,
+      "Metals": 80742.13,
+      "Inorganic": 66592859,
+      "Other": 6781722.6
+    },
+    "Iceland": {
+      "Metals": 110,
+      "Inorganic": 1188450,
+      "Other": 364000
+    },
+    "Ireland": {
+      "Chl": 61.48,
+      "Metals": 24072.38,
+      "Inorganic": 243907988.3,
+      "Other": 7092454.53,
+      "Pesticides": 9.72
+    },
+    "Italy": {
+      "Chl": 18044.52411,
+      "Metals": 477857.41,
+      "Inorganic": 5145507756,
+      "Other": 35261650.96,
+      "Pesticides": 372.78
+    },
+    "Latvia": {
+      "Metals": 2380.5,
+      "Inorganic": 623000,
+      "Other": 1090322
+    },
+    "Lithuania": {
+      "Metals": 4795.7,
+      "Inorganic": 10632730,
+      "Other": 104879
+    },
+    "Luxembourg": {
+      "Metals": 1517.5,
+      "Inorganic": 263200,
+      "Other": 281200
+    },
+    "Malta": {
+      "Metals": 19482.9,
+      "Inorganic": 59352550,
+      "Other": 921000
+    },
+    "Netherlands": {
+      "Chl": 93831.703022,
+      "Metals": 95107.44,
+      "Inorganic": 907622375.5,
+      "Other": 22927648.64,
+      "Pesticides": 4.17
+    },
+    "Norway": {
+      "Chl": 9650.18925,
+      "Metals": 257095.5,
+      "Inorganic": 54544699.794755,
+      "Other gases": 1390857,
+      "Other": 226738894.07
+    },
+    "Poland": {
+      "Chl": 685731.13,
+      "Metals": 287095.48,
+      "Inorganic": 4742043590,
+      "Other": 35185008.86
+    },
+    "Portugal": {
+      "Chl": 880914.100404,
+      "Metals": 52365.65,
+      "Inorganic": 287093247.6,
+      "Other": 43899922.32,
+      "Pesticides": 15.35
+    },
+    "Romania": {
+      "Metals": 161631.8,
+      "Inorganic": 1008514217.5,
+      "Other": 48400899,
+      "Pesticides": 9.1
+    },
+    "Serbia": {
+      "Chl": 8176,
+      "Metals": 183168,
+      "Inorganic": 83643627,
+      "Other": 14291740
+    },
+    "Slovakia": {
+      "Chl": 102094.46,
+      "Metals": 18751.55,
+      "Inorganic": 70381362.5,
+      "Other": 9292803.78
+    },
+    "Slovenia": {
+      "Chl": 1120,
+      "Metals": 7281.4,
+      "Inorganic": 3136631,
+      "Other": 2253027.7
+    },
+    "Spain": {
+      "Chl": 418483.9774,
+      "Metals": 121183.21,
+      "Inorganic": 1065676643.8,
+      "Other": 37970590.24,
+      "Pesticides": 286.64
+    },
+    "Sweden": {
+      "Chl": 417225.09402,
+      "Metals": 97373.06,
+      "Inorganic": 64521679,
+      "Other": 52241756.73
+    },
+    "Switzerland": {
+      "Chl": 42760,
+      "Metals": 11267.53,
+      "Inorganic": 155009503.2,
+      "Other": 5860728.2
+    },
+    "United Kingdom": {
+      "Chl": 526899.654927,
+      "Metals": 562750.21,
+      "Inorganic": 1477712603.88,
+      "Other": 130385620.06,
+      "Pesticides": 136.3
+    }
+  },
+  "2017": {
+    "Austria": {
+      "Chl": 52337.41,
+      "Metals": 64019.51,
+      "Inorganic": 27913412,
+      "Other": 15885032.56,
+      "Pesticides": 6.4
+    },
+    "Belgium": {
+      "Chl": 74485.98076,
+      "Metals": 138542.38,
+      "Inorganic": 1083379248.1,
+      "Other": 20458658.99,
+      "Pesticides": 3.83
+    },
+    "Bulgaria": {
+      "Metals": 73389.21,
+      "Inorganic": 17784426,
+      "Other": 6689782.9
+    },
+    "Croatia": {
+      "Metals": 8037.41,
+      "Inorganic": 4732200,
+      "Other": 978728.34
+    },
+    "Cyprus": {
+      "Metals": 924.57,
+      "Inorganic": 942500
+    },
+    "CzechRepublic": {
+      "Chl": 66346.7,
+      "Metals": 99670.96,
+      "Inorganic": 90906617.7,
+      "Other": 10239783.54,
+      "Pesticides": 1.95
+    },
+    "Denmark": {
+      "Metals": 25427.2,
+      "Inorganic": 9367910,
+      "Other": 3457514
+    },
+    "Estonia": {
+      "Metals": 2905.72,
+      "Inorganic": 531670,
+      "Other": 2149826
+    },
+    "Finland": {
+      "Chl": 866784.2015,
+      "Metals": 62128.81,
+      "Inorganic": 107236500.1,
+      "Other": 32092661.89
+    },
+    "France": {
+      "Chl": 345863.856,
+      "Metals": 127196.72,
+      "Inorganic": 1597973072.1,
+      "Other": 55808074.48,
+      "Pesticides": 37
+    },
+    "Germany": {
+      "Chl": 1009429.960798,
+      "Metals": 1000155.86,
+      "Inorganic": 27967319782.4,
+      "Other": 185570744.79,
+      "Pesticides": 134.32
+    },
+    "Greece": {
+      "Chl": 38000,
+      "Metals": 78799.81,
+      "Inorganic": 8020165,
+      "Other": 10617106
+    },
+    "Hungary": {
+      "Chl": 46073,
+      "Metals": 66724.55,
+      "Inorganic": 85063711,
+      "Other": 8452820.2
+    },
+    "Iceland": {
+      "Chl": 1390,
+      "Metals": 92,
+      "Inorganic": 1529100,
+      "Other": 238323
+    },
+    "Ireland": {
+      "Chl": 60.37,
+      "Metals": 23540.59,
+      "Inorganic": 265683204.3,
+      "Other": 7643311.91,
+      "Pesticides": 9.62
+    },
+    "Italy": {
+      "Chl": 29042.48486,
+      "Metals": 608639.15,
+      "Inorganic": 7339820218.2,
+      "Other": 39474019.36,
+      "Pesticides": 566.68
+    },
+    "Latvia": {
+      "Metals": 2971.5,
+      "Inorganic": 562700,
+      "Other": 1250070
+    },
+    "Lithuania": {
+      "Metals": 7165.5,
+      "Inorganic": 8148750,
+      "Other": 377521.7
+    },
+    "Luxembourg": {
+      "Metals": 1210,
+      "Inorganic": 259600,
+      "Other": 253000
+    },
+    "Malta": {
+      "Metals": 694490.82,
+      "Inorganic": 76735300,
+      "Other gases": 462.087,
+      "Other": 1036000
+    },
+    "Netherlands": {
+      "Chl": 95480.123158,
+      "Metals": 101999.4,
+      "Inorganic": 913384569.9,
+      "Other": 23768183.98,
+      "Pesticides": 4.46
+    },
+    "Norway": {
+      "Chl": 55.11064,
+      "Metals": 285911.73,
+      "Inorganic": 64026478.01,
+      "Other gases": 1293237,
+      "Other": 251447753.98,
+      "Pesticides": 1.23
+    },
+    "Poland": {
+      "Chl": 865243.730304,
+      "Metals": 318097.83,
+      "Inorganic": 5256986535,
+      "Other": 33595207.5,
+      "Pesticides": 1.26
+    },
+    "Portugal": {
+      "Chl": 947502.62052,
+      "Metals": 55176.87,
+      "Inorganic": 279765999.1,
+      "Other": 36402234.84,
+      "Pesticides": 4.64
+    },
+    "Romania": {
+      "Metals": 148927.7,
+      "Inorganic": 1146118302,
+      "Other": 45385110,
+      "Pesticides": 8.05
+    },
+    "Serbia": {
+      "Chl": 12790,
+      "Metals": 683084,
+      "Inorganic": 132571869,
+      "Other": 12485205
+    },
+    "Slovakia": {
+      "Chl": 94432.81,
+      "Metals": 17918.1,
+      "Inorganic": 69323763.8,
+      "Other": 8274307.76
+    },
+    "Slovenia": {
+      "Chl": 1621,
+      "Metals": 6946.3,
+      "Inorganic": 3060935,
+      "Other": 1073271.01,
+      "Pesticides": 52
+    },
+    "Spain": {
+      "Chl": 375966.20973,
+      "Metals": 161260.39,
+      "Inorganic": 985651393.7,
+      "Other": 40439055.17,
+      "Pesticides": 6748.84
+    },
+    "Sweden": {
+      "Chl": 436261.30963,
+      "Metals": 96209.15,
+      "Inorganic": 81561791,
+      "Other": 55236964.4
+    },
+    "Switzerland": {
+      "Chl": 29970,
+      "Metals": 5449.51,
+      "Inorganic": 102042115.28,
+      "Other": 5160866.7
+    },
+    "United Kingdom": {
+      "Chl": 513154.525013,
+      "Metals": 557017.27,
+      "Inorganic": 1479084966.06,
+      "Other gases": 112000,
+      "Other": 130583594.49,
+      "Pesticides": 260.99
+    }
+  }
+}
