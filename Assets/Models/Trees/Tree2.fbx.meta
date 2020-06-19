@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: adf4ea0f37fbfd84d901e96ed6e948ca
+guid: fac7c903af8793844a9e690b710d5766
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Cap_MAT
-    second: {fileID: 2100000, guid: 5b8c1a515343d4a4e89ae05967154344, type: 2}
+      name: Leaves
+    second: {fileID: 2100000, guid: d72899152a7196c4dacf39aacb235fb3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: WaterBottle_MAT
-    second: {fileID: 2100000, guid: ada493aed62c92f408f8d04f55e6f301, type: 2}
+      name: Trunk
+    second: {fileID: 2100000, guid: 2a3679d2dd6fe2a43a23a335c26b466b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -90,7 +90,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.01
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
