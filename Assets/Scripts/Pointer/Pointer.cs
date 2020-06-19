@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(LineRenderer))]
@@ -22,6 +23,7 @@ public class Pointer : MonoBehaviour
     public Color pressedColor = Color.blue;
     [NonSerialized] public Vector3 lineEndPosition;
     private LineRenderer lineRenderer;
+    private Vector3 hitPoint;
     #endregion
 
     #region Interactables
@@ -30,11 +32,17 @@ public class Pointer : MonoBehaviour
     private Rigidbody grabbedObject;
     #endregion
 
-    #region Pointer Controller
+    #region VR Set
+    private Transform headset;
     private Transform currentOrigin;
     private GameObject currentObject;
     #endregion
 
+    #region Teleportation
+    private Vector3 teleportPosition;
+    private float teleportTime;
+    public float teleportSpeed = 1;
+    #endregion
 
     private void Awake()
     {
@@ -50,14 +58,19 @@ public class Pointer : MonoBehaviour
         }
         #endregion
 
-        lineRenderer = GetComponent<LineRenderer>();
-
+        #region Events
         VRInput.onControllerSource += UpdateOrigin;
         VRInput.onTouchpadDown += ProcessTouchPadDown;
         VRInput.onTouchpadUp += ProcessTouchPadUp;
         VRInput.onTriggerDown += ProcessTriggerDown;
         VRInput.onTriggerUp += ProcessTriggerUp;
+        VRInput.onTriggerDoublePressed += ProcessTriggerDoublePressed;
         VRInput.onTouchpadTouch += ProcessTouchpadTouched;
+        #endregion
+
+        headset = transform.parent;
+        teleportPosition = headset.position;
+        lineRenderer = GetComponent<LineRenderer>();
     }
 
     private void Start()
@@ -67,20 +80,35 @@ public class Pointer : MonoBehaviour
 
     private void OnDestroy()
     {
+        #region Events
         VRInput.onControllerSource -= UpdateOrigin;
         VRInput.onTouchpadDown -= ProcessTouchPadDown;
         VRInput.onTouchpadUp -= ProcessTouchPadUp;
         VRInput.onTriggerDown -= ProcessTriggerDown;
         VRInput.onTriggerUp -= ProcessTriggerUp;
+        VRInput.onTriggerDoublePressed += ProcessTriggerDoublePressed;
         VRInput.onTouchpadTouch -= ProcessTouchpadTouched;
+        #endregion
     }
 
     private void Update()
     {
-        Vector3 hitPoint = UpdateLine();
+        if (headset.position != teleportPosition && teleportTime < teleportSpeed)
+        {
+            teleportTime += Time.deltaTime;
+            float lerpValue = teleportTime / teleportSpeed;
+            headset.position = Vector3.Lerp(headset.position, teleportPosition, lerpValue);
+        }
+        else
+        {
+            teleportTime = 0;
+        }
+    }
 
+    private void LateUpdate()
+    {
+        hitPoint = UpdateLine();
         currentObject = UpdatePointerStatus();
-
         onPointerUpdate?.Invoke(hitPoint, currentObject);
     }
 
@@ -93,7 +121,7 @@ public class Pointer : MonoBehaviour
             lineEndPosition = hit.point;
 
         lineRenderer.SetPosition(0, currentOrigin.position);
-        lineRenderer.SetPosition(1, currentOrigin.position + (currentOrigin.forward * maxLineLength/5));
+        lineRenderer.SetPosition(1, currentOrigin.position + (currentOrigin.forward * maxLineLength / 5));
 
         return lineEndPosition;
     }
@@ -161,17 +189,21 @@ public class Pointer : MonoBehaviour
 
     private void ProcessTriggerDown()
     {
-        if (currentObject)
-        {
-            currentInteractable = currentObject.GetComponent<Interactable>();
-            currentInteractable.TriggerDown();
-        }
+        return;
     }
 
     private void ProcessTriggerUp()
     {
-        if (currentObject)
-            currentInteractable.TriggerUp();
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(hitPoint, out hit, 1.0f, NavMesh.AllAreas))
+        {
+            teleportPosition = new Vector3(hit.position.x, headset.position.y, hit.position.z);
+        }
+    }
+
+    private void ProcessTriggerDoublePressed()
+    {
+        headset.eulerAngles += 180f * Vector3.up;
     }
 
     private void ProcessTouchpadTouched(Vector2 touchpadPosition)
@@ -184,10 +216,10 @@ public class Pointer : MonoBehaviour
     {
         float touchpadDistance = touchpadPosition.y / 10.0f;
 
-        if ((touchpadPosition.y > 0.5 || touchpadPosition.y < -0.5))
+        if (touchpadPosition.y > 0.5 || touchpadPosition.y < -0.5)
         {
             Vector3 relativePosition = grabbedObject.transform.localPosition;
-            if (relativePosition.z + touchpadDistance <= maxLineLength)
+            if (relativePosition.z + touchpadDistance <= maxLineLength || relativePosition.z + touchpadDistance >= 1.0f)
                 relativePosition.z += touchpadDistance;
 
             grabbedObject.transform.localPosition = relativePosition;
