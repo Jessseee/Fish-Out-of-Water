@@ -22,7 +22,7 @@ public class ObjectSpawner : MonoBehaviour
 
     private void SpawnObject()
     {
-        Instantiate(objectPrefab, Pointer.instance.endPosition + new Vector3(0, 2, 0), Quaternion.identity);
+        Instantiate(objectPrefab, Pointer.instance.lineEndPosition + new Vector3(0, 2, 0), Quaternion.identity);
     }
 
     private void ToggleSpawn()

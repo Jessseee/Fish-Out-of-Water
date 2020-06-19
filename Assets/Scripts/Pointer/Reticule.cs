@@ -5,6 +5,7 @@ public class Reticule : MonoBehaviour
 {
     public Sprite openSprite;
     public Sprite closeSprite;
+    public Sprite grabSprite;
 
     private Pointer pointer;
     private SpriteRenderer reticuleRenderer;
@@ -38,7 +39,16 @@ public class Reticule : MonoBehaviour
     private void UpdateSprite(Vector3 point, GameObject hitObject)
     {
         transform.position = point;
-        reticuleRenderer.sprite = hitObject ? closeSprite : openSprite;
+        if (hitObject)
+        {
+            if (hitObject.GetComponent<Interactable>().grabbable)
+                reticuleRenderer.sprite = grabSprite;
+            else
+                reticuleRenderer.sprite = closeSprite;
+        } else
+        {
+            reticuleRenderer.sprite = openSprite;
+        }
     }
 
     private void ProcessTouchPadDown()

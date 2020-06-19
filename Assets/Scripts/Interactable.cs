@@ -2,8 +2,12 @@
 using UnityEngine.Events;
 
 
+[RequireComponent(typeof(Collider))]
 public class Interactable : MonoBehaviour
 {
+    // If grabbable is enabled requires a RigidBody component.
+    public bool grabbable;
+
     #region Events
     public UnityEvent onTouchpadDown = new UnityEvent();
     public UnityEvent onTouchpadUp = new UnityEvent();

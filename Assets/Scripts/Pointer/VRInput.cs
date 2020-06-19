@@ -10,6 +10,7 @@ public class VRInput : MonoBehaviour
     public static UnityAction onTriggerUp;
     public static UnityAction onTriggerDown;
     public static UnityAction<OVRInput.Controller, GameObject> onControllerSource;
+    public static UnityAction<Vector2> onTouchpadTouch;
     #endregion
 
     #region Anchors
@@ -92,9 +93,10 @@ public class VRInput : MonoBehaviour
             onTriggerUp?.Invoke();
         }
 
-        if (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad) != Vector2.zero)
+        Vector2 touchpadPosition = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
+        if (touchpadPosition != Vector2.zero)
         {
-
+                onTouchpadTouch?.Invoke(touchpadPosition);
         }
     }
 
