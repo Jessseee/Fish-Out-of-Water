@@ -1,0 +1,68 @@
+{
+   "2007": {
+      "smallSpills": 12,
+      "bigSpills": 3,
+      "totalSpills": 15,
+      "quantitySpilled": 15000
+   },
+   "2008": {
+      "smallSpills": 7,
+      "bigSpills": 1,
+      "totalSpills": 8,
+      "quantitySpilled": 2000
+   },
+   "2009": {
+      "smallSpills": 7,
+      "bigSpills": 2,
+      "totalSpills": 9,
+      "quantitySpilled": 3000
+   },
+   "2010": {
+      "smallSpills": 5,
+      "bigSpills": 4,
+      "totalSpills": 9,
+      "quantitySpilled": 12000
+   },
+   "2011": {
+      "smallSpills": 4,
+      "bigSpills": 1,
+      "totalSpills": 5,
+      "quantitySpilled": 2000
+   },
+   "2012": {
+      "smallSpills": 7,
+      "bigSpills": 0,
+      "totalSpills": 7,
+      "quantitySpilled": 1000
+   },
+   "2013": {
+      "smallSpills": 5,
+      "bigSpills": 3,
+      "totalSpills": 8,
+      "quantitySpilled": 7000
+   },
+   "2014": {
+      "smallSpills": 4,
+      "bigSpills": 1,
+      "totalSpills": 5,
+      "quantitySpilled": 5000
+   },
+   "2015": {
+      "smallSpills": 6,
+      "bigSpills": 2,
+      "totalSpills": 8,
+      "quantitySpilled": 7000
+   },
+   "2016": {
+      "smallSpills": 4,
+      "bigSpills": 1,
+      "totalSpills": 5,
+      "quantitySpilled": 6000
+   },
+   "2017": {
+      "smallSpills": 4,
+      "bigSpills": 2,
+      "totalSpills": 6,
+      "quantitySpilled": 7000
+   }
+}
