@@ -675,6 +675,11 @@ PrefabInstance:
       propertyPath: maxLineLength
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1888971154021144068, guid: 9ed5be4355481ab49b503c669df392cf,
+        type: 3}
+      propertyPath: teleportCurveDetail
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 2154405696805334947, guid: 9ed5be4355481ab49b503c669df392cf,
         type: 3}
       propertyPath: m_Name

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
@@ -21,7 +22,7 @@ public class Pointer : MonoBehaviour
     public float maxLineLength = 10.0f;
     public Color standardColor = Color.white;
     public Color pressedColor = Color.blue;
-    [NonSerialized] public Vector3 lineEndPosition;
+    private Vector3 reticulePosition;
     private LineRenderer lineRenderer;
     private Vector3 hitPoint;
     #endregion
@@ -41,7 +42,10 @@ public class Pointer : MonoBehaviour
     #region Teleportation
     private Vector3 teleportPosition;
     private float teleportTime;
+    private bool attemptTeleport;
     public float teleportSpeed = 1;
+    public float teleportCurveHeight = 3.0f;
+    public int teleportCurveDetail = 12;
     #endregion
 
     private void Awake()
@@ -100,9 +104,7 @@ public class Pointer : MonoBehaviour
             headset.position = Vector3.Lerp(headset.position, teleportPosition, lerpValue);
         }
         else
-        {
             teleportTime = 0;
-        }
     }
 
     private void LateUpdate()
@@ -114,16 +116,55 @@ public class Pointer : MonoBehaviour
 
     private Vector3 UpdateLine()
     {
-        RaycastHit hit = CreateRaycast(everythingMask);
+        Vector3 lineStart = currentOrigin.position;
+        Vector3 lineEnd = currentOrigin.position + (currentOrigin.forward * maxLineLength / 5);
 
-        lineEndPosition = currentOrigin.position + (currentOrigin.forward * maxLineLength);
-        if (hit.collider != null)
-            lineEndPosition = hit.point;
+        RaycastHit hitForward = CreateForwardRaycast(everythingMask);
 
-        lineRenderer.SetPosition(0, currentOrigin.position);
-        lineRenderer.SetPosition(1, currentOrigin.position + (currentOrigin.forward * maxLineLength / 5));
+        reticulePosition = currentOrigin.position + (currentOrigin.forward * maxLineLength);
 
-        return lineEndPosition;
+        if (attemptTeleport && hitForward.collider == null)
+        {
+            RaycastHit hitFloor;
+            Physics.Raycast(reticulePosition, Vector3.down, out hitFloor);
+            reticulePosition = hitFloor.point;
+        }
+        else if (hitForward.collider != null)
+            reticulePosition = hitForward.point;
+
+        if (grabbedObject != null)
+            lineEnd = reticulePosition;
+
+        if (attemptTeleport)
+            drawTeleportingLine(reticulePosition);
+        else
+        {
+            lineRenderer.positionCount = 2;
+            lineRenderer.SetPosition(0, lineStart);
+            lineRenderer.SetPosition(1, lineEnd);
+        }
+
+        return reticulePosition;
+    }
+
+    private void drawTeleportingLine(Vector3 reticulePoint)
+    {
+        Vector3 lineEnd = reticulePoint;
+        Vector3 lineStart = currentOrigin.position;
+
+        var curvePointList = new List<Vector3>();
+        Vector3 curveCenter = Vector3.Lerp(lineStart, lineEnd, 0.5f);
+        curveCenter.y = teleportCurveHeight;
+        for (float ratio = 0; ratio <= 1; ratio += 1.0f / teleportCurveDetail)
+        {
+            Vector3 tangentLineVertex1 = Vector3.Lerp(lineStart, curveCenter, ratio);
+            Vector3 tangentLineVertex2 = Vector3.Lerp(curveCenter, lineEnd, ratio);
+            Vector3 bezierPoint = Vector3.Lerp(tangentLineVertex1, tangentLineVertex2, ratio);
+            curvePointList.Add(bezierPoint);
+        }
+
+        lineRenderer.positionCount = curvePointList.Count;
+        lineRenderer.SetPositions(curvePointList.ToArray());
     }
 
     private void UpdateOrigin(OVRInput.Controller controller, GameObject controllerObject)
@@ -133,7 +174,7 @@ public class Pointer : MonoBehaviour
 
     private GameObject UpdatePointerStatus()
     {
-        RaycastHit hit = CreateRaycast(interactableMask);
+        RaycastHit hit = CreateForwardRaycast(interactableMask);
 
         if (hit.collider)
             return hit.collider.gameObject;
@@ -141,7 +182,7 @@ public class Pointer : MonoBehaviour
         return null;
     }
 
-    private RaycastHit CreateRaycast(int layer)
+    private RaycastHit CreateForwardRaycast(int layer)
     {
         RaycastHit hit;
         Ray ray = new Ray(currentOrigin.position, currentOrigin.forward);
@@ -189,15 +230,21 @@ public class Pointer : MonoBehaviour
 
     private void ProcessTriggerDown()
     {
-        return;
+        if (grabbedObject == null)
+            attemptTeleport = true;
     }
 
     private void ProcessTriggerUp()
     {
-        NavMeshHit hit;
-        if (NavMesh.SamplePosition(hitPoint, out hit, 1.0f, NavMesh.AllAreas))
+        if (grabbedObject == null)
         {
-            teleportPosition = new Vector3(hit.position.x, headset.position.y, hit.position.z);
+            NavMeshHit hit;
+            if (NavMesh.SamplePosition(hitPoint, out hit, 1.0f, NavMesh.AllAreas))
+            {
+                teleportPosition = new Vector3(hit.position.x, headset.position.y, hit.position.z);
+            }
+
+            attemptTeleport = false;
         }
     }
 
@@ -219,7 +266,7 @@ public class Pointer : MonoBehaviour
         if (touchpadPosition.y > 0.5 || touchpadPosition.y < -0.5)
         {
             Vector3 relativePosition = grabbedObject.transform.localPosition;
-            if (relativePosition.z + touchpadDistance <= maxLineLength || relativePosition.z + touchpadDistance >= 1.0f)
+            if (relativePosition.z + touchpadDistance <= maxLineLength && relativePosition.z + touchpadDistance >= 1.0f)
                 relativePosition.z += touchpadDistance;
 
             grabbedObject.transform.localPosition = relativePosition;
