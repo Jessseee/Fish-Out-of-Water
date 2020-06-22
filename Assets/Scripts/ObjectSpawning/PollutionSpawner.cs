@@ -9,7 +9,7 @@ using TriangleNet.Geometry;
 using TriangleNet.Tools;
 using TriangleNet.Topology;
 
-public class PlasticSpawner : MonoBehaviour
+public class PollutionSpawner : MonoBehaviour
 {
     // Public vairables
     public Vector3 spawnPlanePosition = new Vector3(0, 0, 0);
@@ -43,6 +43,14 @@ public class PlasticSpawner : MonoBehaviour
             int randomAmount = Random.Range(0, maxPlastics);
             Debug.Log(randomAmount);
             SetPlastics(randomAmount);
+        }
+        foreach(GameObject plastic in usedPlastics)
+        {
+            if (plastic.GetComponent<FloatingObject>().IsRemoved())
+            {
+                usedPlastics.Remove(plastic);
+                availablePlastics.Add(plastic);
+            }
         }
     }
 
@@ -80,24 +88,25 @@ public class PlasticSpawner : MonoBehaviour
         // Find an available spawn location
         bool spawned = false;
         int tries = 0;
-        while (!spawned && tries < 100)
+        while (!spawned && tries < Mathf.Infinity)
         {
             float angle = Random.value * 360;
             float radius = Random.value * spawnPlaneRadius;
 
 
             Vector3 spawnLocation = new Vector3(
-                Mathf.Cos(angle) / radius + spawnPlanePosition.x,
+                Mathf.Cos(angle) * radius + spawnPlanePosition.x,
                 spawnPlanePosition.y,
-                Mathf.Sin(angle) / radius + spawnPlanePosition.z
+                Mathf.Sin(angle) * radius + spawnPlanePosition.z
                 );
             Vector3 size = plastic.GetComponent<MeshRenderer>().bounds.size;
             float checkRadius = Mathf.Max(size.x, Mathf.Max(size.y, size.z));
             if (Physics.OverlapSphere(spawnLocation, checkRadius).Length == 0)
             {
                 availablePlastics.Remove(plastic);
-                plastic.transform.position = spawnLocation;
                 plastic.SetActive(true);
+                FloatingObject floatingObject = plastic.GetComponent<FloatingObject>();
+                floatingObject.SetTarget(spawnLocation);
                 spawned = true;
                 usedPlastics.Add(plastic);
             }
@@ -124,9 +133,9 @@ public class PlasticSpawner : MonoBehaviour
     public void RemovePlastic(GameObject plastic)
     {
         usedPlastics.Remove(plastic);
-        plastic.SetActive(false);
-        plastic.transform.position = zeroLoc;
+        //plastic.SetActive(false);
+        FloatingObject floatingObject = plastic.GetComponent<FloatingObject>();
+        floatingObject.Remove();
         availablePlastics.Add(plastic);
     }
-
 }
