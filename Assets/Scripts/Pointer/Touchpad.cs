@@ -6,15 +6,13 @@ public class Touchpad : MonoBehaviour
 {
     private Animator animator;
     private Image touchpadSprite;
-    private Pointer pointer;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         touchpadSprite = GetComponentInChildren<Image>();
-        pointer = Pointer.instance;
 
-        touchpadSprite.color = pointer.pressedColor;
+        touchpadSprite.color = Pointer.instance.pressedColor;
 
         VRInput.onTouchpadDown += ProcessTouchPadDown;
         VRInput.onTouchpadUp += ProcessTouchPadUp;

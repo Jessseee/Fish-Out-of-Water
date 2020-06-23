@@ -9,7 +9,9 @@ public class VRInput : MonoBehaviour
     public static UnityAction onTouchpadDown;
     public static UnityAction onTriggerUp;
     public static UnityAction onTriggerDown;
+    public static UnityAction onTriggerDoublePressed;
     public static UnityAction<OVRInput.Controller, GameObject> onControllerSource;
+    public static UnityAction<Vector2> onTouchpadTouch;
     #endregion
 
     #region Anchors
@@ -23,6 +25,9 @@ public class VRInput : MonoBehaviour
     private OVRInput.Controller controller = OVRInput.Controller.None;
     private bool inputActive = true;
     #endregion
+
+    private float triggerCoolDown;
+    private float triggerCount;
 
     private void Awake()
     {
@@ -73,29 +78,39 @@ public class VRInput : MonoBehaviour
     private void Input()
     {
         if (OVRInput.GetDown(OVRInput.Button.PrimaryTouchpad))
-        {
             onTouchpadDown?.Invoke();
-        }
 
         if (OVRInput.GetUp(OVRInput.Button.PrimaryTouchpad))
-        {
             onTouchpadUp?.Invoke();
-        }
 
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         {
-            onTriggerDown?.Invoke();
+            if (triggerCount == 0)
+                onTriggerDown?.Invoke();
+
+            if (triggerCoolDown > 0 && triggerCount == 1)
+                onTriggerDoublePressed?.Invoke();
+            else
+            {
+                triggerCoolDown = 0.25f;
+                triggerCount += 1;
+            }
         }
+
+        if (triggerCoolDown > 0)
+            triggerCoolDown -= 1* Time.deltaTime;
+        else
+        {
+            triggerCount = 0;
+        }
+
 
         if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger))
-        {
             onTriggerUp?.Invoke();
-        }
 
-        if (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad) != Vector2.zero)
-        {
-
-        }
+        Vector2 touchpadPosition = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
+        if (touchpadPosition != Vector2.zero)
+            onTouchpadTouch?.Invoke(touchpadPosition);
     }
 
     private OVRInput.Controller UpdateSource(OVRInput.Controller check, OVRInput.Controller previous)
