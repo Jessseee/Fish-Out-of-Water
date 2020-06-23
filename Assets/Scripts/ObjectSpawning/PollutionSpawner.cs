@@ -49,6 +49,7 @@ public class PollutionSpawner : MonoBehaviour
             if (plastic.GetComponent<FloatingObject>().IsRemoved())
             {
                 usedPlastics.Remove(plastic);
+                plastic.SetActive(false);
                 availablePlastics.Add(plastic);
             }
         }

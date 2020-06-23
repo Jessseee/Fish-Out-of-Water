@@ -5,7 +5,7 @@ using UnityEngine;
 public class FloatingObject : MonoBehaviour
 {
     Vector3 bottom = new Vector3(0, -100, 0);
-    float speed = 0.1f;
+    float speed = 0.5f;
 
     bool moving = false;
     bool removing = true;
@@ -23,7 +23,7 @@ public class FloatingObject : MonoBehaviour
         if(moving)
         {
             transform.position = Vector3.Lerp(transform.position, target, Time.deltaTime * speed);
-            if(Vector3.Distance(transform.position, target) < 0.1)
+            if(Vector3.Distance(transform.position, target) < 0.2)
             {
                 if(secondTarget != Vector3.zero)
                 {
@@ -34,7 +34,7 @@ public class FloatingObject : MonoBehaviour
                     moving = false;
                 }
             }
-        } else
+        } else if (!removing)
         {
             Vector3 sinePos = target + new Vector3(0, 3*Mathf.Sin(Time.time), 0);
             transform.position = sinePos;
