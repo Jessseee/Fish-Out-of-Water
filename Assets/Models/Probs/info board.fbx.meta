@@ -1,9 +1,49 @@
 fileFormatVersion: 2
-guid: 0c1c15c493647794381bbff6ce4e950f
+guid: 25df6bc40f035bd4e8326c4b92523284
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Calendar
+    second: {fileID: 2100000, guid: a589eed2d77df4347837d472ef35123f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EnvironmentHazard
+    second: {fileID: 2100000, guid: df0183e2f2bde4d4082f5cfb2ad7699f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NoSwimming
+    second: {fileID: 2100000, guid: 13e7d1f34c089484aa92ad21cbd315b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oil
+    second: {fileID: 2100000, guid: 9a6e39166ba150b4a926017e50f2360c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 67e6612b52939a644a52a781d59a11f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Probs Static
+    second: {fileID: 2100000, guid: 625b66ab5db23964aa854038ca84da4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TextArea
+    second: {fileID: 2100000, guid: 6118cd05b0558944eb1ff196f9077043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trash
+    second: {fileID: 2100000, guid: 4be53745a361e334fa723d6460b47d48, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

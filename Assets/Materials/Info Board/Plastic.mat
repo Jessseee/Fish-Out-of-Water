@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blue
+  m_Name: Plastic
   m_Shader: {fileID: -6465566751694194690, guid: 3e12afb1c9adb004e84d125ad0d8aae1,
     type: 3}
   m_ShaderKeywords: 
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_625B33F1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 53a0d14a22f122e41a8ed546ea214d10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -54,9 +54,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_D43F051E: 0
-    - Vector1_2A356F3F: -0.3
-    - Vector1_7D023682: 0
-    - Vector1_8E592A1B: 0.3
+    - Vector1_2A356F3F: 0.24
+    - Vector1_7D023682: 1
+    - Vector1_8E592A1B: 0.4
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -79,8 +79,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3829F1B2: {r: 0.30015132, g: 0.71834004, b: 0.8962264, a: 0}
-    - Color_8ACB8489: {r: 0.51085794, g: 0.5242343, b: 0.5283019, a: 0}
+    - Color_3829F1B2: {r: 1, g: 1, b: 1, a: 0}
+    - Color_8ACB8489: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0}
     - _BaseColor: {r: 1, g: 0.41272655, b: 0.3915094, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
