@@ -3,7 +3,12 @@ guid: cb0cfca9917700d4095121dbf4c280b6
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Probs Interactive
+    second: {fileID: 2100000, guid: e2174d4a33bcb5e40b8166ad9122be2e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

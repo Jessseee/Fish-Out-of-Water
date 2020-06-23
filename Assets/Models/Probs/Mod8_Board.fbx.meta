@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: c9104c3a9cb3dec4b83e1f111dc62505
+guid: 25df6bc40f035bd4e8326c4b92523284
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Probs Interactive
-    second: {fileID: 2100000, guid: e2174d4a33bcb5e40b8166ad9122be2e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Probs Interactive.001
-    second: {fileID: 2100000, guid: e2174d4a33bcb5e40b8166ad9122be2e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
