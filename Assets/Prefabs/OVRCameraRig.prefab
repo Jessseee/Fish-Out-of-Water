@@ -785,6 +785,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openSprite: {fileID: 21300000, guid: 4023e27aeb68a2f418403ac97db04c9d, type: 3}
   closeSprite: {fileID: 21300000, guid: 868ea15b85d024c49b9070cb1ecceede, type: 3}
+  grabSprite: {fileID: 0}
+  teleportSprite: {fileID: 0}
 --- !u!1 &8637768529643176693
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,15 +929,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b35402a0fcd60c42b311d08d2041922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 10
   everythingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   interactableMask:
     serializedVersion: 2
     m_Bits: 512
+  maxLineLength: 10
   standardColor: {r: 1, g: 1, b: 1, a: 0.74509805}
   pressedColor: {r: 1, g: 0.8627451, b: 0.7019608, a: 0.74509805}
+  moveGrabbedSpeed: 1
+  teleportSpeed: 1
+  teleportCurveHeight: 3
+  teleportCurveDetail: 12
 --- !u!1 &8889011220361573357
 GameObject:
   m_ObjectHideFlags: 0
