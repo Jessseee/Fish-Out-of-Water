@@ -9,23 +9,21 @@ public class Reticule : MonoBehaviour
     public Sprite teleportSprite;
 
     private bool isTeleportReticule;
-    private Pointer pointer;
     private SpriteRenderer reticuleRenderer;
     private Camera lookAtCamera;
 
     private void Awake()
     {
-        pointer = Pointer.instance;
         lookAtCamera = Camera.main;
         reticuleRenderer = GetComponent<SpriteRenderer>();
 
-        pointer.onPointerUpdate += UpdateSprite;
+        Pointer.instance.onPointerUpdate += UpdateSprite;
         VRInput.onTouchpadDown += ProcessTouchPadDown;
         VRInput.onTouchpadUp += ProcessTouchPadUp;
         VRInput.onTriggerDown += ProcessTriggerDown;
         VRInput.onTriggerUp += ProcessTriggerUp;
 
-        reticuleRenderer.color = pointer.standardColor;
+        reticuleRenderer.color = Pointer.instance.standardColor;
     }
 
     private void Update()
@@ -36,7 +34,7 @@ public class Reticule : MonoBehaviour
 
     private void OnDestroy()
     {
-        pointer.onPointerUpdate -= UpdateSprite;
+        Pointer.instance.onPointerUpdate -= UpdateSprite;
         VRInput.onTouchpadDown -= ProcessTouchPadDown;
         VRInput.onTouchpadUp -= ProcessTouchPadUp;
         VRInput.onTriggerDown -= ProcessTriggerDown;
@@ -65,12 +63,12 @@ public class Reticule : MonoBehaviour
 
     private void ProcessTouchPadDown()
     {
-        reticuleRenderer.color = pointer.pressedColor;
+        reticuleRenderer.color = Pointer.instance.pressedColor;
     }
 
     private void ProcessTouchPadUp()
     {
-        reticuleRenderer.color = pointer.standardColor;
+        reticuleRenderer.color = Pointer.instance.standardColor;
     }
 
     private void ProcessTriggerDown()

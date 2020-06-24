@@ -838,7 +838,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7f31de375e167154aa45929466af30e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -935,12 +935,12 @@ MonoBehaviour:
   interactableMask:
     serializedVersion: 2
     m_Bits: 512
-  maxLineLength: 10
+  maxLineLength: 5
   standardColor: {r: 1, g: 1, b: 1, a: 0.74509805}
-  pressedColor: {r: 1, g: 0.8627451, b: 0.7019608, a: 0.74509805}
+  pressedColor: {r: 0.48584908, g: 0.9765577, b: 1, a: 0.74509805}
   moveGrabbedSpeed: 1
   teleportSpeed: 1
-  teleportCurveHeight: 3
+  teleportCurveHeight: 2
   teleportCurveDetail: 12
 --- !u!1 &8889011220361573357
 GameObject:
