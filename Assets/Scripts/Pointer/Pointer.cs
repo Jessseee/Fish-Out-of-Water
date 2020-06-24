@@ -10,15 +10,17 @@ public class Pointer : MonoBehaviour
     public static Pointer instance = null;
 
     #region Events
-    public UnityAction<Vector3, GameObject> onPointerUpdate;
+    public static UnityAction<Vector3, GameObject> onPointerUpdate;
     #endregion
 
     #region Masks
+    [Header("Layers")]
     public LayerMask everythingMask = 0;
     public LayerMask interactableMask = 0;
     #endregion
 
     #region Line
+    [Header("Pointer Line")]
     public float maxLineLength = 10.0f;
     public Color standardColor = Color.white;
     public Color pressedColor = Color.blue;
@@ -40,12 +42,15 @@ public class Pointer : MonoBehaviour
     #endregion
 
     #region Teleportation
-    private Vector3 teleportPosition;
-    private float teleportTime;
-    private bool attemptTeleport;
+    [Header("Teleportation")]
+    [FMODUnity.EventRef]
+    public string TeleportSoundEvent = "";
     public float teleportSpeed = 1;
     public float teleportCurveHeight = 3.0f;
     public int teleportCurveDetail = 12;
+    private Vector3 teleportPosition;
+    private float teleportTime;
+    private bool attemptTeleport;
     #endregion
 
     private void Awake()
@@ -73,8 +78,8 @@ public class Pointer : MonoBehaviour
         #endregion
 
         headset = transform.parent;
-        teleportPosition = headset.position;
         lineRenderer = GetComponent<LineRenderer>();
+        teleportPosition = headset.position;
     }
 
     private void Start()
@@ -241,6 +246,7 @@ public class Pointer : MonoBehaviour
             NavMeshHit hit;
             if (NavMesh.SamplePosition(hitPoint, out hit, 1.0f, NavMesh.AllAreas))
             {
+                FMODUnity.RuntimeManager.PlayOneShot(TeleportSoundEvent);
                 teleportPosition = new Vector3(hit.position.x, headset.position.y, hit.position.z);
             }
 
