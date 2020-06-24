@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LeftAnchor
   - RightAnchor
+  - SpawnAreaMarker
   layers:
   - Default
   - TransparentFX

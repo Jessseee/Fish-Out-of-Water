@@ -1,0 +1,2120 @@
+{
+  "2007": {
+    "Austria": {
+      "Chlorinated organic substances": 80426.2,
+      "Heavy metals": 98330.47,
+      "Inorganic substances": 7198684.3,
+      "Other organic substances": 17236886.17,
+      "Pesticides": 15.76
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 156227.55104,
+      "Heavy metals": 254275.26,
+      "Inorganic substances": 1179245505,
+      "Other organic substances": 17447130.64,
+      "Pesticides": 143.75
+    },
+    "Bulgaria": {
+      "Heavy metals": 585703,
+      "Inorganic substances": 7945022,
+      "Other organic substances": 59515168
+    },
+    "Cyprus": {
+      "Heavy metals": 59.1,
+      "Other organic substances": 46.5
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 130396.96,
+      "Heavy metals": 120289.7,
+      "Inorganic substances": 164724384.2,
+      "Other organic substances": 17058698.62,
+      "Pesticides": 1.5
+    },
+    "Denmark": {
+      "Heavy metals": 11108.94,
+      "Inorganic substances": 1596430,
+      "Other organic substances": 3709407.61
+    },
+    "Estonia": {
+      "Heavy metals": 5472.6,
+      "Inorganic substances": 856200
+    },
+    "Finland": {
+      "Chlorinated organic substances": 1382962.0002,
+      "Heavy metals": 116810.9,
+      "Inorganic substances": 80860662,
+      "Other organic substances": 46682567.05
+    },
+    "France": {
+      "Chlorinated organic substances": 469631.42047,
+      "Heavy metals": 720563.6,
+      "Inorganic substances": 1432386505,
+      "Other organic substances": 93247298.19,
+      "Pesticides": 204.47
+    },
+    "Germany": {
+      "Chlorinated organic substances": 1132169.301833,
+      "Heavy metals": 1042892.87,
+      "Inorganic substances": 32678269041,
+      "Other organic substances": 192838545.129999,
+      "Pesticides": 89.67
+    },
+    "Greece": {
+      "Chlorinated organic substances": 20400,
+      "Heavy metals": 65024.8,
+      "Inorganic substances": 12709600,
+      "Other organic substances": 18390715.4
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 70284.4,
+      "Heavy metals": 504644.41,
+      "Inorganic substances": 48183338.9,
+      "Other organic substances": 11741239
+    },
+    "Iceland": {
+      "Inorganic substances": 277100,
+      "Other organic substances": 59500
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 705.4408,
+      "Heavy metals": 30323.27,
+      "Inorganic substances": 99848394.2,
+      "Other organic substances": 5930399.39,
+      "Pesticides": 124.19
+    },
+    "Italy": {
+      "Chlorinated organic substances": 19528.15,
+      "Heavy metals": 1494751.76,
+      "Inorganic substances": 3782968847.5,
+      "Other organic substances": 64911864.11,
+      "Pesticides": 706.28
+    },
+    "Latvia": {
+      "Heavy metals": 15644.3,
+      "Inorganic substances": 3732400,
+      "Other organic substances": 1857295
+    },
+    "Lithuania": {
+      "Heavy metals": 13768.8,
+      "Inorganic substances": 7516300,
+      "Other organic substances": 118000
+    },
+    "Luxembourg": {
+      "Heavy metals": 1552,
+      "Inorganic substances": 530200,
+      "Other organic substances": 406000
+    },
+    "Malta": {
+      "Heavy metals": 1947.6,
+      "Inorganic substances": 1992660,
+      "Other organic substances": 17555000
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 33316.305562,
+      "Heavy metals": 126303.91,
+      "Inorganic substances": 1083868946.4,
+      "Other organic substances": 7458504.75,
+      "Pesticides": 6.94
+    },
+    "Norway": {
+      "Chlorinated organic substances": 350.5276100003,
+      "Heavy metals": 210802.25,
+      "Inorganic substances": 42711749.40866,
+      "Other gases": 100,
+      "Other organic substances": 142121639.86,
+      "Pesticides": 246217.5
+    },
+    "Poland": {
+      "Chlorinated organic substances": 745734.920543,
+      "Heavy metals": 623571.960000001,
+      "Inorganic substances": 4393104994.8,
+      "Other organic substances": 31712887.4,
+      "Pesticides": 271.25
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 721079.84,
+      "Heavy metals": 89050.8,
+      "Inorganic substances": 1382686027,
+      "Other organic substances": 46139618.12,
+      "Pesticides": 27.84
+    },
+    "Romania": {
+      "Chlorinated organic substances": 2495.5,
+      "Heavy metals": 180066.09,
+      "Inorganic substances": 1836860837,
+      "Other organic substances": 47865964.9,
+      "Pesticides": 52
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 311134.8,
+      "Heavy metals": 23290.21,
+      "Inorganic substances": 200103810,
+      "Other organic substances": 14481690.21,
+      "Pesticides": 12.6
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1084.6,
+      "Heavy metals": 10507.24,
+      "Inorganic substances": 17809420,
+      "Other organic substances": 1646462.35,
+      "Pesticides": 17.2
+    },
+    "Spain": {
+      "Chlorinated organic substances": 502559.170132,
+      "Heavy metals": 133058.64,
+      "Inorganic substances": 6261779277.9,
+      "Other organic substances": 44869039.74,
+      "Pesticides": 236.49
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 718106.9,
+      "Heavy metals": 162733.26,
+      "Inorganic substances": 65126284,
+      "Other organic substances": 80526865.5
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 12513,
+      "Heavy metals": 13068.72,
+      "Inorganic substances": 98589538,
+      "Other organic substances": 4037797.1
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 563358.9051,
+      "Heavy metals": 793058.7,
+      "Inorganic substances": 2101160604.96,
+      "Other organic substances": 164522724.69,
+      "Pesticides": 167.56
+    }
+  },
+  "2008": {
+    "Austria": {
+      "Chlorinated organic substances": 66770,
+      "Heavy metals": 161648.83,
+      "Inorganic substances": 8527915,
+      "Other organic substances": 18617425.47,
+      "Pesticides": 33.43
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 106547.492,
+      "Heavy metals": 248728.19,
+      "Inorganic substances": 1148917838.4,
+      "Other organic substances": 22045835.64
+    },
+    "Bulgaria": {
+      "Heavy metals": 238213.86,
+      "Inorganic substances": 12801238.8,
+      "Other organic substances": 142014294.1
+    },
+    "Cyprus": {
+      "Heavy metals": 59.5,
+      "Inorganic substances": 69200
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 119794.14,
+      "Heavy metals": 93984.73,
+      "Inorganic substances": 129948053.3,
+      "Other organic substances": 18018528.59,
+      "Pesticides": 8.8
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 3700,
+      "Heavy metals": 26202.35,
+      "Inorganic substances": 1401200,
+      "Other organic substances": 3370835.43
+    },
+    "Estonia": {
+      "Heavy metals": 6143.2,
+      "Inorganic substances": 849200,
+      "Other organic substances": 2017300
+    },
+    "Finland": {
+      "Chlorinated organic substances": 1039954.4002,
+      "Heavy metals": 111799.08,
+      "Inorganic substances": 89341110,
+      "Other organic substances": 52353238.54
+    },
+    "France": {
+      "Chlorinated organic substances": 384031.32114,
+      "Heavy metals": 686055.36,
+      "Inorganic substances": 1413280755.7,
+      "Other organic substances": 89468424.13,
+      "Pesticides": 954.99
+    },
+    "Germany": {
+      "Chlorinated organic substances": 980882.008885,
+      "Heavy metals": 1072522.58,
+      "Inorganic substances": 28074160377.6,
+      "Other organic substances": 181500107.22,
+      "Pesticides": 156.08
+    },
+    "Greece": {
+      "Chlorinated organic substances": 20100,
+      "Heavy metals": 75224.4,
+      "Inorganic substances": 11825530,
+      "Other organic substances": 18929196
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 28490,
+      "Heavy metals": 4665.88,
+      "Inorganic substances": 54499514,
+      "Other organic substances": 7803392.2
+    },
+    "Iceland": {
+      "Heavy metals": 8559,
+      "Inorganic substances": 11639580,
+      "Other organic substances": 57600
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 156.515,
+      "Heavy metals": 29100.08,
+      "Inorganic substances": 91662963.7,
+      "Other organic substances": 6404910.62,
+      "Pesticides": 102.95
+    },
+    "Italy": {
+      "Chlorinated organic substances": 17991.559,
+      "Heavy metals": 1250135.72,
+      "Inorganic substances": 3154565098.1,
+      "Other organic substances": 45164536.06,
+      "Pesticides": 1924.21
+    },
+    "Latvia": {
+      "Heavy metals": 3380,
+      "Inorganic substances": 2548000,
+      "Other organic substances": 1690190
+    },
+    "Lithuania": {
+      "Heavy metals": 13796,
+      "Inorganic substances": 11234670,
+      "Other organic substances": 104000
+    },
+    "Luxembourg": {
+      "Heavy metals": 563.2,
+      "Inorganic substances": 629770,
+      "Other organic substances": 696800
+    },
+    "Malta": {
+      "Heavy metals": 9633.44,
+      "Inorganic substances": 335560,
+      "Other organic substances": 5172900
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 36041.207899,
+      "Heavy metals": 138716.89,
+      "Inorganic substances": 1170255640.4,
+      "Other organic substances": 41375725.87,
+      "Pesticides": 4.72
+    },
+    "Norway": {
+      "Chlorinated organic substances": 86.0000000002,
+      "Heavy metals": 233102.13,
+      "Inorganic substances": 45013678.3,
+      "Other gases": 74350.411,
+      "Other organic substances": 159435759.69,
+      "Pesticides": 234504.75
+    },
+    "Poland": {
+      "Chlorinated organic substances": 689455.02015,
+      "Heavy metals": 320169.25,
+      "Inorganic substances": 3245801427.7,
+      "Other organic substances": 23247026.39,
+      "Pesticides": 329.74
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 744734.151,
+      "Heavy metals": 121513.89,
+      "Inorganic substances": 1065754405,
+      "Other organic substances": 42849076.71,
+      "Pesticides": 12.08
+    },
+    "Romania": {
+      "Chlorinated organic substances": 6557.44,
+      "Heavy metals": 384712.03,
+      "Inorganic substances": 1849094985,
+      "Other organic substances": 59638179.1,
+      "Pesticides": 36
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 431166.8,
+      "Heavy metals": 26923.03,
+      "Inorganic substances": 181568810,
+      "Other organic substances": 14122040.64
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 2636.61,
+      "Heavy metals": 7737.6,
+      "Inorganic substances": 4711815,
+      "Other organic substances": 1523669.28
+    },
+    "Spain": {
+      "Chlorinated organic substances": 505660.540232,
+      "Heavy metals": 122709.24,
+      "Inorganic substances": 6524935607.7,
+      "Other organic substances": 38204184.02,
+      "Pesticides": 168.5
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 711691.3,
+      "Heavy metals": 143947.4,
+      "Inorganic substances": 62715808,
+      "Other organic substances": 85683405.71
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 25873.001,
+      "Heavy metals": 12142.66,
+      "Inorganic substances": 98908128,
+      "Other organic substances": 9334750.1
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 742062.660629999,
+      "Heavy metals": 787300.470000001,
+      "Inorganic substances": 2500546693.71,
+      "Other organic substances": 177809454.51,
+      "Pesticides": 265.64
+    }
+  },
+  "2009": {
+    "Austria": {
+      "Chlorinated organic substances": 56820.00904,
+      "Heavy metals": 198790.56,
+      "Inorganic substances": 29014209,
+      "Other organic substances": 16218752.34,
+      "Pesticides": 32.54
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 89184.354,
+      "Heavy metals": 178275.44,
+      "Inorganic substances": 940783587.9,
+      "Other organic substances": 20511189.08,
+      "Pesticides": 74.05
+    },
+    "Bulgaria": {
+      "Heavy metals": 110144.55,
+      "Inorganic substances": 8336088,
+      "Other organic substances": 6283340.8
+    },
+    "Cyprus": {
+      "Heavy metals": 93.69,
+      "Inorganic substances": 5170
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 109832.889,
+      "Heavy metals": 131751.35,
+      "Inorganic substances": 123351225.3,
+      "Other organic substances": 13744913.73,
+      "Pesticides": 8.29
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 1540,
+      "Heavy metals": 18669.8,
+      "Inorganic substances": 1874530,
+      "Other organic substances": 3833204.75
+    },
+    "Estonia": {
+      "Heavy metals": 1160,
+      "Inorganic substances": 885240,
+      "Other organic substances": 1380448
+    },
+    "Finland": {
+      "Chlorinated organic substances": 827564.7002,
+      "Heavy metals": 98213.25,
+      "Inorganic substances": 61881943,
+      "Other organic substances": 38054935.87
+    },
+    "France": {
+      "Chlorinated organic substances": 424163.087563,
+      "Heavy metals": 959765.91,
+      "Inorganic substances": 1284282933.7,
+      "Other organic substances": 83381349.21,
+      "Pesticides": 418.31
+    },
+    "Germany": {
+      "Chlorinated organic substances": 871971.797816,
+      "Heavy metals": 1062891.64,
+      "Inorganic substances": 18085810718.2,
+      "Other organic substances": 155990587.13,
+      "Pesticides": 115.1
+    },
+    "Greece": {
+      "Heavy metals": 19526.9,
+      "Inorganic substances": 3682147,
+      "Other organic substances": 9972037.9
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 16440,
+      "Heavy metals": 389250.42,
+      "Inorganic substances": 42467010,
+      "Other organic substances": 10353210
+    },
+    "Iceland": {
+      "Inorganic substances": 611440,
+      "Other organic substances": 56000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 161.034,
+      "Heavy metals": 31642.07,
+      "Inorganic substances": 95832172.6,
+      "Other organic substances": 7372776.33,
+      "Pesticides": 102.39
+    },
+    "Italy": {
+      "Chlorinated organic substances": 31591.12,
+      "Heavy metals": 1015855.7,
+      "Inorganic substances": 3758298605.9,
+      "Other organic substances": 44816850.65,
+      "Pesticides": 792.24
+    },
+    "Latvia": {
+      "Heavy metals": 3498,
+      "Inorganic substances": 1313200,
+      "Other organic substances": 2710124
+    },
+    "Lithuania": {
+      "Heavy metals": 9501.5,
+      "Inorganic substances": 10805850,
+      "Other organic substances": 104000
+    },
+    "Luxembourg": {
+      "Heavy metals": 663.4,
+      "Inorganic substances": 543580,
+      "Other organic substances": 916000
+    },
+    "Malta": {
+      "Heavy metals": 10106.8,
+      "Inorganic substances": 399850,
+      "Other organic substances": 32951000
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 80000.372726,
+      "Heavy metals": 124807.14,
+      "Inorganic substances": 839781612.7,
+      "Other organic substances": 27117356.17,
+      "Pesticides": 8.25
+    },
+    "Norway": {
+      "Chlorinated organic substances": 45.00000000025,
+      "Heavy metals": 223352.63,
+      "Inorganic substances": 49012346.583337,
+      "Other gases": 15131.43204703,
+      "Other organic substances": 180696069.1,
+      "Pesticides": 265739.2
+    },
+    "Poland": {
+      "Chlorinated organic substances": 678596.150216001,
+      "Heavy metals": 369147.580000001,
+      "Inorganic substances": 3275563903.7,
+      "Other organic substances": 30780582.78,
+      "Pesticides": 158.58
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 934330.5108,
+      "Heavy metals": 174846.64,
+      "Inorganic substances": 1317343247.2,
+      "Other organic substances": 45282531.75,
+      "Pesticides": 5.15
+    },
+    "Romania": {
+      "Chlorinated organic substances": 1825.12,
+      "Heavy metals": 228339.95,
+      "Inorganic substances": 1439831241,
+      "Other organic substances": 52735105.9
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 182841.31,
+      "Heavy metals": 31365.3,
+      "Inorganic substances": 149518720,
+      "Other organic substances": 14729668.13,
+      "Pesticides": 163.7
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1617.91,
+      "Heavy metals": 4907,
+      "Inorganic substances": 3907404,
+      "Other organic substances": 1526605.36
+    },
+    "Spain": {
+      "Chlorinated organic substances": 463137.081392,
+      "Heavy metals": 143636.11,
+      "Inorganic substances": 4901709132.7,
+      "Other organic substances": 37912385.75,
+      "Pesticides": 185.85
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 595815.1,
+      "Heavy metals": 115163.3,
+      "Inorganic substances": 55601531,
+      "Other organic substances": 72110688.59
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 4111.001,
+      "Heavy metals": 8162.76,
+      "Inorganic substances": 119998819.28,
+      "Other organic substances": 5806835.72
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 387517.33,
+      "Heavy metals": 565601.65,
+      "Inorganic substances": 2229525136.44,
+      "Other organic substances": 150136939.1,
+      "Pesticides": 40134.66
+    }
+  },
+  "2010": {
+    "Austria": {
+      "Chlorinated organic substances": 45690.8718,
+      "Heavy metals": 127238.24,
+      "Inorganic substances": 6268784,
+      "Other organic substances": 16838426.89,
+      "Pesticides": 444.38
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 153744.638,
+      "Heavy metals": 258350.22,
+      "Inorganic substances": 1359284797.7,
+      "Other organic substances": 25679256.95,
+      "Pesticides": 68.27
+    },
+    "Bulgaria": {
+      "Heavy metals": 321389.63,
+      "Inorganic substances": 15049656,
+      "Other organic substances": 8360802
+    },
+    "Cyprus": {
+      "Heavy metals": 1.9,
+      "Inorganic substances": 198000
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 134614.484,
+      "Heavy metals": 136964.71,
+      "Inorganic substances": 144844009.4,
+      "Other organic substances": 12997906,
+      "Pesticides": 28.76
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 2290,
+      "Heavy metals": 7159.1,
+      "Inorganic substances": 1580800,
+      "Other organic substances": 3600101.2
+    },
+    "Estonia": {
+      "Heavy metals": 2371,
+      "Inorganic substances": 831900,
+      "Other organic substances": 1178600
+    },
+    "Finland": {
+      "Chlorinated organic substances": 1045989.9004,
+      "Heavy metals": 95167.6700000001,
+      "Inorganic substances": 87708042,
+      "Other organic substances": 44581967.01
+    },
+    "France": {
+      "Chlorinated organic substances": 413648.977154,
+      "Heavy metals": 749141.74,
+      "Inorganic substances": 1609608439,
+      "Other organic substances": 77379535.18,
+      "Pesticides": 53.87
+    },
+    "Germany": {
+      "Chlorinated organic substances": 1019497.99682,
+      "Heavy metals": 1165019.67,
+      "Inorganic substances": 20365328272.4,
+      "Other organic substances": 188135424.43,
+      "Pesticides": 65.68
+    },
+    "Greece": {
+      "Heavy metals": 7265.5,
+      "Inorganic substances": 5205100,
+      "Other organic substances": 7528189.9
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 467994,
+      "Heavy metals": 118369.12,
+      "Inorganic substances": 49391587.6,
+      "Other organic substances": 9515859.7
+    },
+    "Iceland": {
+      "Heavy metals": 1555,
+      "Inorganic substances": 1930330,
+      "Other organic substances": 104000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 156.691,
+      "Heavy metals": 25337.01,
+      "Inorganic substances": 113369030.1,
+      "Other organic substances": 7180569.32,
+      "Pesticides": 101.13
+    },
+    "Italy": {
+      "Chlorinated organic substances": 48025.4203,
+      "Heavy metals": 993021.8,
+      "Inorganic substances": 3272317878.5,
+      "Other organic substances": 49661193.61,
+      "Pesticides": 1207.63
+    },
+    "Latvia": {
+      "Heavy metals": 4942,
+      "Inorganic substances": 1133600,
+      "Other organic substances": 141
+    },
+    "Lithuania": {
+      "Heavy metals": 9279.9,
+      "Inorganic substances": 8420720,
+      "Other organic substances": 394000
+    },
+    "Luxembourg": {
+      "Heavy metals": 696.38,
+      "Inorganic substances": 429770,
+      "Other organic substances": 723000
+    },
+    "Malta": {
+      "Heavy metals": 3511.39,
+      "Inorganic substances": 382500,
+      "Other organic substances": 658800
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 84678.707836,
+      "Heavy metals": 128989.89,
+      "Inorganic substances": 887736273.9,
+      "Other organic substances": 32133644.78,
+      "Pesticides": 8.08
+    },
+    "Norway": {
+      "Chlorinated organic substances": 541.000000000867,
+      "Heavy metals": 233060.95,
+      "Inorganic substances": 48985563.48,
+      "Other gases": 15227,
+      "Other organic substances": 181728659.63,
+      "Pesticides": 243955.75
+    },
+    "Poland": {
+      "Chlorinated organic substances": 937766.02045,
+      "Heavy metals": 431810.93,
+      "Inorganic substances": 4605864719,
+      "Other organic substances": 39040220.75,
+      "Pesticides": 14.05
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 727833.060139,
+      "Heavy metals": 113521.62,
+      "Inorganic substances": 1315888602.6,
+      "Other organic substances": 40340850.59,
+      "Pesticides": 11.77
+    },
+    "Romania": {
+      "Chlorinated organic substances": 705,
+      "Heavy metals": 383031.04,
+      "Inorganic substances": 1250616601.7,
+      "Other organic substances": 52901181.15
+    },
+    "Serbia": {
+      "Heavy metals": 275641.9,
+      "Inorganic substances": 40755348,
+      "Other organic substances": 675.7
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 200217.65,
+      "Heavy metals": 33162.86,
+      "Inorganic substances": 165832370,
+      "Other organic substances": 15911388.35,
+      "Pesticides": 310
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 2860.7,
+      "Heavy metals": 6145.6,
+      "Inorganic substances": 4758771,
+      "Other organic substances": 1415311.77
+    },
+    "Spain": {
+      "Chlorinated organic substances": 710783.79814,
+      "Heavy metals": 256792.52,
+      "Inorganic substances": 5675417580.3,
+      "Other organic substances": 36817912.37,
+      "Pesticides": 118.27
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 481350.9,
+      "Heavy metals": 109233.28,
+      "Inorganic substances": 53649594,
+      "Other organic substances": 62082258.8
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 85986.001,
+      "Heavy metals": 13575.67,
+      "Inorganic substances": 140754430.01,
+      "Other organic substances": 6027245.16
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 574272.63057,
+      "Heavy metals": 709161.869999999,
+      "Inorganic substances": 2144200018.69,
+      "Other organic substances": 133688485.38,
+      "Pesticides": 141.7
+    }
+  },
+  "2011": {
+    "Austria": {
+      "Chlorinated organic substances": 54337.0532,
+      "Heavy metals": 154967.6,
+      "Inorganic substances": 5715860,
+      "Other organic substances": 16751375.99,
+      "Pesticides": 56.17
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 132467.444388,
+      "Heavy metals": 195807.31,
+      "Inorganic substances": 1344299108.6,
+      "Other organic substances": 24743514.56,
+      "Pesticides": 32.86
+    },
+    "Bulgaria": {
+      "Heavy metals": 67887,
+      "Inorganic substances": 13996647,
+      "Other organic substances": 8035656.3
+    },
+    "Cyprus": {
+      "Heavy metals": 123.87,
+      "Inorganic substances": 172200
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 123860,
+      "Heavy metals": 94391.69,
+      "Inorganic substances": 114342369,
+      "Other organic substances": 10274053.57
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 3180,
+      "Heavy metals": 6398.6,
+      "Inorganic substances": 1821310,
+      "Other organic substances": 2499801.03
+    },
+    "Estonia": {
+      "Heavy metals": 4860.5,
+      "Inorganic substances": 741250,
+      "Other organic substances": 1912100
+    },
+    "Finland": {
+      "Chlorinated organic substances": 944676.1026,
+      "Heavy metals": 94071.83,
+      "Inorganic substances": 78831497,
+      "Other organic substances": 38488565.99
+    },
+    "France": {
+      "Chlorinated organic substances": 593348.698468,
+      "Heavy metals": 593138.49,
+      "Inorganic substances": 1310048147.4,
+      "Other organic substances": 68133427.89,
+      "Pesticides": 373.08
+    },
+    "Germany": {
+      "Chlorinated organic substances": 899338.714456001,
+      "Heavy metals": 1147207.5,
+      "Inorganic substances": 23432034827,
+      "Other organic substances": 201239762.89,
+      "Pesticides": 40.22
+    },
+    "Greece": {
+      "Chlorinated organic substances": 72,
+      "Heavy metals": 8631.3,
+      "Inorganic substances": 7801100,
+      "Other organic substances": 9470007
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 33682,
+      "Heavy metals": 177340.72,
+      "Inorganic substances": 67930522,
+      "Other organic substances": 8341780
+    },
+    "Iceland": {
+      "Heavy metals": 5217,
+      "Inorganic substances": 1683300,
+      "Other organic substances": 199000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 56.88,
+      "Heavy metals": 29679.18,
+      "Inorganic substances": 197624661.7,
+      "Other organic substances": 5339360,
+      "Pesticides": 9.57
+    },
+    "Italy": {
+      "Chlorinated organic substances": 22336.35115,
+      "Heavy metals": 912576.18,
+      "Inorganic substances": 8854267725.1,
+      "Other organic substances": 73671576.07,
+      "Pesticides": 5602.17
+    },
+    "Latvia": {
+      "Heavy metals": 5671.2,
+      "Inorganic substances": 1497800,
+      "Other organic substances": 2060000
+    },
+    "Lithuania": {
+      "Heavy metals": 6933.4,
+      "Inorganic substances": 11487350,
+      "Other organic substances": 384000
+    },
+    "Luxembourg": {
+      "Heavy metals": 569.65,
+      "Inorganic substances": 411000,
+      "Other organic substances": 475808
+    },
+    "Malta": {
+      "Heavy metals": 13290.1,
+      "Inorganic substances": 28652300,
+      "Other organic substances": 204516,
+      "Pesticides": 66.4
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 76661.0071659999,
+      "Heavy metals": 120782.12,
+      "Inorganic substances": 957240143.7,
+      "Other organic substances": 31241175.43,
+      "Pesticides": 6.9
+    },
+    "Norway": {
+      "Chlorinated organic substances": 109.0000000002,
+      "Heavy metals": 231350.39,
+      "Inorganic substances": 47372142.17,
+      "Other gases": 426730,
+      "Other organic substances": 183382797.06,
+      "Pesticides": 210616
+    },
+    "Poland": {
+      "Chlorinated organic substances": 704141.86,
+      "Heavy metals": 397705.55,
+      "Inorganic substances": 4415659640.7,
+      "Other organic substances": 33561178.3,
+      "Pesticides": 13.9
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 722587.643647,
+      "Heavy metals": 105840.14,
+      "Inorganic substances": 1334149587.6,
+      "Other organic substances": 40291728.834,
+      "Pesticides": 959.87
+    },
+    "Romania": {
+      "Chlorinated organic substances": 332.5,
+      "Heavy metals": 327525.23,
+      "Inorganic substances": 1225829135,
+      "Other organic substances": 53242710.8
+    },
+    "Serbia": {
+      "Chlorinated organic substances": 18,
+      "Heavy metals": 257127,
+      "Inorganic substances": 75042834,
+      "Other organic substances": 2806500
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 130981.592,
+      "Heavy metals": 26243.36,
+      "Inorganic substances": 157550670,
+      "Other organic substances": 12194746.89
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1512.7,
+      "Heavy metals": 5137.8,
+      "Inorganic substances": 3635985,
+      "Other organic substances": 1376325.55
+    },
+    "Spain": {
+      "Chlorinated organic substances": 552411.230108,
+      "Heavy metals": 162270.04,
+      "Inorganic substances": 5861204499.2,
+      "Other organic substances": 39454076.73,
+      "Pesticides": 49.61
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 478328.07,
+      "Heavy metals": 108089.43,
+      "Inorganic substances": 61446006,
+      "Other organic substances": 61001860.7
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 93450,
+      "Heavy metals": 9833.7,
+      "Inorganic substances": 148882413.82,
+      "Other organic substances": 6587317.5
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 567948.22,
+      "Heavy metals": 683094.96,
+      "Inorganic substances": 2371496573.58,
+      "Other organic substances": 131777793.84,
+      "Pesticides": 344.28
+    }
+  },
+  "2012": {
+    "Austria": {
+      "Chlorinated organic substances": 49241.4916,
+      "Heavy metals": 85897.38,
+      "Inorganic substances": 6494219,
+      "Other organic substances": 16555878.66,
+      "Pesticides": 53.69
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 91635.80051,
+      "Heavy metals": 306778.78,
+      "Inorganic substances": 1155595985.7,
+      "Other organic substances": 22986092.64,
+      "Pesticides": 12.22
+    },
+    "Bulgaria": {
+      "Heavy metals": 144595.56,
+      "Inorganic substances": 15097540,
+      "Other organic substances": 8536127.7
+    },
+    "Cyprus": {
+      "Heavy metals": 306.61,
+      "Inorganic substances": 149550
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 141206.9,
+      "Heavy metals": 89288.63,
+      "Inorganic substances": 84442901,
+      "Other organic substances": 10936646.7,
+      "Pesticides": 1.4
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 2770,
+      "Heavy metals": 6208.1,
+      "Inorganic substances": 1676880,
+      "Other organic substances": 4333482.31
+    },
+    "Estonia": {
+      "Heavy metals": 4545.1,
+      "Inorganic substances": 607780,
+      "Other organic substances": 2034700
+    },
+    "Finland": {
+      "Chlorinated organic substances": 975184.0005,
+      "Heavy metals": 97111.06,
+      "Inorganic substances": 90048307,
+      "Other organic substances": 42679375.9
+    },
+    "France": {
+      "Chlorinated organic substances": 630600.2673,
+      "Heavy metals": 606699.21,
+      "Inorganic substances": 1726565004.4,
+      "Other organic substances": 62209996.754,
+      "Pesticides": 103.93
+    },
+    "Germany": {
+      "Chlorinated organic substances": 865732.7,
+      "Heavy metals": 1089745.11,
+      "Inorganic substances": 23882085289,
+      "Other organic substances": 175356033.15,
+      "Pesticides": 35.59
+    },
+    "Greece": {
+      "Chlorinated organic substances": 16600,
+      "Heavy metals": 48129.2,
+      "Inorganic substances": 9847310,
+      "Other organic substances": 13661212.6
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 25400,
+      "Heavy metals": 189480.32,
+      "Inorganic substances": 66397362,
+      "Other organic substances": 5826080
+    },
+    "Iceland": {
+      "Heavy metals": 5635,
+      "Inorganic substances": 1862003,
+      "Other organic substances": 371000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 54.4,
+      "Heavy metals": 32727.72,
+      "Inorganic substances": 216309675.2,
+      "Other organic substances": 4690030.67,
+      "Pesticides": 13.52
+    },
+    "Italy": {
+      "Chlorinated organic substances": 21085.1773,
+      "Heavy metals": 802527.069999999,
+      "Inorganic substances": 6958305801.6,
+      "Other organic substances": 49803750.13,
+      "Pesticides": 1047.21
+    },
+    "Latvia": {
+      "Heavy metals": 4896.5,
+      "Inorganic substances": 1337300,
+      "Other organic substances": 1490117
+    },
+    "Lithuania": {
+      "Heavy metals": 3589.2,
+      "Inorganic substances": 4955480,
+      "Other organic substances": 374000
+    },
+    "Luxembourg": {
+      "Chlorinated organic substances": 2800,
+      "Heavy metals": 520.6,
+      "Inorganic substances": 263030,
+      "Other organic substances": 303000
+    },
+    "Malta": {
+      "Heavy metals": 5168,
+      "Inorganic substances": 56923100,
+      "Other organic substances": 662300
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 112141.037656,
+      "Heavy metals": 123606.69,
+      "Inorganic substances": 796451426.5,
+      "Other organic substances": 29542470.57,
+      "Pesticides": 1.99
+    },
+    "Norway": {
+      "Chlorinated organic substances": 128.00000000141,
+      "Heavy metals": 275903.07,
+      "Inorganic substances": 62147256.1,
+      "Other gases": 14981,
+      "Other organic substances": 237411887.72,
+      "Pesticides": 251885.56
+    },
+    "Poland": {
+      "Chlorinated organic substances": 553884.57,
+      "Heavy metals": 449969.17,
+      "Inorganic substances": 4663628810.4,
+      "Other organic substances": 32145087.4,
+      "Pesticides": 3.68
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 981847.666,
+      "Heavy metals": 95730.69,
+      "Inorganic substances": 1042890478.8,
+      "Other organic substances": 36768730.52,
+      "Pesticides": 3.56
+    },
+    "Romania": {
+      "Chlorinated organic substances": 1100,
+      "Heavy metals": 240372.9,
+      "Inorganic substances": 591255340,
+      "Other organic substances": 27867163.4
+    },
+    "Serbia": {
+      "Chlorinated organic substances": 67900,
+      "Heavy metals": 212805,
+      "Inorganic substances": 83463240,
+      "Other organic substances": 345773
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 128953.564,
+      "Heavy metals": 12847.54,
+      "Inorganic substances": 129351570,
+      "Other organic substances": 11135987.38
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1590,
+      "Heavy metals": 3292,
+      "Inorganic substances": 3898940,
+      "Other organic substances": 1155420.61
+    },
+    "Spain": {
+      "Chlorinated organic substances": 570455.03224,
+      "Heavy metals": 143254.97,
+      "Inorganic substances": 6007853547.4,
+      "Other organic substances": 49392163.02,
+      "Pesticides": 56.17
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 531891.16073,
+      "Heavy metals": 107615.59,
+      "Inorganic substances": 70357061,
+      "Other organic substances": 60217000.5
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 50970,
+      "Heavy metals": 7496.67,
+      "Inorganic substances": 146143324.54,
+      "Other organic substances": 6569434.7
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 765962.491119999,
+      "Heavy metals": 837700.75,
+      "Inorganic substances": 2771885984.26,
+      "Other organic substances": 156891387.75,
+      "Pesticides": 331.66
+    }
+  },
+  "2013": {
+    "Austria": {
+      "Chlorinated organic substances": 58519.2748,
+      "Heavy metals": 125777.67,
+      "Inorganic substances": 30411193,
+      "Other organic substances": 17975717.41,
+      "Pesticides": 61.32
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 80455.89172,
+      "Heavy metals": 157642.11,
+      "Inorganic substances": 1196208398.4,
+      "Other organic substances": 22329379.14,
+      "Pesticides": 39.23
+    },
+    "Bulgaria": {
+      "Heavy metals": 137491.2,
+      "Inorganic substances": 20283230,
+      "Other organic substances": 7797724.4
+    },
+    "Cyprus": {
+      "Heavy metals": 3.5,
+      "Inorganic substances": 152140
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 122570.2,
+      "Heavy metals": 113901.82,
+      "Inorganic substances": 98881019,
+      "Other organic substances": 10263606.14,
+      "Pesticides": 9.51
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 3090.000118,
+      "Heavy metals": 9532.8,
+      "Inorganic substances": 1789420,
+      "Other organic substances": 4164817
+    },
+    "Estonia": {
+      "Heavy metals": 2090,
+      "Inorganic substances": 555750,
+      "Other organic substances": 1897000
+    },
+    "Finland": {
+      "Chlorinated organic substances": 873361.6005,
+      "Heavy metals": 99907.8,
+      "Inorganic substances": 94976149,
+      "Other organic substances": 36336848.74
+    },
+    "France": {
+      "Chlorinated organic substances": 581862.521188,
+      "Heavy metals": 590142.92,
+      "Inorganic substances": 1754486378.9,
+      "Other organic substances": 63216689.7,
+      "Pesticides": 97.82
+    },
+    "Germany": {
+      "Chlorinated organic substances": 1028447.772115,
+      "Heavy metals": 1105751.64,
+      "Inorganic substances": 32890510873.4,
+      "Other organic substances": 193883356.85,
+      "Pesticides": 37.77
+    },
+    "Greece": {
+      "Chlorinated organic substances": 23000,
+      "Heavy metals": 59331.21,
+      "Inorganic substances": 9903600,
+      "Other organic substances": 7784209
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 42164,
+      "Heavy metals": 433606.84,
+      "Inorganic substances": 72010514.2,
+      "Other organic substances": 11362007
+    },
+    "Iceland": {
+      "Heavy metals": 15979,
+      "Inorganic substances": 1871213,
+      "Other organic substances": 280000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 52.77,
+      "Heavy metals": 29686.53,
+      "Inorganic substances": 226335571.1,
+      "Other organic substances": 5126242.29,
+      "Pesticides": 9.8
+    },
+    "Italy": {
+      "Chlorinated organic substances": 15153.2661,
+      "Heavy metals": 883479.8,
+      "Inorganic substances": 5618245709.6,
+      "Other organic substances": 50944471.42,
+      "Pesticides": 521.3
+    },
+    "Latvia": {
+      "Heavy metals": 3590.1,
+      "Inorganic substances": 765800,
+      "Other organic substances": 1070471
+    },
+    "Lithuania": {
+      "Heavy metals": 2973.1,
+      "Inorganic substances": 6108630,
+      "Other organic substances": 332600
+    },
+    "Luxembourg": {
+      "Heavy metals": 462.88,
+      "Inorganic substances": 247200,
+      "Other organic substances": 271000
+    },
+    "Malta": {
+      "Heavy metals": 15875,
+      "Inorganic substances": 71062700,
+      "Other organic substances": 897000
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 119039.682622,
+      "Heavy metals": 120119.81,
+      "Inorganic substances": 812844384.5,
+      "Other organic substances": 27067251.5,
+      "Pesticides": 5.82
+    },
+    "Norway": {
+      "Chlorinated organic substances": 99.000127,
+      "Heavy metals": 262914.45,
+      "Inorganic substances": 53536561.5,
+      "Other gases": 19024.1,
+      "Other organic substances": 227760836.46
+    },
+    "Poland": {
+      "Chlorinated organic substances": 510576.44,
+      "Heavy metals": 457338.49,
+      "Inorganic substances": 4711472334.8,
+      "Other organic substances": 37710799.55,
+      "Pesticides": 10
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 722220.52,
+      "Heavy metals": 70096.93,
+      "Inorganic substances": 1107608422.2,
+      "Other organic substances": 36876349.3,
+      "Pesticides": 10.87
+    },
+    "Romania": {
+      "Chlorinated organic substances": 839.5,
+      "Heavy metals": 237425.15,
+      "Inorganic substances": 663346950.3,
+      "Other organic substances": 30859603.4,
+      "Pesticides": 9.1
+    },
+    "Serbia": {
+      "Heavy metals": 221542,
+      "Inorganic substances": 77234495,
+      "Other organic substances": 24838437
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 123898.3,
+      "Heavy metals": 20056.2,
+      "Inorganic substances": 121636290,
+      "Other organic substances": 11532841.82
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1567,
+      "Heavy metals": 4140.6,
+      "Inorganic substances": 5426353,
+      "Other organic substances": 1459070.01
+    },
+    "Spain": {
+      "Chlorinated organic substances": 739355.01,
+      "Heavy metals": 197445.57,
+      "Inorganic substances": 5541843431.3,
+      "Other organic substances": 46257507.2,
+      "Pesticides": 192.72
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 444445.7202,
+      "Heavy metals": 100796.25,
+      "Inorganic substances": 66265964,
+      "Other organic substances": 54435253.93
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 31360,
+      "Heavy metals": 6422.73,
+      "Inorganic substances": 109464153.17,
+      "Other organic substances": 6720653.9
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 542583.004475,
+      "Heavy metals": 861918.87,
+      "Inorganic substances": 2466092848.35,
+      "Other organic substances": 133929198.94,
+      "Pesticides": 130.16
+    }
+  },
+  "2014": {
+    "Austria": {
+      "Chlorinated organic substances": 37827.45,
+      "Heavy metals": 115378.86,
+      "Inorganic substances": 38729248,
+      "Other organic substances": 16740315.43,
+      "Pesticides": 58.13
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 83486.4160000001,
+      "Heavy metals": 153578.05,
+      "Inorganic substances": 999600904.4,
+      "Other organic substances": 19851662.54
+    },
+    "Bulgaria": {
+      "Heavy metals": 115875.96,
+      "Inorganic substances": 19837469,
+      "Other organic substances": 7552252
+    },
+    "Croatia": {
+      "Heavy metals": 2741.25,
+      "Inorganic substances": 5610300,
+      "Other organic substances": 548.2
+    },
+    "Cyprus": {
+      "Heavy metals": 107.75,
+      "Inorganic substances": 153860
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 72566.9,
+      "Heavy metals": 95240.55,
+      "Inorganic substances": 111790171,
+      "Other organic substances": 9242751.18,
+      "Pesticides": 3.96
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 3040.000143,
+      "Heavy metals": 8617.8,
+      "Inorganic substances": 1301630,
+      "Other organic substances": 3322287.3
+    },
+    "Estonia": {
+      "Heavy metals": 1474,
+      "Inorganic substances": 472300,
+      "Other organic substances": 2057600
+    },
+    "Finland": {
+      "Chlorinated organic substances": 784802.7005,
+      "Heavy metals": 144378.39,
+      "Inorganic substances": 93780877.6,
+      "Other organic substances": 37256231.35
+    },
+    "France": {
+      "Chlorinated organic substances": 554659.43612,
+      "Heavy metals": 508685.1,
+      "Inorganic substances": 1432385240.9,
+      "Other organic substances": 59595842.3,
+      "Pesticides": 78.18
+    },
+    "Germany": {
+      "Chlorinated organic substances": 1169201.211032,
+      "Heavy metals": 988979.42,
+      "Inorganic substances": 31594643999.6,
+      "Other organic substances": 180004231.84,
+      "Pesticides": 44.81
+    },
+    "Greece": {
+      "Chlorinated organic substances": 15400,
+      "Heavy metals": 41037.01,
+      "Inorganic substances": 8274590,
+      "Other organic substances": 8090496.8
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 43844,
+      "Heavy metals": 168520.81,
+      "Inorganic substances": 64686608.8,
+      "Other organic substances": 14035394
+    },
+    "Iceland": {
+      "Heavy metals": 5658,
+      "Inorganic substances": 1675246,
+      "Other organic substances": 167000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 289.99,
+      "Heavy metals": 36127.58,
+      "Inorganic substances": 246017348.6,
+      "Other organic substances": 5603235.01,
+      "Pesticides": 10.92
+    },
+    "Italy": {
+      "Chlorinated organic substances": 27025.4034,
+      "Heavy metals": 654790.500000001,
+      "Inorganic substances": 5907258799.9,
+      "Other organic substances": 45793220.13,
+      "Pesticides": 249.56
+    },
+    "Latvia": {
+      "Heavy metals": 4746,
+      "Inorganic substances": 574100,
+      "Other organic substances": 3090071
+    },
+    "Lithuania": {
+      "Heavy metals": 1752.1,
+      "Inorganic substances": 553580
+    },
+    "Luxembourg": {
+      "Heavy metals": 632.88,
+      "Inorganic substances": 233440,
+      "Other organic substances": 260024.4
+    },
+    "Malta": {
+      "Heavy metals": 5908,
+      "Inorganic substances": 69319900,
+      "Other organic substances": 677000
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 132127.73067,
+      "Heavy metals": 101751.3,
+      "Inorganic substances": 874783488,
+      "Other organic substances": 26331680.88,
+      "Pesticides": 103.99
+    },
+    "Norway": {
+      "Chlorinated organic substances": 121.0537,
+      "Heavy metals": 261102.18,
+      "Inorganic substances": 51178413.6,
+      "Other gases": 1949845.2,
+      "Other organic substances": 219838519.13
+    },
+    "Poland": {
+      "Chlorinated organic substances": 494680.56,
+      "Heavy metals": 459737.87,
+      "Inorganic substances": 4771326497,
+      "Other organic substances": 35641413.42,
+      "Pesticides": 6.4
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 915874.577,
+      "Heavy metals": 73576.9699999999,
+      "Inorganic substances": 369552962.9,
+      "Other organic substances": 36604195.71,
+      "Pesticides": 23.28
+    },
+    "Romania": {
+      "Heavy metals": 222931.02,
+      "Inorganic substances": 837527417.8,
+      "Other organic substances": 41490965.1,
+      "Pesticides": 9.03
+    },
+    "Serbia": {
+      "Chlorinated organic substances": 33452,
+      "Heavy metals": 254976,
+      "Inorganic substances": 174105069,
+      "Other organic substances": 17041818
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 100773,
+      "Heavy metals": 7572.98,
+      "Inorganic substances": 83320350,
+      "Other organic substances": 9443851.96
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1167,
+      "Heavy metals": 6963.3,
+      "Inorganic substances": 3643995,
+      "Other organic substances": 1385359.36
+    },
+    "Spain": {
+      "Chlorinated organic substances": 857881.57433,
+      "Heavy metals": 125567.85,
+      "Inorganic substances": 6040851058.7,
+      "Other organic substances": 42155764.72,
+      "Pesticides": 18793.11
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 472728.80062,
+      "Heavy metals": 96482.3,
+      "Inorganic substances": 51823357,
+      "Other organic substances": 54847249.8
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 56500,
+      "Heavy metals": 6449.65,
+      "Inorganic substances": 147613390.2,
+      "Other organic substances": 7051494.2
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 625737.095484001,
+      "Heavy metals": 806667.42,
+      "Inorganic substances": 1727923793.11,
+      "Other organic substances": 141856475.49,
+      "Pesticides": 284.94
+    }
+  },
+  "2015": {
+    "Austria": {
+      "Chlorinated organic substances": 30279.52,
+      "Heavy metals": 51621.84,
+      "Inorganic substances": 7304819,
+      "Other organic substances": 15099702.81,
+      "Pesticides": 32.51
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 98381.84953,
+      "Heavy metals": 126917.78,
+      "Inorganic substances": 1062376573.9,
+      "Other organic substances": 19937011.5,
+      "Pesticides": 23.99
+    },
+    "Bulgaria": {
+      "Heavy metals": 72844.61,
+      "Inorganic substances": 19645359.1,
+      "Other organic substances": 5351640.7
+    },
+    "Croatia": {
+      "Heavy metals": 5410.47,
+      "Inorganic substances": 4776400,
+      "Other organic substances": 3896
+    },
+    "Cyprus": {
+      "Heavy metals": 194.69,
+      "Inorganic substances": 161300
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 68360,
+      "Heavy metals": 91334.62,
+      "Inorganic substances": 109505857,
+      "Other organic substances": 9669578.74,
+      "Pesticides": 5.85
+    },
+    "Denmark": {
+      "Chlorinated organic substances": 3580,
+      "Heavy metals": 7117.52,
+      "Inorganic substances": 10527100,
+      "Other organic substances": 3675614.21
+    },
+    "Estonia": {
+      "Heavy metals": 1370,
+      "Inorganic substances": 431680,
+      "Other organic substances": 2089420
+    },
+    "Finland": {
+      "Chlorinated organic substances": 789819.5005,
+      "Heavy metals": 72745.65,
+      "Inorganic substances": 89736783,
+      "Other organic substances": 43080085.84
+    },
+    "France": {
+      "Chlorinated organic substances": 507329.36111,
+      "Heavy metals": 326929.27,
+      "Inorganic substances": 1734273995,
+      "Other organic substances": 57133080.64,
+      "Pesticides": 98.34
+    },
+    "Germany": {
+      "Chlorinated organic substances": 1136175.190786,
+      "Heavy metals": 1046983.55,
+      "Inorganic substances": 29170728625.5,
+      "Other organic substances": 181336217.23,
+      "Pesticides": 119.43
+    },
+    "Greece": {
+      "Chlorinated organic substances": 31416.4,
+      "Heavy metals": 20998.5,
+      "Inorganic substances": 7909650,
+      "Other organic substances": 6900554
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 23564,
+      "Heavy metals": 107291.16,
+      "Inorganic substances": 3933670,
+      "Other organic substances": 11021577
+    },
+    "Iceland": {
+      "Heavy metals": 38,
+      "Inorganic substances": 1141240,
+      "Other organic substances": 189000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 62.47,
+      "Heavy metals": 35727.52,
+      "Inorganic substances": 224711587.5,
+      "Other organic substances": 5945902.27,
+      "Pesticides": 10.05
+    },
+    "Italy": {
+      "Chlorinated organic substances": 19992.891,
+      "Heavy metals": 572343.28,
+      "Inorganic substances": 6194980370.7,
+      "Other organic substances": 258928763.59,
+      "Pesticides": 195.04
+    },
+    "Latvia": {
+      "Heavy metals": 3539.1,
+      "Inorganic substances": 618900,
+      "Other organic substances": 1040163
+    },
+    "Lithuania": {
+      "Heavy metals": 3679.4,
+      "Inorganic substances": 7688350,
+      "Other organic substances": 91176.1
+    },
+    "Luxembourg": {
+      "Heavy metals": 729,
+      "Inorganic substances": 269580,
+      "Other organic substances": 281021.8
+    },
+    "Malta": {
+      "Heavy metals": 7904.09,
+      "Inorganic substances": 49395450,
+      "Other organic substances": 1067000
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 98887.003864,
+      "Heavy metals": 106378.98,
+      "Inorganic substances": 852013636.6,
+      "Other organic substances": 24113901.8,
+      "Pesticides": 3.98
+    },
+    "Norway": {
+      "Chlorinated organic substances": 101.21897,
+      "Heavy metals": 278922.05,
+      "Inorganic substances": 59421844.6,
+      "Other gases": 1457014,
+      "Other organic substances": 255747590.46
+    },
+    "Poland": {
+      "Chlorinated organic substances": 560894.5,
+      "Heavy metals": 389748.860000001,
+      "Inorganic substances": 4531306398.5,
+      "Other organic substances": 34504101.49
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 809409.231,
+      "Heavy metals": 55395.65,
+      "Inorganic substances": 244503576.7,
+      "Other organic substances": 35061640.91,
+      "Pesticides": 16.92
+    },
+    "Romania": {
+      "Heavy metals": 102098.5,
+      "Inorganic substances": 917111772,
+      "Other organic substances": 45503708.8,
+      "Pesticides": 9.87
+    },
+    "Serbia": {
+      "Chlorinated organic substances": 8622,
+      "Heavy metals": 292336,
+      "Inorganic substances": 90783845,
+      "Other organic substances": 20899487
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 93482.78,
+      "Heavy metals": 15004.1,
+      "Inorganic substances": 73822235.5,
+      "Other organic substances": 8939064.67
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1150,
+      "Heavy metals": 4339.21,
+      "Inorganic substances": 3821117,
+      "Other organic substances": 1535215.88
+    },
+    "Spain": {
+      "Chlorinated organic substances": 1316858.29039,
+      "Heavy metals": 138303.62,
+      "Inorganic substances": 1125992954,
+      "Other organic substances": 39587971.44,
+      "Pesticides": 2362.09
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 457765.72486,
+      "Heavy metals": 99337.87,
+      "Inorganic substances": 55428610,
+      "Other organic substances": 55537985.43
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 28820,
+      "Heavy metals": 6738.11,
+      "Inorganic substances": 103581752.94,
+      "Other organic substances": 5804127.8
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 556019.62566,
+      "Heavy metals": 621798.71,
+      "Inorganic substances": 1590811124.57,
+      "Other organic substances": 138294606.08,
+      "Pesticides": 285.1
+    }
+  },
+  "2016": {
+    "Austria": {
+      "Chlorinated organic substances": 40550.87,
+      "Heavy metals": 83503.87,
+      "Inorganic substances": 7308996,
+      "Other organic substances": 17549936.75,
+      "Pesticides": 7.3
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 34747.601755,
+      "Heavy metals": 133332.41,
+      "Inorganic substances": 1013869813,
+      "Other organic substances": 21292448.9,
+      "Pesticides": 51.38
+    },
+    "Bulgaria": {
+      "Heavy metals": 74525.84,
+      "Inorganic substances": 16978290,
+      "Other organic substances": 6915645.4
+    },
+    "Croatia": {
+      "Heavy metals": 4241.84,
+      "Inorganic substances": 4633900,
+      "Other organic substances": 300.5
+    },
+    "Cyprus": {
+      "Heavy metals": 676.25,
+      "Inorganic substances": 154980
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 63933,
+      "Heavy metals": 82460.94,
+      "Inorganic substances": 66437328,
+      "Other organic substances": 9635713.09,
+      "Pesticides": 17.18
+    },
+    "Denmark": {
+      "Heavy metals": 4529.8,
+      "Inorganic substances": 8465350,
+      "Other organic substances": 3515280.5
+    },
+    "Estonia": {
+      "Heavy metals": 1384,
+      "Inorganic substances": 540070,
+      "Other organic substances": 2250200
+    },
+    "Finland": {
+      "Chlorinated organic substances": 879629.8,
+      "Heavy metals": 87312.18,
+      "Inorganic substances": 98547072.1,
+      "Other organic substances": 41115779.9
+    },
+    "France": {
+      "Chlorinated organic substances": 343871.517,
+      "Heavy metals": 127695.52,
+      "Inorganic substances": 1489431934.9,
+      "Other organic substances": 63202175.72,
+      "Pesticides": 48.27
+    },
+    "Germany": {
+      "Chlorinated organic substances": 1117126.610798,
+      "Heavy metals": 998133.139999999,
+      "Inorganic substances": 28998214440.6,
+      "Other organic substances": 176927297.41,
+      "Pesticides": 123.14
+    },
+    "Greece": {
+      "Chlorinated organic substances": 54500,
+      "Heavy metals": 147731.18,
+      "Inorganic substances": 8240070,
+      "Other organic substances": 8363143
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 30935,
+      "Heavy metals": 80742.13,
+      "Inorganic substances": 66592859,
+      "Other organic substances": 6781722.6
+    },
+    "Iceland": {
+      "Heavy metals": 110,
+      "Inorganic substances": 1188450,
+      "Other organic substances": 364000
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 61.48,
+      "Heavy metals": 24072.38,
+      "Inorganic substances": 243907988.3,
+      "Other organic substances": 7092454.53,
+      "Pesticides": 9.72
+    },
+    "Italy": {
+      "Chlorinated organic substances": 18044.52411,
+      "Heavy metals": 477857.41,
+      "Inorganic substances": 5145507756,
+      "Other organic substances": 35261650.96,
+      "Pesticides": 372.78
+    },
+    "Latvia": {
+      "Heavy metals": 2380.5,
+      "Inorganic substances": 623000,
+      "Other organic substances": 1090322
+    },
+    "Lithuania": {
+      "Heavy metals": 4795.7,
+      "Inorganic substances": 10632730,
+      "Other organic substances": 104879
+    },
+    "Luxembourg": {
+      "Heavy metals": 1517.5,
+      "Inorganic substances": 263200,
+      "Other organic substances": 281200
+    },
+    "Malta": {
+      "Heavy metals": 19482.9,
+      "Inorganic substances": 59352550,
+      "Other organic substances": 921000
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 93831.703022,
+      "Heavy metals": 95107.44,
+      "Inorganic substances": 907622375.5,
+      "Other organic substances": 22927648.64,
+      "Pesticides": 4.17
+    },
+    "Norway": {
+      "Chlorinated organic substances": 9650.18925,
+      "Heavy metals": 257095.5,
+      "Inorganic substances": 54544699.794755,
+      "Other gases": 1390857,
+      "Other organic substances": 226738894.07
+    },
+    "Poland": {
+      "Chlorinated organic substances": 685731.13,
+      "Heavy metals": 287095.48,
+      "Inorganic substances": 4742043590,
+      "Other organic substances": 35185008.86
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 880914.100404,
+      "Heavy metals": 52365.65,
+      "Inorganic substances": 287093247.6,
+      "Other organic substances": 43899922.32,
+      "Pesticides": 15.35
+    },
+    "Romania": {
+      "Heavy metals": 161631.8,
+      "Inorganic substances": 1008514217.5,
+      "Other organic substances": 48400899,
+      "Pesticides": 9.1
+    },
+    "Serbia": {
+      "Chlorinated organic substances": 8176,
+      "Heavy metals": 183168,
+      "Inorganic substances": 83643627,
+      "Other organic substances": 14291740
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 102094.46,
+      "Heavy metals": 18751.55,
+      "Inorganic substances": 70381362.5,
+      "Other organic substances": 9292803.78
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1120,
+      "Heavy metals": 7281.4,
+      "Inorganic substances": 3136631,
+      "Other organic substances": 2253027.7
+    },
+    "Spain": {
+      "Chlorinated organic substances": 418483.9774,
+      "Heavy metals": 121183.21,
+      "Inorganic substances": 1065676643.8,
+      "Other organic substances": 37970590.24,
+      "Pesticides": 286.64
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 417225.09402,
+      "Heavy metals": 97373.06,
+      "Inorganic substances": 64521679,
+      "Other organic substances": 52241756.73
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 42760,
+      "Heavy metals": 11267.53,
+      "Inorganic substances": 155009503.2,
+      "Other organic substances": 5860728.2
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 526899.654927,
+      "Heavy metals": 562750.21,
+      "Inorganic substances": 1477712603.88,
+      "Other organic substances": 130385620.06,
+      "Pesticides": 136.3
+    }
+  },
+  "2017": {
+    "Austria": {
+      "Chlorinated organic substances": 52337.41,
+      "Heavy metals": 64019.51,
+      "Inorganic substances": 27913412,
+      "Other organic substances": 15885032.56,
+      "Pesticides": 6.4
+    },
+    "Belgium": {
+      "Chlorinated organic substances": 74485.98076,
+      "Heavy metals": 138542.38,
+      "Inorganic substances": 1083379248.1,
+      "Other organic substances": 20458658.99,
+      "Pesticides": 3.83
+    },
+    "Bulgaria": {
+      "Heavy metals": 73389.21,
+      "Inorganic substances": 17784426,
+      "Other organic substances": 6689782.9
+    },
+    "Croatia": {
+      "Heavy metals": 8037.41,
+      "Inorganic substances": 4732200,
+      "Other organic substances": 978728.34
+    },
+    "Cyprus": {
+      "Heavy metals": 924.57,
+      "Inorganic substances": 942500
+    },
+    "Czech Republic": {
+      "Chlorinated organic substances": 66346.7,
+      "Heavy metals": 99670.96,
+      "Inorganic substances": 90906617.7,
+      "Other organic substances": 10239783.54,
+      "Pesticides": 1.95
+    },
+    "Denmark": {
+      "Heavy metals": 25427.2,
+      "Inorganic substances": 9367910,
+      "Other organic substances": 3457514
+    },
+    "Estonia": {
+      "Heavy metals": 2905.72,
+      "Inorganic substances": 531670,
+      "Other organic substances": 2149826
+    },
+    "Finland": {
+      "Chlorinated organic substances": 866784.2015,
+      "Heavy metals": 62128.81,
+      "Inorganic substances": 107236500.1,
+      "Other organic substances": 32092661.89
+    },
+    "France": {
+      "Chlorinated organic substances": 345863.856,
+      "Heavy metals": 127196.72,
+      "Inorganic substances": 1597973072.1,
+      "Other organic substances": 55808074.48,
+      "Pesticides": 37
+    },
+    "Germany": {
+      "Chlorinated organic substances": 1009429.960798,
+      "Heavy metals": 1000155.86,
+      "Inorganic substances": 27967319782.4,
+      "Other organic substances": 185570744.79,
+      "Pesticides": 134.32
+    },
+    "Greece": {
+      "Chlorinated organic substances": 38000,
+      "Heavy metals": 78799.81,
+      "Inorganic substances": 8020165,
+      "Other organic substances": 10617106
+    },
+    "Hungary": {
+      "Chlorinated organic substances": 46073,
+      "Heavy metals": 66724.55,
+      "Inorganic substances": 85063711,
+      "Other organic substances": 8452820.2
+    },
+    "Iceland": {
+      "Chlorinated organic substances": 1390,
+      "Heavy metals": 92,
+      "Inorganic substances": 1529100,
+      "Other organic substances": 238323
+    },
+    "Ireland": {
+      "Chlorinated organic substances": 60.37,
+      "Heavy metals": 23540.59,
+      "Inorganic substances": 265683204.3,
+      "Other organic substances": 7643311.91,
+      "Pesticides": 9.62
+    },
+    "Italy": {
+      "Chlorinated organic substances": 29042.48486,
+      "Heavy metals": 608639.15,
+      "Inorganic substances": 7339820218.2,
+      "Other organic substances": 39474019.36,
+      "Pesticides": 566.68
+    },
+    "Latvia": {
+      "Heavy metals": 2971.5,
+      "Inorganic substances": 562700,
+      "Other organic substances": 1250070
+    },
+    "Lithuania": {
+      "Heavy metals": 7165.5,
+      "Inorganic substances": 8148750,
+      "Other organic substances": 377521.7
+    },
+    "Luxembourg": {
+      "Heavy metals": 1210,
+      "Inorganic substances": 259600,
+      "Other organic substances": 253000
+    },
+    "Malta": {
+      "Heavy metals": 694490.82,
+      "Inorganic substances": 76735300,
+      "Other gases": 462.087,
+      "Other organic substances": 1036000
+    },
+    "Netherlands": {
+      "Chlorinated organic substances": 95480.123158,
+      "Heavy metals": 101999.4,
+      "Inorganic substances": 913384569.9,
+      "Other organic substances": 23768183.98,
+      "Pesticides": 4.46
+    },
+    "Norway": {
+      "Chlorinated organic substances": 55.11064,
+      "Heavy metals": 285911.73,
+      "Inorganic substances": 64026478.01,
+      "Other gases": 1293237,
+      "Other organic substances": 251447753.98,
+      "Pesticides": 1.23
+    },
+    "Poland": {
+      "Chlorinated organic substances": 865243.730304,
+      "Heavy metals": 318097.83,
+      "Inorganic substances": 5256986535,
+      "Other organic substances": 33595207.5,
+      "Pesticides": 1.26
+    },
+    "Portugal": {
+      "Chlorinated organic substances": 947502.62052,
+      "Heavy metals": 55176.87,
+      "Inorganic substances": 279765999.1,
+      "Other organic substances": 36402234.84,
+      "Pesticides": 4.64
+    },
+    "Romania": {
+      "Heavy metals": 148927.7,
+      "Inorganic substances": 1146118302,
+      "Other organic substances": 45385110,
+      "Pesticides": 8.05
+    },
+    "Serbia": {
+      "Chlorinated organic substances": 12790,
+      "Heavy metals": 683084,
+      "Inorganic substances": 132571869,
+      "Other organic substances": 12485205
+    },
+    "Slovakia": {
+      "Chlorinated organic substances": 94432.81,
+      "Heavy metals": 17918.1,
+      "Inorganic substances": 69323763.8,
+      "Other organic substances": 8274307.76
+    },
+    "Slovenia": {
+      "Chlorinated organic substances": 1621,
+      "Heavy metals": 6946.3,
+      "Inorganic substances": 3060935,
+      "Other organic substances": 1073271.01,
+      "Pesticides": 52
+    },
+    "Spain": {
+      "Chlorinated organic substances": 375966.20973,
+      "Heavy metals": 161260.39,
+      "Inorganic substances": 985651393.7,
+      "Other organic substances": 40439055.17,
+      "Pesticides": 6748.84
+    },
+    "Sweden": {
+      "Chlorinated organic substances": 436261.30963,
+      "Heavy metals": 96209.15,
+      "Inorganic substances": 81561791,
+      "Other organic substances": 55236964.4
+    },
+    "Switzerland": {
+      "Chlorinated organic substances": 29970,
+      "Heavy metals": 5449.51,
+      "Inorganic substances": 102042115.28,
+      "Other organic substances": 5160866.7
+    },
+    "United Kingdom": {
+      "Chlorinated organic substances": 513154.525013,
+      "Heavy metals": 557017.27,
+      "Inorganic substances": 1479084966.06,
+      "Other gases": 112000,
+      "Other organic substances": 130583594.49,
+      "Pesticides": 260.99
+    }
+  }
+}
