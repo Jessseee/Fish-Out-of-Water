@@ -14,6 +14,7 @@ public class ReadData : MonoBehaviour
     public string year, country, sort;
     public float pollution;
     public Boolean oilSpill, plasticSoup, waterPollution;
+    public Boolean request;
 
     Dictionary<string, Dictionary<string, Dictionary<string, float>>> data;
     Dictionary<string, Dictionary<string, float>> oil;
@@ -31,114 +32,105 @@ public class ReadData : MonoBehaviour
         oilSpill = true;
         plasticSoup = true;
         waterPollution = true;
+        request = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(data["2007"]["Austria"]["Heavy metals"]);
-        //foreach (string key in data["2007"].Keys)
-        //{
-        //    Debug.Log(key);
-        //}
-
-        if (waterPollution)
+        if (request)
         {
-            if (year != null && country != null && sort != null && year != "" && country != "" && sort != "")
+            if (waterPollution)
             {
-                print(year);
-                print(country);
-                print(sort);
-                if (data.ContainsKey(year) && data[year].ContainsKey(country) && data[year][country].ContainsKey(sort))
-                {
-                    pollution = data[year][country][sort];
-                }
-
-                // FloatStuff(sort, pollution);
-
-            }
-            else if (year != null && country != null && year != "" && country != "")
-            {
-                pollution = 0;
-                foreach (string srt in data[year][country].Keys)
-                {
-                    if (data[year][country].ContainsKey(srt))
-                    {
-                        print(srt + ": " + data[year][country][srt] + " KG");
-                        pollution = pollution + data[year][country][srt];
-                    }
-
-                }
-                print("Total pollution in " + year + " in " + country + ": " + pollution + " in KG");
-                // FloatStuff(sort, pollution);
-
-            }
-            else if (year != null && year != "")
-            {
-                pollution = 0;
-                foreach (string cntry in data[year].Keys)
-                {
-                    foreach (string srt in data[year][cntry].Keys)
-                    {
-                        if (cntry != null && srt != null && data[year][cntry].ContainsKey(srt))
-                        {
-                            pollution = pollution + data[year][cntry][srt];
-                        }
-                    }
-                    // FloatStuffTotal(pollution);
-
-                }
-                //foreach (string key in data[year].Keys)
+                //if (year != null && country != null && sort != null && year != "" && country != "" && sort != "")
                 //{
-                foreach (string srt in data["2007"]["Austria"].Keys)
-                {
-                    pollution = 0;
-                    foreach (string cntry in data[year].Keys)
-                    {
-                        if (cntry != null && srt != null && data[year][cntry].ContainsKey(srt))
-                        {
-                            pollution = pollution + data[year][cntry][srt];
-                        }
-                    }
-                    //FloatStuff(srt, pollution);
-                    print(srt + " in " + year + ": " + pollution);
-                }
+                //    print(year);
+                //    print(country);
+                //    print(sort);
+                //    if (data.ContainsKey(year) && data[year].ContainsKey(country) && data[year][country].ContainsKey(sort))
+                //    {
+                //        pollution = data[year][country][sort];
+                //    }
 
+                //    // FloatStuff(sort, pollution);
 
                 //}
-            }
-        }
+                //else if (year != null && country != null && year != "" && country != "")
+                //{
+                //    pollution = 0;
+                //    foreach (string srt in data[year][country].Keys)
+                //    {
+                //        if (data[year][country].ContainsKey(srt))
+                //        {
+                //            print(srt + ": " + data[year][country][srt] + " KG");
+                //            pollution = pollution + data[year][country][srt];
+                //        }
 
-        if (oilSpill)
-        {
-            foreach (string srt in oil[year].Keys)
+                //    }
+                //    print("Total pollution in " + year + " in " + country + ": " + pollution + " in KG");
+                //    // FloatStuff(sort, pollution);
+
+                //}
+                //else 
+                if (year != null && year != "")
+                {
+                    //looping through the standard set of keys
+                    foreach (string srt in data["2007"]["Austria"].Keys)
+                    {
+                        pollution = 0;
+                        foreach (string cntry in data[year].Keys)
+                        {
+                            if (cntry != null && srt != null && data[year][cntry].ContainsKey(srt))
+                            {
+                                pollution = pollution + data[year][cntry][srt];
+                            }
+                        }
+                        //pollutionSpawners[srt].SetPollution(pollution)
+                        print(srt + " in " + year + ": " + pollution);
+                    }
+                }
+            } else {
+                foreach (string srt in data["2007"]["Austria"].Keys)
+                {
+                    //pollutionSpawners[srt].SetPollution(0)
+                    print(srt + " in " + year + ": " + 0);
+                }
+            }
+
+            if (oilSpill)
             {
-                //FloatStuff(srt, oil[year][srt]);
-                print(srt + " in " + year + ": " + oil[year][srt]);
+                //pollutionSpawners["quantitySpilled"].SetPollution(oil[year]["quantitySpilled"])
+                print("quantitySpilled" + " in " + year + ": " + oil[year]["quantitySpilled"]);
+            } else {
+                //pollutionSpawners["quantitySpilled"].SetPollution(0)
+                print("quantitySpilled" + " in " + year + ": " + 0);
             }
-        }
 
-        if (plasticSoup)
-        {
-            foreach (string srt in plastic[year].Keys)
+            if (plasticSoup)
             {
-                //FloatStuff(srt, plastic[year][srt]);
-                print(srt + " in " + year + ": " + plastic[year][srt]);
+                //pollutionSpawners["quantitySpilled"].SetPollution(plastic[year]["quantitySpilled"])
+                print("Total g plastic" + " in " + year + ": " + plastic[year]["Total g plastic"]);
+            } else {
+                //pollutionSpawners["quantitySpilled"].SetPollution(0"])
+                print("Total g plastic" + " in " + year + ": " + 0);
             }
 
+            request = false;
         }
-
     }
+
     void CalendarFilter(string yr)
     {
         year = yr;
+        request = true;
     }
+
     void BoardFilter(Boolean oil, Boolean plastic, Boolean pollution)
     {
         oilSpill = oil;
         plasticSoup = plastic;
         waterPollution = pollution;
-
+        request = true;
     }
 
 }
