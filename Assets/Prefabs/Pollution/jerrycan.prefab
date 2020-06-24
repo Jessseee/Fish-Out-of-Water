@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7561265544518259738}
   - component: {fileID: 1563879697344261676}
   - component: {fileID: 5082467381543801557}
+  - component: {fileID: 7690900695848581962}
+  - component: {fileID: 856667771611738878}
   m_Layer: 0
   m_Name: jerrycan
   m_TagString: Untagged
@@ -79,3 +81,30 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &7690900695848581962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6824179577745548809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bee304ff07706446b910e37c36a8b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottom: {x: 0, y: -100, z: 0}
+  speed: 0.5
+--- !u!65 &856667771611738878
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6824179577745548809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13045864, y: 0.46164432, z: 0.4007534}
+  m_Center: {x: 0.0047706496, y: 0.0699584, z: 0.025376707}

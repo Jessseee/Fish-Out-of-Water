@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Probs Interactive
+  m_Name: Probs Non-Static
   m_Shader: {fileID: -6465566751694194690, guid: 3e12afb1c9adb004e84d125ad0d8aae1,
     type: 3}
   m_ShaderKeywords: 

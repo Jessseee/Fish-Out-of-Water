@@ -4,20 +4,15 @@ using UnityEngine;
 
 public class FloatingObject : MonoBehaviour
 {
-    Vector3 bottom = new Vector3(0, -100, 0);
-    float speed = 0.5f;
+    public Vector3 bottom = new Vector3(0, -100, 0);
+    public float speed = 0.5f;
+    public float bobbingHeight = 0.1f;
 
-    bool moving = false;
-    bool removing = true;
-    Vector3 target;
-    Vector3 secondTarget;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private bool moving = false;
+    private bool removing = true;
+    private Vector3 target;
+    private Vector3 secondTarget;
 
-    // Update is called once per frame
     void Update()
     {
         if(moving)
@@ -36,7 +31,7 @@ public class FloatingObject : MonoBehaviour
             }
         } else if (!removing)
         {
-            Vector3 sinePos = target + new Vector3(0, 3*Mathf.Sin(Time.time), 0);
+            Vector3 sinePos = target + new Vector3(0, bobbingHeight*Mathf.Sin(Time.time), 0);
             transform.position = sinePos;
         }
 
