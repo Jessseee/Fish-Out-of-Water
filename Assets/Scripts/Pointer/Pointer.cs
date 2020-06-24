@@ -80,6 +80,7 @@ public class Pointer : MonoBehaviour
     private void Start()
     {
         SetLineColor(standardColor);
+        lineRenderer.positionCount = teleportCurveDetail;
     }
 
     private void OnDestroy()
@@ -138,11 +139,7 @@ public class Pointer : MonoBehaviour
         if (attemptTeleport)
             drawTeleportingLine(reticulePosition);
         else
-        {
-            lineRenderer.positionCount = 2;
-            lineRenderer.SetPosition(0, lineStart);
-            lineRenderer.SetPosition(1, lineEnd);
-        }
+            lineRenderer.enabled = false;
 
         return reticulePosition;
     }
@@ -163,7 +160,7 @@ public class Pointer : MonoBehaviour
             curvePointList.Add(bezierPoint);
         }
 
-        lineRenderer.positionCount = curvePointList.Count;
+        lineRenderer.enabled = true;
         lineRenderer.SetPositions(curvePointList.ToArray());
     }
 
