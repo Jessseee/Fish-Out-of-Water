@@ -138,7 +138,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1895230229967405565, guid: 5caa9e1b3c1834c499303a530f5468b4, type: 3}
 --- !u!1 &14799406
@@ -253,7 +253,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5003366202268185646, guid: cb3a3c37a2b8c094cb1f66246bab1d0e, type: 3}
 --- !u!1 &113269304
@@ -409,7 +409,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6336567329166732831, guid: 98a3e682b4414ee428d20782697c5340, type: 3}
 --- !u!1 &684461746
@@ -670,6 +670,12 @@ Transform:
   m_Father: {fileID: 253461950}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &952691565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 952691565, guid: 9ed5be4355481ab49b503c669df392cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1738763253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1013731428 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7146205248083758696, guid: e0790709ae888be4f9402e551a1c06d8,
@@ -712,7 +718,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6336567329166732831, guid: 98a3e682b4414ee428d20782697c5340, type: 3}
 --- !u!1 &1093876157
@@ -1252,6 +1258,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 952691566, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691566, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691566, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.695
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691567, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_textAlignment
+      value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691567, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_text
+      value: 'Press touchpad to Interact
+
+        Press trigger to teleport
+
+        Double
+        press trigger to turn'
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691567, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691567, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691567, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691567, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 952691569, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2154405696805334947, guid: 9ed5be4355481ab49b503c669df392cf,
         type: 3}
       propertyPath: m_Name
@@ -1312,16 +1363,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2627799986957763898, guid: 9ed5be4355481ab49b503c669df392cf,
+    - target: {fileID: 4501556843614215829, guid: 9ed5be4355481ab49b503c669df392cf,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: tutorialText
       value: 
-      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 4510377394377701121, guid: 9ed5be4355481ab49b503c669df392cf,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7f31de375e167154aa45929466af30e4, type: 2}
+      objectReference: {fileID: 952691565}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ed5be4355481ab49b503c669df392cf, type: 3}
 --- !u!1001 &1790848440
@@ -1934,6 +1980,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_text
+      value: Fishs Out of Water is created to visualize the water pollution in this
+        world. Water pollution is a much bigger problem than most people realize
+        and does not only contain the famous plastic soup. Water pollution contains
+        chemical dumps by factories, oil spills, waste dumps etc. Hopefully Fish
+        Out of Water will inspire change by making people aware and creating a comprehensible
+        image of the problem.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 399
       objectReference: {fileID: 0}
     - target: {fileID: 8485745253887336725, guid: 213254c34d03f764884b132729bfac33,
         type: 3}

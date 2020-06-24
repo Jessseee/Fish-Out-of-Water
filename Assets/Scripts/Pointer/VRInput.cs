@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -26,6 +27,8 @@ public class VRInput : MonoBehaviour
     private bool inputActive = true;
     #endregion
 
+    public GameObject tutorialText;
+    private bool firstInput = false;
     private float triggerCoolDown;
     private float triggerCount;
 
@@ -77,6 +80,15 @@ public class VRInput : MonoBehaviour
 
     private void Input()
     {
+        if (!firstInput)
+        {
+            if (OVRInput.GetDown(OVRInput.Button.Any))
+            {
+                tutorialText.SetActive(false);
+                firstInput = true;
+            }
+        }
+
         if (OVRInput.GetDown(OVRInput.Button.PrimaryTouchpad))
             onTouchpadDown?.Invoke();
 

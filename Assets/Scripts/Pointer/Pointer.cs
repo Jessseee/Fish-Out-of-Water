@@ -98,6 +98,7 @@ public class Pointer : MonoBehaviour
 
     private void Update()
     {
+        // Smoothly lerp players between current position and teleportation target
         if (headset.position != teleportPosition && teleportTime < teleportSpeed)
         {
             teleportTime += Time.deltaTime;
@@ -124,6 +125,7 @@ public class Pointer : MonoBehaviour
 
         reticulePosition = currentOrigin.position + (currentOrigin.forward * maxLineLength);
 
+        // Make a second downward raycast to find the floor if the first one did not hit a collider
         if (attemptTeleport && hitForward.collider == null)
         {
             RaycastHit hitFloor;
@@ -144,6 +146,7 @@ public class Pointer : MonoBehaviour
         return reticulePosition;
     }
 
+    // Draw a parabolic line between the pointer and the teleportation target
     private void drawTeleportingLine(Vector3 reticulePoint)
     {
         Vector3 lineEnd = reticulePoint;

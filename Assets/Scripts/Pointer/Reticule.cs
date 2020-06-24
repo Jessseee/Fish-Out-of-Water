@@ -45,6 +45,7 @@ public class Reticule : MonoBehaviour
     {
         transform.position = point;
 
+        // Set the type of reticule depending on the object pointed at or trigger pressed
         if (isTeleportReticule)
         {
             reticuleRenderer.sprite = teleportSprite;

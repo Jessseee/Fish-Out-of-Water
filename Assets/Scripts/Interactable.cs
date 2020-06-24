@@ -15,6 +15,7 @@ public class Interactable : MonoBehaviour
 
     private void Awake()
     {
+        // Add a rigidbody if it is not present the object is grabbable
         if (grabbable && GetComponent<Rigidbody>() == null)
             gameObject.AddComponent<Rigidbody>();
     }
