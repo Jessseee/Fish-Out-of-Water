@@ -1480,6 +1480,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: shoe (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3352106900662094232, guid: eb7d4aca46333994d82ea53e8c5e02a0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb7d4aca46333994d82ea53e8c5e02a0, type: 3}
 --- !u!4 &1790848441 stripped
@@ -1682,6 +1687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: backpack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5662287772718412610, guid: 7d6456c0b86955f49a91000c6e5561d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8705217708699795793, guid: 7d6456c0b86955f49a91000c6e5561d8,
         type: 3}
@@ -1914,7 +1924,7 @@ GameObject:
   - component: {fileID: 1351109141482385762}
   - component: {fileID: 6361578784200943850}
   - component: {fileID: 6361578784200943849}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: herringbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2022,6 +2032,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shoe
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352106900662094232, guid: eb7d4aca46333994d82ea53e8c5e02a0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb7d4aca46333994d82ea53e8c5e02a0, type: 3}
@@ -2152,7 +2167,7 @@ GameObject:
   - component: {fileID: 7285787321290628158}
   - component: {fileID: 7285787321290628157}
   - component: {fileID: 7285787321290628156}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: garbage bag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2222,7 +2237,7 @@ GameObject:
   - component: {fileID: 4465875957357572421}
   - component: {fileID: 7543212039885268404}
   - component: {fileID: 7543212039885268403}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jerrycan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
