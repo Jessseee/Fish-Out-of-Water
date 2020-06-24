@@ -2487,31 +2487,31 @@ PrefabInstance:
     - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
       propertyPath: m_text
-      value: 'Fishs Out of Water is created to visualize the water pollution in this
+      value: 'Fish Out of Water is created to visualize the water pollution in this
         world. Water pollution is a much bigger problem than most people realize
-        and does not only contain the famous plastic soup. Water pollution contains
-        chemical dumps by factories, oil spills, waste dumps etc. Hopefully Fish
-        Out of Water will inspire change by making people aware and creating a comprehensible
-        image of the problem.
+        and does not only contain the famous plastic soup. It also includes chemical
+        dumps by factories, oil spills, waste dumps and more. Hopefully Fish Out
+        of Water will inspire change by making people more aware of these issues
+        and creating a comprehensible image of the problem.
 
 
-        You can change the date by pressing one of
-        the two arrows on the calendar.'
+        You can change
+        the date by pressing one of the two arrows on the calendar.'
       objectReference: {fileID: 0}
     - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 476
+      value: 493
       objectReference: {fileID: 0}
     - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 81
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 401
+      value: 418
       objectReference: {fileID: 0}
     - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
@@ -2521,7 +2521,7 @@ PrefabInstance:
     - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 81
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 8485745253887336725, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
