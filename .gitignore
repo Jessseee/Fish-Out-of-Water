@@ -95,5 +95,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# FMOD log
+# FMOD
 fmod_editor.log
+FMODStudioCache.asset
