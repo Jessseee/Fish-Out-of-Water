@@ -34,7 +34,7 @@ public class PollutionSpawner : MonoBehaviour
     // Private variables
     List<GameObject> usedPollutions;
     List<GameObject> availablePollutions;
-    public Vector3 zeroLoc;
+    Vector3 zeroLoc;
 
 
     public string GetTypeString()
