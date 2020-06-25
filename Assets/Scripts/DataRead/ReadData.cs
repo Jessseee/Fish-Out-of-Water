@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using UnityEngine.Events;
 
 public class ReadData : MonoBehaviour
 {
@@ -16,12 +17,24 @@ public class ReadData : MonoBehaviour
     public Boolean oilSpill, plasticSoup, waterPollution;
     public Boolean request;
 
+    #region Events
+    public UnityAction<string, float> onDataUpdate;
+    #endregion
+
     Dictionary<string, Dictionary<string, Dictionary<string, float>>> data;
     Dictionary<string, Dictionary<string, float>> oil;
     Dictionary<string, Dictionary<string, float>> plastic;
+
+    Dictionary<string, PollutionSpawner> pollutionSpawners;
     // Start is called before the first frame update
     void Start()
     {
+        pollutionSpawners = new Dictionary<string, PollutionSpawner>();
+        foreach (PollutionSpawner spawner in FindObjectsOfType<PollutionSpawner>())
+        {
+            pollutionSpawners.Add(spawner.GetTypeString(), spawner);
+        }
+
         data = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, Dictionary<string, float>>>>(jsonFilePoll.text);
         oil = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, float>>>(jsonFileOil.text);
         plastic = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, float>>>(jsonFilePlas.text);
@@ -32,14 +45,21 @@ public class ReadData : MonoBehaviour
         oilSpill = true;
         plasticSoup = true;
         waterPollution = true;
-        request = false;
+    }
+
+    private void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            SetFilteredData();
+        }
     }
 
     // Update is called once per frame
-    void Update()
+    void SetFilteredData()
     {
-        if (request)
         {
+            Debug.Log("Handling request");
             if (waterPollution)
             {
                 //if (year != null && country != null && sort != null && year != "" && country != "" && sort != "")
@@ -75,7 +95,7 @@ public class ReadData : MonoBehaviour
                 if (year != null && year != "")
                 {
                     //looping through the standard set of keys
-                    foreach (string srt in data["2007"]["Austria"].Keys)
+                    foreach (string srt in data["2008"]["Norway"].Keys)
                     {
                         pollution = 0;
                         foreach (string cntry in data[year].Keys)
@@ -85,34 +105,46 @@ public class ReadData : MonoBehaviour
                                 pollution = pollution + data[year][cntry][srt];
                             }
                         }
-                        //pollutionSpawners[srt].SetPollution(pollution)
-                        print(srt + " in " + year + ": " + pollution);
+                        pollutionSpawners[srt].SetPollution(pollution);
+                        onDataUpdate?.Invoke(srt, pollution);
+                        //print(srt + " in " + year + ": " + pollution);
                     }
                 }
-            } else {
-                foreach (string srt in data["2007"]["Austria"].Keys)
+            }
+            else
+            {
+                foreach (string srt in data["2008"]["Norway"].Keys)
                 {
-                    //pollutionSpawners[srt].SetPollution(0)
-                    print(srt + " in " + year + ": " + 0);
+                    pollutionSpawners[srt].SetPollution(0);
+                    onDataUpdate?.Invoke(srt, 0);
+                    //print(srt + " in " + year + ": " + 0);
                 }
             }
 
             if (oilSpill)
             {
-                //pollutionSpawners["quantitySpilled"].SetPollution(oil[year]["quantitySpilled"])
-                print("quantitySpilled" + " in " + year + ": " + oil[year]["quantitySpilled"]);
-            } else {
-                //pollutionSpawners["quantitySpilled"].SetPollution(0)
-                print("quantitySpilled" + " in " + year + ": " + 0);
+                pollutionSpawners["oil"].SetPollution(oil[year]["quantitySpilled"]);
+                onDataUpdate?.Invoke("oil", oil[year]["quantitySpilled"]);
+                //print("quantitySpilled" + " in " + year + ": " + oil[year]["quantitySpilled"]);
+            }
+            else
+            {
+                pollutionSpawners["oil"].SetPollution(0);
+                onDataUpdate?.Invoke("oil", 0);
+                //print("quantitySpilled" + " in " + year + ": " + 0);
             }
 
             if (plasticSoup)
             {
-                //pollutionSpawners["quantitySpilled"].SetPollution(plastic[year]["quantitySpilled"])
-                print("Total g plastic" + " in " + year + ": " + plastic[year]["Total g plastic"]);
-            } else {
-                //pollutionSpawners["quantitySpilled"].SetPollution(0"])
-                print("Total g plastic" + " in " + year + ": " + 0);
+                pollutionSpawners["plastic"].SetPollution(plastic[year]["Total g plastic"]);
+                onDataUpdate?.Invoke("plastic", plastic[year]["Total g plastic"]);
+                //print("Total g plastic" + " in " + year + ": " + plastic[year]["Total g plastic"]);
+            }
+            else
+            {
+                pollutionSpawners["plastic"].SetPollution(0);
+                onDataUpdate?.Invoke("plastic", 0);
+                //print("Total g plastic" + " in " + year + ": " + 0);
             }
 
             request = false;
@@ -122,7 +154,7 @@ public class ReadData : MonoBehaviour
     void CalendarFilter(string yr)
     {
         year = yr;
-        request = true;
+        SetFilteredData();
     }
 
     void BoardFilter(Boolean oil, Boolean plastic, Boolean pollution)
@@ -130,7 +162,7 @@ public class ReadData : MonoBehaviour
         oilSpill = oil;
         plasticSoup = plastic;
         waterPollution = pollution;
-        request = true;
+        SetFilteredData();
     }
 
 }

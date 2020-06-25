@@ -11,80 +11,115 @@ using TriangleNet.Topology;
 
 public class PollutionSpawner : MonoBehaviour
 {
+    public enum PollutionType
+    {
+        Plastic,
+        Oil,
+        Organic,
+        Inorganic,
+        Chlorinated,
+        Pesticides,
+        Metal,
+        Gas,
+    }
+
     // Public vairables
-    public Vector3 spawnPlanePosition = new Vector3(0, 0, 0);
+    public PollutionType type;
+    public int depth = 20;
     public int spawnPlaneRadius = 20;
-    public GameObject plasticPrefab;
-    public int maxPlastics = 100;
-    public Vector3 zeroLoc = new Vector3(0, -100, 0);
+    public GameObject pollutionPrefab;
+    public long divisionFactor = 100;
+    public int maxPollution = 100;
 
     // Private variables
-    List<GameObject> usedPlastics;
-    List<GameObject> availablePlastics;
+    List<GameObject> usedPollutions;
+    List<GameObject> availablePollutions;
+    public Vector3 zeroLoc;
 
+
+    public string GetTypeString()
+    {
+        switch (type)
+        {
+            case PollutionType.Plastic:
+                return "plastic";
+            case PollutionType.Oil:
+                return "oil";
+            case PollutionType.Organic:
+                return "Other organic substances";
+            case PollutionType.Inorganic:
+                return "Inorganic substances";
+            case PollutionType.Chlorinated:
+                return "Chlorinated organic substances";
+            case PollutionType.Pesticides:
+                return "Pesticides";
+            case PollutionType.Metal:
+                return "Heavy metals";
+            case PollutionType.Gas:
+                return "Other gases";
+            default:
+                return "";
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        usedPlastics = new List<GameObject>();
-        availablePlastics = new List<GameObject>();
-        for (int i = 0; i < maxPlastics; i++)
+        zeroLoc = transform.position + new Vector3(0, -depth, 0);
+        usedPollutions = new List<GameObject>();
+        availablePollutions = new List<GameObject>();
+        for (int i = 0; i < maxPollution; i++)
         {
-            GameObject newPlastic = Instantiate(plasticPrefab, zeroLoc, Random.rotation);
-            newPlastic.SetActive(false);
-            availablePlastics.Add(newPlastic);
+            GameObject newPollution = Instantiate(pollutionPrefab, zeroLoc, Random.rotation);
+            newPollution.SetActive(false);
+            availablePollutions.Add(newPollution);
         }
     }
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        foreach(GameObject pollution in usedPollutions)
         {
-            int randomAmount = Random.Range(0, maxPlastics);
-            Debug.Log(randomAmount);
-            SetPlastics(randomAmount);
-        }
-        foreach(GameObject plastic in usedPlastics)
-        {
-            if (plastic.GetComponent<FloatingObject>().IsRemoved())
+            if (pollution.GetComponent<FloatingObject>().IsRemoved())
             {
-                usedPlastics.Remove(plastic);
-                plastic.SetActive(false);
-                availablePlastics.Add(plastic);
+                usedPollutions.Remove(pollution);
+                pollution.SetActive(false);
+                availablePollutions.Add(pollution);
             }
         }
     }
 
-    public void SetPlastics(int plastics)
+    public void SetPollution(float pollution)
     {
-        int difference = plastics - usedPlastics.Count;
+        int numberOfObjects = (int) Math.Round(pollution / divisionFactor * maxPollution);
+        int difference = numberOfObjects - usedPollutions.Count;
         if (difference > 0)
         {
-            AddPlastics(difference);
+            AddPollutions(difference);
         }
         else if (difference < 0)
         {
-            RemovePlastics(-difference);
+            RemovePollutions(-difference);
         }
     }
 
     /// <summary>
-    /// Add a specified amount of plastics
+    /// Add a specified amount of pollutions
     /// </summary>
-    /// <param name="amount">The amount of plastics to be added</param>
-    public void AddPlastics(int amount)
+    /// <param name="amount">The amount of pollutions to be added</param>
+    public void AddPollutions(int amount)
     {
         for (int i = 0; i < amount; i++)
         {
-            AddPlastic(availablePlastics[0]);
+            AddPollution(availablePollutions[0]);
         }
     }
 
     /// <summary>
-    /// Add a specific plastic object
+    /// Add a specific pollution object
     /// </summary>
-    /// <param name="plastic">The plastic object to be added</param>
-    public void AddPlastic(GameObject plastic)
+    /// <param name="pollution">The pollution object to be added</param>
+    public void AddPollution(GameObject pollution)
     {
         // Find an available spawn location
         bool spawned = false;
@@ -96,47 +131,47 @@ public class PollutionSpawner : MonoBehaviour
 
 
             Vector3 spawnLocation = new Vector3(
-                Mathf.Cos(angle) * radius + spawnPlanePosition.x,
-                spawnPlanePosition.y,
-                Mathf.Sin(angle) * radius + spawnPlanePosition.z
+                Mathf.Cos(angle) * radius + transform.position.x,
+                transform.position.y,
+                Mathf.Sin(angle) * radius + transform.position.z
                 );
-            Vector3 size = plastic.GetComponent<MeshRenderer>().bounds.size;
+            Vector3 size = pollution.GetComponent<MeshRenderer>().bounds.size;
             float checkRadius = Mathf.Max(size.x, Mathf.Max(size.y, size.z));
             if (Physics.OverlapSphere(spawnLocation, checkRadius).Length == 0)
             {
-                availablePlastics.Remove(plastic);
-                plastic.SetActive(true);
-                FloatingObject floatingObject = plastic.GetComponent<FloatingObject>();
-                floatingObject.SetTarget(spawnLocation);
+                availablePollutions.Remove(pollution);
+                pollution.SetActive(true);
+                FloatingObject floatingObject = pollution.GetComponent<FloatingObject>();
+                floatingObject.SetTarget(spawnLocation, depth);
                 spawned = true;
-                usedPlastics.Add(plastic);
+                usedPollutions.Add(pollution);
             }
             tries++;
         }
     }
 
     /// <summary>
-    /// Remove a specified amount of plastics
+    /// Remove a specified amount of pollutions
     /// </summary>
-    /// <param name="amount">The amount of plastics to be removed</param>
-    public void RemovePlastics(int amount)
+    /// <param name="amount">The amount of pollutions to be removed</param>
+    public void RemovePollutions(int amount)
     {
         for (int i = 0; i < amount; i++)
         {
-            RemovePlastic(usedPlastics[Random.Range(0, usedPlastics.Count - 1)]);
+            RemovePollution(usedPollutions[Random.Range(0, usedPollutions.Count - 1)]);
         }
     }
 
     /// <summary>
-    /// Remove a specific plastic object
+    /// Remove a specific pollution object
     /// </summary>
-    /// <param name="plastic">The plastic object to be removed</param>
-    public void RemovePlastic(GameObject plastic)
+    /// <param name="pollution">The pollution object to be removed</param>
+    public void RemovePollution(GameObject pollution)
     {
-        usedPlastics.Remove(plastic);
-        //plastic.SetActive(false);
-        FloatingObject floatingObject = plastic.GetComponent<FloatingObject>();
-        floatingObject.Remove();
-        availablePlastics.Add(plastic);
+        usedPollutions.Remove(pollution);
+        //pollution.SetActive(false);
+        FloatingObject floatingObject = pollution.GetComponent<FloatingObject>();
+        floatingObject.Remove(depth);
+        availablePollutions.Add(pollution);
     }
 }
