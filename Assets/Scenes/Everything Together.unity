@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 764889138}
   - component: {fileID: 764889137}
   - component: {fileID: 764889136}
+  - component: {fileID: 764889144}
   m_Layer: 0
   m_Name: PollutionSpawner
   m_TagString: Untagged
@@ -336,7 +337,7 @@ MonoBehaviour:
   spawnPlaneRadius: 20
   pollutionPrefab: {fileID: 2327164886748489810, guid: 99acf9f5963a0a1448c4773ee2f5cd01,
     type: 3}
-  divisionFactor: 100
+  divisionFactor: 7448675
   maxPollution: 100
   zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!114 &764889137
@@ -356,7 +357,7 @@ MonoBehaviour:
   spawnPlaneRadius: 20
   pollutionPrefab: {fileID: 6824179577745548809, guid: 6e17e51c780bdf54ea90041c91b1dc01,
     type: 3}
-  divisionFactor: 100
+  divisionFactor: 307938
   maxPollution: 100
   zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!114 &764889138
@@ -376,7 +377,7 @@ MonoBehaviour:
   spawnPlaneRadius: 20
   pollutionPrefab: {fileID: 7028240629827315399, guid: e09aab8e7a5a9734cbeaa7f444c3200d,
     type: 3}
-  divisionFactor: 100
+  divisionFactor: 7138648
   maxPollution: 100
   zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!114 &764889139
@@ -396,7 +397,7 @@ MonoBehaviour:
   spawnPlaneRadius: 20
   pollutionPrefab: {fileID: 3118497868360959959, guid: 4145ef9f3816b024a9eb3612490cbc0c,
     type: 3}
-  divisionFactor: 100
+  divisionFactor: 57831577677
   maxPollution: 100
   zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!114 &764889140
@@ -416,7 +417,7 @@ MonoBehaviour:
   spawnPlaneRadius: 20
   pollutionPrefab: {fileID: 7114190252529031850, guid: 0aba2e5545723344abcfc490083fd67b,
     type: 3}
-  divisionFactor: 100
+  divisionFactor: 1288370807
   maxPollution: 100
   zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!114 &764889141
@@ -436,7 +437,7 @@ MonoBehaviour:
   spawnPlaneRadius: 20
   pollutionPrefab: {fileID: 899838606962671018, guid: 2d4eaabc86d78b84ebfa6499371d45fd,
     type: 3}
-  divisionFactor: 100
+  divisionFactor: 15000
   maxPollution: 100
   zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!114 &764889142
@@ -456,7 +457,7 @@ MonoBehaviour:
   spawnPlaneRadius: 20
   pollutionPrefab: {fileID: 2327164886748489810, guid: 99acf9f5963a0a1448c4773ee2f5cd01,
     type: 3}
-  divisionFactor: 100
+  divisionFactor: 7349
   maxPollution: 100
   zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!4 &764889143
@@ -467,12 +468,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764889135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 5.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &764889144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764889135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b389629e071d1f478a377c4992efcd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 7
+  depth: 20
+  spawnPlaneRadius: 20
+  pollutionPrefab: {fileID: 899838606962671018, guid: 2d4eaabc86d78b84ebfa6499371d45fd,
+    type: 3}
+  divisionFactor: 1949845
+  maxPollution: 100
+  zeroLoc: {x: 0, y: 0, z: 0}
 --- !u!1 &773641750
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 773641751}
+  - component: {fileID: 773641752}
   m_Layer: 0
   m_Name: DataManager
   m_TagString: Untagged
@@ -503,6 +525,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &773641752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773641750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5415d7bd21e8444c9ac20779a0bf774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonFilePoll: {fileID: 4900000, guid: bef0d8fff06cb454fbab172c86b4280e, type: 3}
+  jsonFileOil: {fileID: 4900000, guid: 384dd008ae2657847b07fd7ac4cffc2c, type: 3}
+  jsonFilePlas: {fileID: 4900000, guid: 288d3a4ab51cb6e4abfb9c19d86694c9, type: 3}
+  year: 2007
+  country: 
+  sort: 
+  pollution: 0
+  oilSpill: 1
+  plasticSoup: 1
+  waterPollution: 1
+  request: 0
 --- !u!1001 &978283383
 PrefabInstance:
   m_ObjectHideFlags: 0

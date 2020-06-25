@@ -20,6 +20,7 @@ public class PollutionSpawner : MonoBehaviour
         Chlorinated,
         Pesticides,
         Metal,
+        Gas,
     }
 
     // Public vairables
@@ -27,7 +28,7 @@ public class PollutionSpawner : MonoBehaviour
     public int depth = 20;
     public int spawnPlaneRadius = 20;
     public GameObject pollutionPrefab;
-    public int divisionFactor = 100;
+    public long divisionFactor = 100;
     public int maxPollution = 100;
 
     // Private variables
@@ -54,6 +55,8 @@ public class PollutionSpawner : MonoBehaviour
                 return "Pesticides";
             case PollutionType.Metal:
                 return "Heavy metals";
+            case PollutionType.Gas:
+                return "Other gases";
             default:
                 return "";
         }
@@ -75,12 +78,6 @@ public class PollutionSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            int randomAmount = Random.Range(0, maxPollution);
-            Debug.Log(randomAmount);
-            SetPollution(randomAmount);
-        }
         foreach(GameObject pollution in usedPollutions)
         {
             if (pollution.GetComponent<FloatingObject>().IsRemoved())
@@ -94,7 +91,7 @@ public class PollutionSpawner : MonoBehaviour
 
     public void SetPollution(float pollution)
     {
-        int numberOfObjects = (int) Math.Round(pollution / divisionFactor);
+        int numberOfObjects = (int) Math.Round(pollution / divisionFactor * maxPollution);
         int difference = numberOfObjects - usedPollutions.Count;
         if (difference > 0)
         {
@@ -145,7 +142,7 @@ public class PollutionSpawner : MonoBehaviour
                 availablePollutions.Remove(pollution);
                 pollution.SetActive(true);
                 FloatingObject floatingObject = pollution.GetComponent<FloatingObject>();
-                floatingObject.SetTarget(spawnLocation);
+                floatingObject.SetTarget(spawnLocation, depth);
                 spawned = true;
                 usedPollutions.Add(pollution);
             }
@@ -174,7 +171,7 @@ public class PollutionSpawner : MonoBehaviour
         usedPollutions.Remove(pollution);
         //pollution.SetActive(false);
         FloatingObject floatingObject = pollution.GetComponent<FloatingObject>();
-        floatingObject.Remove();
+        floatingObject.Remove(depth);
         availablePollutions.Add(pollution);
     }
 }

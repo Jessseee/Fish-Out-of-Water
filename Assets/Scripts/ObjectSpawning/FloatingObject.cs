@@ -1,10 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class FloatingObject : MonoBehaviour
 {
-    public Vector3 bottom = new Vector3(0, -100, 0);
     public float speed = 0.5f;
     public float bobbingHeight = 0.1f;
 
@@ -12,6 +12,12 @@ public class FloatingObject : MonoBehaviour
     private bool removing = true;
     private Vector3 target;
     private Vector3 secondTarget;
+    private float sineOffset;
+
+    private void Start()
+    {
+        sineOffset = UnityEngine.Random.Range(0, 2 * Mathf.PI);
+    }
 
     void Update()
     {
@@ -31,8 +37,8 @@ public class FloatingObject : MonoBehaviour
             }
         } else if (!removing)
         {
-            Vector3 sinePos = target + new Vector3(0, bobbingHeight*Mathf.Sin(Time.time), 0);
-            transform.position = sinePos;
+            Vector3 sinePos = target + new Vector3(0, bobbingHeight*Mathf.Sin(Time.time+sineOffset), 0);
+            transform.position = Vector3.Lerp(transform.position, sinePos, Time.deltaTime*speed);
         }
 
         SetColliderPosition();
@@ -42,13 +48,13 @@ public class FloatingObject : MonoBehaviour
     /// Set the target of the floating object
     /// </summary>
     /// <param name="position">The target position</param>
-    public void SetTarget(Vector3 position)
+    public void SetTarget(Vector3 position, int depth)
     {
         removing = false;
         if(!moving)
         {
             target = position;
-            transform.position = position + bottom;
+            transform.position = position + new Vector3(0, -depth, 0);
             moving = true;
             SetColliderPosition();
         } else
@@ -60,9 +66,9 @@ public class FloatingObject : MonoBehaviour
     /// <summary>
     /// Remove the floating object
     /// </summary>
-    public void Remove()
+    public void Remove(int depth)
     {
-        target += bottom;
+        target += new Vector3(0, -depth, 0);
         moving = true;
         removing = true;
     }

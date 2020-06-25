@@ -93,8 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bee304ff07706446b910e37c36a8b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottom: {x: 0, y: -1, z: 0}
-  speed: 0.1
+  speed: 0.5
   bobbingHeight: 0.1
 --- !u!65 &-7054142496838868488
 BoxCollider:
