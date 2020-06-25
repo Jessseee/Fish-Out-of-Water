@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
-using TriangleNet;
-using TriangleNet.Geometry;
-using TriangleNet.Tools;
-using TriangleNet.Topology;
 
 public class PollutionSpawner : MonoBehaviour
 {
@@ -32,9 +26,9 @@ public class PollutionSpawner : MonoBehaviour
     public int maxPollution = 100;
 
     // Private variables
-    List<GameObject> usedPollutions;
-    List<GameObject> availablePollutions;
-    public Vector3 zeroLoc;
+    private List<GameObject> usedPollutions;
+    private List<GameObject> availablePollutions;
+    private Vector3 zeroLoc;
 
 
     public string GetTypeString()
@@ -124,11 +118,10 @@ public class PollutionSpawner : MonoBehaviour
         // Find an available spawn location
         bool spawned = false;
         int tries = 0;
-        while (!spawned && tries < Mathf.Infinity)
+        while (!spawned && tries < 1000)
         {
             float angle = Random.value * 360;
             float radius = Random.value * spawnPlaneRadius;
-
 
             Vector3 spawnLocation = new Vector3(
                 Mathf.Cos(angle) * radius + transform.position.x,

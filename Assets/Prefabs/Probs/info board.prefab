@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.062, y: 1.69}
+  m_AnchoredPosition: {x: -0.062, y: 1.73}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1397780551
@@ -825,9 +825,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21cd81464cb03924a9076c7ac5477ccd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  calendarDate: 2007
-  calendarDateRange: d7070000de070000
+  calendarCurrentDate: 2007
+  calendarMinDate: 2007
+  calendarMaxDate: 2017
   calendarDateText: {fileID: 2142225574170070278}
+  calendarFlipSoundEvent: event:/CalenderFlip
 --- !u!1 &1633800523733705081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,7 +1692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.234, y: 1.6630001}
+  m_AnchoredPosition: {x: -0.234, y: 1.7030001}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1992013260468885271
@@ -1767,12 +1769,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fishs Out Of Water is created to visualize the water pollution in this
+  m_text: 'Fish Out of Water is created to visualize the water pollution in this
     world. Water pollution is a much bigger problem than most people realize and
-    does not only contain the famous plastic soup. Water pollution contains chemical
-    dumps by factories, oil spills, waste dumps etc. Hopefully Fish Out of Water
-    will inspire change by making people aware and creating a comprehensible image
-    of the problem.
+    does not only contain the famous plastic soup. It also includes chemical dumps
+    by factories, oil spills, waste dumps and more. Hopefully Fish Out of Water will
+    inspire change by making people more aware of these issues and creating a comprehensible
+    image of the problem.
+
+
+    You can change the date by pressing one of the two
+    arrows on the calendar.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1817,7 +1823,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 418
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1841,12 +1847,12 @@ MonoBehaviour:
   m_margin: {x: -17.701689, y: 0.15984374, z: -29.749088, w: -10.9879465}
   m_textInfo:
     textComponent: {fileID: 8326917681252761902}
-    characterCount: 400
+    characterCount: 493
     spriteCount: 0
-    spaceCount: 65
-    wordCount: 66
+    spaceCount: 86
+    wordCount: 86
     linkCount: 0
-    lineCount: 6
+    lineCount: 9
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
