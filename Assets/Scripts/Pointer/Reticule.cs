@@ -17,7 +17,7 @@ public class Reticule : MonoBehaviour
         lookAtCamera = Camera.main;
         reticuleRenderer = GetComponent<SpriteRenderer>();
 
-        Pointer.instance.onPointerUpdate += UpdateSprite;
+        Pointer.onPointerUpdate += UpdateSprite;
         VRInput.onTouchpadDown += ProcessTouchPadDown;
         VRInput.onTouchpadUp += ProcessTouchPadUp;
         VRInput.onTriggerDown += ProcessTriggerDown;
@@ -34,7 +34,7 @@ public class Reticule : MonoBehaviour
 
     private void OnDestroy()
     {
-        Pointer.instance.onPointerUpdate -= UpdateSprite;
+        Pointer.onPointerUpdate -= UpdateSprite;
         VRInput.onTouchpadDown -= ProcessTouchPadDown;
         VRInput.onTouchpadUp -= ProcessTouchPadUp;
         VRInput.onTriggerDown -= ProcessTriggerDown;

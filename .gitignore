@@ -94,3 +94,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# FMOD log
+fmod_editor.log

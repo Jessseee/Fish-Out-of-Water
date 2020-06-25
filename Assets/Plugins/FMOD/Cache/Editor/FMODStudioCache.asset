@@ -1,0 +1,1424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9212859082960280720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286295259199997
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8680462649176465155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286268747678325
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8671667178689821237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286293416184262
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8230635846481734721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286294816212152
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8070843666968112119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2017
+  m_EditorClassIdentifier: 
+  Path: event:/2017
+  guid: 2d22ca55fa4d2146a944829c5e7a79ba
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17252
+--- !u!114 &-7981871161939804752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2015
+  m_EditorClassIdentifier: 
+  Path: event:/2015
+  guid: 6668a26163fac54eb2997f9688e5aced
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13676
+--- !u!114 &-7906595656519726191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2015
+  m_EditorClassIdentifier: 
+  Path: event:/2015
+  guid: 6668a26163fac54eb2997f9688e5aced
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13676
+--- !u!114 &-7734597614231343818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286295260509981
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7055134197725993109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CalenderFlip
+  m_EditorClassIdentifier: 
+  Path: event:/CalenderFlip
+  guid: c75d9de262006c43b6bc6aeecf896383
+  Banks:
+  - {fileID: -8230635846481734721}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1367
+--- !u!114 &-7036676580730925832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286261874097553
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7012481021323939470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286265565800988
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6589308247562511101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2012
+  m_EditorClassIdentifier: 
+  Path: event:/2012
+  guid: d145a26d8390eb4db2ec62f698f66ae4
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16857
+--- !u!114 &-6120170518652270836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2011
+  m_EditorClassIdentifier: 
+  Path: event:/2011
+  guid: 2673fd39b98c9943b40b83ed15bcade3
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21942
+--- !u!114 &-5946112583486814278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Water
+  m_EditorClassIdentifier: 
+  Path: event:/Water
+  guid: e9f40a4b6f4dbe4cafdbdc7aa56b581a
+  Banks:
+  - {fileID: 8036946897676419379}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69643
+--- !u!114 &-5748097983780234824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286293417694233
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5691488330783188206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286312860875785
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5486663133464031043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2014
+  m_EditorClassIdentifier: 
+  Path: event:/2014
+  guid: a17c3c001c590443a96f25bdca6c8566
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16370
+--- !u!114 &-4925284260387393392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286351222921637
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4838749411104889380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2009
+  m_EditorClassIdentifier: 
+  Path: event:/2009
+  guid: eea1f773250ef648b9ac1ec072aa6493
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17252
+--- !u!114 &-4647873371835807306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286270139741747
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4284992346319887057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286268749252334
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4224307785876352654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637286294816911723
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1442
+  Exists: 1
+--- !u!114 &-4220086166699211639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286351223721662
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3297154527459142741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2008
+  m_EditorClassIdentifier: 
+  Path: event:/2008
+  guid: 4f53b2222a7b7645bc64992dfc2c7e0c
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21106
+--- !u!114 &-3167578881648498628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286348143819480
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2687965318848155259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286270140223232
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2263014959165136682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  guid: 8c45b2eac3a0c946845defcc61920e95
+  Banks:
+  - {fileID: -4220086166699211639}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 218734
+--- !u!114 &-2043243190713998062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2010
+  m_EditorClassIdentifier: 
+  Path: event:/2010
+  guid: 4f407b83f21b9e4a85312fdc4128b07b
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17275
+--- !u!114 &-1578382288761332684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2013
+  m_EditorClassIdentifier: 
+  Path: event:/2013
+  guid: 56b60bdbbde66a40958863a96f7d0c86
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14419
+--- !u!114 &-1406043716602311841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioStatic
+  m_EditorClassIdentifier: 
+  Path: event:/RadioStatic
+  guid: cb13361ce69de54389c0baea52e3ad34
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3132
+--- !u!114 &-984366438405147741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  guid: 8c45b2eac3a0c946845defcc61920e95
+  Banks:
+  - {fileID: 8036946897676419379}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 218734
+--- !u!114 &-582345443706261826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286276126878700
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-533515390507390259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2011
+  m_EditorClassIdentifier: 
+  Path: event:/2011
+  guid: 2673fd39b98c9943b40b83ed15bcade3
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21942
+--- !u!114 &-511629737791635756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286270138727431
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-283861538379791308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2008
+  m_EditorClassIdentifier: 
+  Path: event:/2008
+  guid: 4f53b2222a7b7645bc64992dfc2c7e0c
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21106
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 7104776523998448716}
+  - {fileID: -4925284260387393392}
+  - {fileID: -4220086166699211639}
+  - {fileID: 496234408277095958}
+  EditorEvents:
+  - {fileID: 7125203595672060971}
+  - {fileID: 5823698821203329317}
+  - {fileID: 1214291975069246152}
+  - {fileID: -2263014959165136682}
+  - {fileID: 3633157524027169822}
+  - {fileID: 3401601222243463367}
+  - {fileID: -533515390507390259}
+  - {fileID: 1215401803155564600}
+  - {fileID: 4741015493965177728}
+  - {fileID: 6729743781612713934}
+  - {fileID: -283861538379791308}
+  - {fileID: 2140410423177892189}
+  - {fileID: -7981871161939804752}
+  - {fileID: 1353517589558380752}
+  - {fileID: 6097169162081970675}
+  - {fileID: 2628692196910216244}
+  - {fileID: -4838749411104889380}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4220086166699211639}
+  StringsBanks:
+  - {fileID: 7104776523998448716}
+  stringsBankWriteTime: 637286351223761678
+  cacheVersion: 3
+--- !u!114 &6430770222024536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286312860285772
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &71139457552774504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/try11.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/try11.bank
+  SubDir: 
+  lastModified: 637286265566056141
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &409379892669060145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286295259860022
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &496234408277095958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286351224491663
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &602042637430504824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Teleport
+  m_EditorClassIdentifier: 
+  Path: event:/Teleport
+  guid: 41181bec713a424e86e69ca30a55896b
+  Banks:
+  - {fileID: -8230635846481734721}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1827
+--- !u!114 &985309579146413898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286268738868330
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1214291975069246152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Birds
+  m_EditorClassIdentifier: 
+  Path: event:/Birds
+  guid: 45bd75948d1a9743a8a533558e6440f9
+  Banks:
+  - {fileID: -4220086166699211639}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 112569
+--- !u!114 &1215401803155564600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2017
+  m_EditorClassIdentifier: 
+  Path: event:/2017
+  guid: 2d22ca55fa4d2146a944829c5e7a79ba
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17252
+--- !u!114 &1353517589558380752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2014
+  m_EditorClassIdentifier: 
+  Path: event:/2014
+  guid: a17c3c001c590443a96f25bdca6c8566
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16370
+--- !u!114 &1661267667863456840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286276126525586
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2106597309200017500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286348152909511
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2140410423177892189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2013
+  m_EditorClassIdentifier: 
+  Path: event:/2013
+  guid: 56b60bdbbde66a40958863a96f7d0c86
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14419
+--- !u!114 &2628692196910216244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2012
+  m_EditorClassIdentifier: 
+  Path: event:/2012
+  guid: d145a26d8390eb4db2ec62f698f66ae4
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16857
+--- !u!114 &3142065897366223780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Radio.bank
+  SubDir: 
+  lastModified: 637286294817491713
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &3388811782897479821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286276125834087
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3401601222243463367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2007
+  m_EditorClassIdentifier: 
+  Path: event:/2007
+  guid: 214c91b44f33564abdeb36df3f77e98a
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18761
+--- !u!114 &3633157524027169822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Water
+  m_EditorClassIdentifier: 
+  Path: event:/Water
+  guid: e9f40a4b6f4dbe4cafdbdc7aa56b581a
+  Banks:
+  - {fileID: -4220086166699211639}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69643
+--- !u!114 &4306275689185828108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286293417104233
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4349169326041660589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2009
+  m_EditorClassIdentifier: 
+  Path: event:/2009
+  guid: eea1f773250ef648b9ac1ec072aa6493
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17252
+--- !u!114 &4709336549238335374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286348144509481
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4741015493965177728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2016
+  m_EditorClassIdentifier: 
+  Path: event:/2016
+  guid: 43e10e1e169ba84baaaf88464b498158
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19110
+--- !u!114 &5124247826000695984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2016
+  m_EditorClassIdentifier: 
+  Path: event:/2016
+  guid: 43e10e1e169ba84baaaf88464b498158
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19110
+--- !u!114 &5823698821203329317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CalenderFlip
+  m_EditorClassIdentifier: 
+  Path: event:/CalenderFlip
+  guid: c75d9de262006c43b6bc6aeecf896383
+  Banks:
+  - {fileID: -4925284260387393392}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1367
+--- !u!114 &6097169162081970675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioStatic
+  m_EditorClassIdentifier: 
+  Path: event:/RadioStatic
+  guid: cb13361ce69de54389c0baea52e3ad34
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &6277466419276294977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interaction.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Interaction.bank
+  SubDir: 
+  lastModified: 637286312859646102
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6578637298838948483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/try11.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/try11.bank
+  SubDir: 
+  lastModified: 637286261874188311
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6729743781612713934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2010
+  m_EditorClassIdentifier: 
+  Path: event:/2010
+  guid: 4f407b83f21b9e4a85312fdc4128b07b
+  Banks:
+  - {fileID: 496234408277095958}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17275
+--- !u!114 &6879458806165692659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Birds
+  m_EditorClassIdentifier: 
+  Path: event:/Birds
+  guid: 45bd75948d1a9743a8a533558e6440f9
+  Banks:
+  - {fileID: 8036946897676419379}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 112569
+--- !u!114 &7104776523998448716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637286351223761678
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1442
+  Exists: 1
+--- !u!114 &7125203595672060971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Teleport
+  m_EditorClassIdentifier: 
+  Path: event:/Teleport
+  guid: 41181bec713a424e86e69ca30a55896b
+  Banks:
+  - {fileID: -4925284260387393392}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 480
+--- !u!114 &7516221696800954604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2007
+  m_EditorClassIdentifier: 
+  Path: event:/2007
+  guid: 214c91b44f33564abdeb36df3f77e98a
+  Banks:
+  - {fileID: 3142065897366223780}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18761
+--- !u!114 &8036946897676419379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Projects/FishOutOfWater/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637286294816861713
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
