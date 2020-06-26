@@ -25,7 +25,7 @@ public class InfoBoard : MonoBehaviour
     public Sprite checkedBox;
     public Sprite uncheckedBox;
 
-    private bool filterOil, filterPlastic, filterInorganic = true;
+    private bool filterOil = true, filterPlastic = true, filterInorganic = true;
 
     [FMODUnity.EventRef]
     public string calendarFlipSoundEvent = "";
@@ -101,19 +101,30 @@ public class InfoBoard : MonoBehaviour
     {
         if (type == "plastic")
         {
-            if (calendarCurrentDate > 2013)
+            if (calendarCurrentDate > 2013 || amount == 0)
                 plasticPollutionText.text = "N/A" + Environment.NewLine + " g/km2";
             else
                 plasticPollutionText.text = amount.ToString("n0") + Environment.NewLine + " g/km2";
         }
 
         if (type == "oil")
-            oilPollutionText.text = amount.ToString("n0") + Environment.NewLine + "tonnes";
+        {
+            if (amount == 0)
+                oilPollutionText.text = "N/A" + Environment.NewLine + "tonnes";
+            else
+                oilPollutionText.text = amount.ToString("n0") + Environment.NewLine + "tonnes";
+        }
+            
 
         if (type == "Inorganic substances")
         {
-            amount /= 1000;
-            inorganicPollutionText.text = amount.ToString("n0") + "tonnes";
+            if (amount == 0)
+                inorganicPollutionText.text = "N/A" + Environment.NewLine + "tonnes";
+            else
+            {
+                amount /= 1000;
+                inorganicPollutionText.text = amount.ToString("n0") + "tonnes";
+            }
         }
     }
 }

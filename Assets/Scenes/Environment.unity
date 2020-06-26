@@ -1299,7 +1299,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708928, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708929, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -1309,7 +1309,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708929, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708930, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -1319,7 +1319,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708930, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708931, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -1329,7 +1329,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708931, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708932, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -1339,7 +1339,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708932, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708933, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -1349,7 +1349,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708933, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708934, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -1414,7 +1414,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708935, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708937, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -1424,7 +1424,7 @@ PrefabInstance:
     - target: {fileID: 7081477779996708937, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
       propertyPath: depth
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7081477779996708958, guid: e26651870fcacbb4fbe671f2af0c8ea1,
         type: 3}
@@ -2748,6 +2748,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1397780547, guid: 213254c34d03f764884b132729bfac33, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 1397780547, guid: 213254c34d03f764884b132729bfac33, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.767
+      objectReference: {fileID: 0}
     - target: {fileID: 1397780550, guid: 213254c34d03f764884b132729bfac33, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2774,6 +2782,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513061951488656496, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.13099995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513061951488656496, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.74
       objectReference: {fileID: 0}
     - target: {fileID: 1633800523733705081, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
@@ -2809,6 +2827,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522169894276618481, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522169894276618481, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.699
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522169894276618481, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522169894276618481, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.91178
       objectReference: {fileID: 0}
     - target: {fileID: 4522169894316110794, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
@@ -2929,6 +2967,61 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -6.52808
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 396
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_margin.w
+      value: -17.204767
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_text
+      value: Fish Out of Water is created to visualize the water pollution in this
+        world. Water pollution is a much bigger problem than most people realize
+        and does not only contain the famous plastic soup. It also includes chemical
+        dumps by factories, oil spills, waste dumps and more. Hopefully Fish Out
+        of Water will inspire change by making people more aware of these issues
+        and creating a comprehensible image of the problem.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 417
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326917681252761902, guid: 213254c34d03f764884b132729bfac33,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 257
       objectReference: {fileID: 0}
     - target: {fileID: 8485745253887336725, guid: 213254c34d03f764884b132729bfac33,
         type: 3}
