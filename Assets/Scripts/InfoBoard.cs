@@ -2,10 +2,12 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class InfoBoard : MonoBehaviour
 {
     public static UnityAction<string> onDateUpdate;
+    public static UnityAction<bool, bool, bool> onFilterUpdate;
 
     public int calendarCurrentDate = 2007;
     public int calendarMinDate = 2007;
@@ -15,6 +17,15 @@ public class InfoBoard : MonoBehaviour
     public TextMeshPro oilPollutionText;
     public TextMeshPro inorganicPollutionText;
     public TextMeshPro calendarDateText;
+
+    public Image plasticCheckbox;
+    public Image oilCheckbox;
+    public Image inorganicCheckbox;
+
+    public Sprite checkedBox;
+    public Sprite uncheckedBox;
+
+    private bool filterOil, filterPlastic, filterInorganic = true;
 
     [FMODUnity.EventRef]
     public string calendarFlipSoundEvent = "";
@@ -47,6 +58,36 @@ public class InfoBoard : MonoBehaviour
             return;
 
         UpdateDate();
+    }
+
+    public void TogglePlastic()
+    {
+        filterPlastic = !filterPlastic;
+        onFilterUpdate?.Invoke(filterOil, filterPlastic, filterInorganic);
+        if(filterPlastic)
+            plasticCheckbox.sprite = checkedBox;
+        else
+            plasticCheckbox.sprite = uncheckedBox;
+    }
+
+    public void ToggleOil()
+    {
+        filterOil = !filterOil;
+        onFilterUpdate?.Invoke(filterOil, filterPlastic, filterInorganic);
+        if (filterOil)
+            oilCheckbox.sprite = checkedBox;
+        else
+            oilCheckbox.sprite = uncheckedBox;
+    }
+
+    public void ToggleInorganic()
+    {
+        filterInorganic = !filterInorganic;
+        onFilterUpdate?.Invoke(filterOil, filterPlastic, filterInorganic);
+        if(filterInorganic)
+            inorganicCheckbox.sprite = checkedBox;
+        else
+            inorganicCheckbox.sprite = uncheckedBox;
     }
 
     private void UpdateDate()

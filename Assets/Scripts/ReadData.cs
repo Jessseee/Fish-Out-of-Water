@@ -16,7 +16,7 @@ public class ReadData : MonoBehaviour
 
     private string year, country, type;
     private float pollution;
-    private Boolean oilSpill, plasticSoup, waterPollution;
+    private bool oilSpill, plasticSoup, waterPollution;
 
     private Dictionary<string, Dictionary<string, Dictionary<string, float>>> data;
     private Dictionary<string, Dictionary<string, float>> oil;
@@ -33,9 +33,10 @@ public class ReadData : MonoBehaviour
         waterPollution = true;
 
         InfoBoard.onDateUpdate += CalendarFilter;
+        InfoBoard.onFilterUpdate += BoardFilter;
     }
 
-    void Start()
+    private void Start()
     {
         pollutionSpawners = new Dictionary<string, PollutionSpawner>();
         foreach (PollutionSpawner spawner in FindObjectsOfType<PollutionSpawner>())
@@ -55,6 +56,12 @@ public class ReadData : MonoBehaviour
         {
             SetFilteredData();
         }
+    }
+
+    private void OnDestroy()
+    {
+        InfoBoard.onDateUpdate -= CalendarFilter;
+        InfoBoard.onFilterUpdate -= BoardFilter;
     }
 
     void SetFilteredData()
@@ -120,11 +127,12 @@ public class ReadData : MonoBehaviour
         SetFilteredData();
     }
 
-    void BoardFilter(Boolean oil, Boolean plastic, Boolean pollution)
+    void BoardFilter(bool oil, bool plastic, bool pollution)
     {
         oilSpill = oil;
         plasticSoup = plastic;
         waterPollution = pollution;
+
         SetFilteredData();
     }
 
