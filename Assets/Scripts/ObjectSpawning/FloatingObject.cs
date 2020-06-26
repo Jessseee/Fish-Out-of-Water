@@ -22,7 +22,7 @@ public class FloatingObject : MonoBehaviour
     {
         if(moving)
         {
-            transform.position = Vector3.Lerp(origin, target, (Time.time-startTime)*speed);
+            transform.position = Vector3.Lerp(origin, target, Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, (Time.time-startTime)*speed)));
             if(Vector3.Distance(transform.position, target) < 0.2)
             {
                 if(secondTarget != Vector3.zero)
