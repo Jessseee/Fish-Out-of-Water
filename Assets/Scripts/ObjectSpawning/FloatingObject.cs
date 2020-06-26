@@ -10,6 +10,8 @@ public class FloatingObject : MonoBehaviour
     private Vector3 target;
     private Vector3 secondTarget;
     private float sineOffset;
+    private Vector3 origin;
+    private float startTime;
 
     private void Start()
     {
@@ -20,13 +22,15 @@ public class FloatingObject : MonoBehaviour
     {
         if(moving)
         {
-            transform.position = Vector3.Lerp(transform.position, target, Time.deltaTime * speed);
+            transform.position = Vector3.Lerp(origin, target, (Time.time-startTime)*speed);
             if(Vector3.Distance(transform.position, target) < 0.2)
             {
                 if(secondTarget != Vector3.zero)
                 {
                     target = secondTarget;
                     secondTarget = Vector3.zero;
+                    startTime = Time.time;
+                    origin = transform.position;
                 } else
                 {
                     moving = false;
@@ -53,6 +57,8 @@ public class FloatingObject : MonoBehaviour
             target = position;
             transform.position = position + new Vector3(0, -depth, 0);
             moving = true;
+            startTime = Time.time;
+            origin = transform.position;
             SetColliderPosition();
         } else
         {
@@ -65,9 +71,14 @@ public class FloatingObject : MonoBehaviour
     /// </summary>
     public void Remove(int depth)
     {
-        target += new Vector3(0, -depth, 0);
-        moving = true;
-        removing = true;
+        if(!removing)
+        {
+            target += new Vector3(0, -depth, 0);
+            moving = true;
+            startTime = Time.time;
+            origin = transform.position;
+            removing = true;
+        }
     }
 
     /// <summary>
